@@ -52,34 +52,39 @@ and requires the same hash, which is what lets anyone verify the artifact withou
 built it. If you change anything under `src/`, bump `port.json`'s `version` and regenerate — CI
 rejects a source change without one.
 
-No binaries under `src/`. Native payloads belong in `native/<platform>/` and only ever reach
-release assets.
+No binaries under `src/`. Native payloads belong in `native/` (or `platform/<rid>/native/`) and only
+ever reach release assets.
 
 ## Shipping different code per platform
 
-Where a file lives says which artifacts contain it:
+There is one rule. A package's content lives in `src/` (scripts) and `native/` (binaries), and
+those two names mean two things depending on where they sit:
 
-- **`src/`** — in every artifact.
-- **`platform/<rid>/`** — in that platform's artifact only.
+- **at the top of the package** — goes into *every* artifact;
+- **under `platform/<rid>/`** — goes into *that* artifact alone.
 
-Platform-specific files are placed *inside* `src/` when packed, so a package's own includes and its
-`entry` path never vary by platform — only which artifact carries the file does.
+The `<rid>` is a selector for the repository and never appears in the archive, so a script always
+refers to `src/Engine.ahk` and `native/foo.dll` by the same path, whichever platform it is running
+on and whichever artifact it came from.
 
-The same path may not come from both places. `src/Engine.ahk` and `platform/linux-x64/Engine.ahk`
-together is an error, not a silent win for one of them, because otherwise a reader looking at
-`src/Engine.ahk` would have no way to tell it is replaced on Linux. If a file differs per platform,
-every platform names its own copy — including the portable `any` build:
+The same path may not come from both places. `src/Engine.ahk` together with
+`platform/linux-x64/src/Engine.ahk` is an error, not a silent win for one of them, because
+otherwise a reader looking at `src/Engine.ahk` would have no way to tell it is replaced on Linux.
+If a file differs per platform, every platform names its own copy — including the portable `any`
+build:
 
 ```
 packages/Descolada/OCR/
 ├── src/
-│   └── OCR.ahk             shared API — #include "Engine.ahk"
+│   └── OCR.ahk                     shared API — #include "Engine.ahk"
 └── platform/
-    ├── any/
-    │   └── Engine.ahk      Windows engine; also what AutoHotkey resolves
-    └── linux-x64/
-        └── Engine.ahk      Tesseract engine
+    ├── any/src/Engine.ahk          Windows engine; also what AutoHotkey resolves
+    └── linux-x64/src/Engine.ahk    Tesseract engine
 ```
+
+Note that `src`, `native` and `platform` are reserved only at the *top* of a package directory,
+never inside `src/`. A package is free to have its own `src/Native/` or `src/platform/` — and one
+in this registry does.
 
 ```json
 "platforms": ["any", "linux-x64"],
