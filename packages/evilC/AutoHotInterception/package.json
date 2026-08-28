@@ -6,7 +6,10 @@
   "description": "Respond to input from one specific keyboard or mouse, and optionally stop Windows from seeing it. Requires the Interception kernel driver, which you install yourself with administrator rights.",
   "license": "MIT; Interception driver: LGPL for non-commercial, custom license for commercial use",
   "homepage": "https://github.com/evilC/AutoHotInterception",
-  "categories": ["input", "automation"],
+  "categories": [
+    "input",
+    "automation"
+  ],
   "versioning": "registry",
   "yanked": []
 }
