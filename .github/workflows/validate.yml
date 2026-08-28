@@ -85,6 +85,14 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: .github/scripts/install-kpm.sh
 
+      # A hosted runner has no desktop, and the engines are desktop applications. The portable archive
+      # they are installed from also declares none of the runtime dependencies their installers do.
+      - name: Provide a display
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb
+
       - name: Install ${{ matrix.engine }}
         id: engine
         shell: bash

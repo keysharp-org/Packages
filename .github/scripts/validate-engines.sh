@@ -30,6 +30,46 @@ Windows) platform="win-x64" ;;
 macOS) platform="osx-arm64" ;;
 esac
 
+# The engines are desktop applications, and Keysharp on Linux will not start without a reachable
+# display server — not even to compile, and not even to print its version. A virtual display keeps a
+# compile-only check from requiring a desktop.
+if [ "$RUNNER_OS" = Linux ] && [ -z "${DISPLAY:-}" ]; then
+	if ! command -v xvfb-run > /dev/null; then
+		echo "::error::no display server and no xvfb-run; the engine cannot start here"
+		exit 1
+	fi
+	virtual_display=1
+fi
+
+run_engine() {
+	if [ -n "${virtual_display:-}" ]; then
+		xvfb-run -a "$@"
+	else
+		"$@"
+	fi
+}
+
+# The switches an engine takes to compile a file without running it. Switches must precede the
+# script path: anything after it is an argument to the script.
+compile_check() {
+	case "$engine" in
+	keysharp) run_engine "$command" /validate /errorstdout "$1" ;;
+	autohotkey) run_engine "$command" /validate /ErrorStdOut "$1" ;;
+	esac
+}
+
+# Prove the engine runs at all before judging any package by it. Without this, an engine that cannot
+# start reports every package as failing to compile, and the harness's own breakage reads as the
+# contributor's mistake — which is exactly how a missing display server first presented.
+smoke="$RUNNER_TEMP/engine-smoke.ks"
+printf 'x := 1\n' > "$smoke"
+
+if ! compile_check "$smoke"; then
+	echo "::error::$engine cannot compile a trivial script on this runner, so nothing here can be"
+	echo "::error::judged by it. This is the validation harness being broken, not the packages."
+	exit 1
+fi
+
 failed=0
 
 for package in $packages; do
@@ -71,13 +111,7 @@ else:
 	fi
 	echo "▸ $package"
 
-	case "$engine" in
-	keysharp) arguments=(/validate /errorstdout "$probe") ;;
-	autohotkey) arguments=(/validate /ErrorStdOut "$probe") ;;
-	esac
-
-	# Switches must precede the script path: anything after it is an argument to the script.
-	if "$command" "${arguments[@]}"; then
+	if compile_check "$probe"; then
 		echo "  ok"
 	else
 		echo "::error file=$package/port.json::$package does not compile under $engine on $platform"
