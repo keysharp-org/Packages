@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       max-versions:
-        description: 'Releases to keep per package'
+        description: 'Upstream-tagged releases to keep per package (synthesized 0.x keeps only the newest)'
         default: '5'
       only:
         description: 'Import only entries whose key contains this'
