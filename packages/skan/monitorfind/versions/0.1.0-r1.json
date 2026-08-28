@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "monitorfind",
-  "owner": "skan",
+  "name": "MonitorFind",
+  "owner": "SKAN",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "0ecc5457ac8ec4f1fd821b410eb3b09108a6f3d71637ce293fa33326ca1471ae",
-      "size": 3191,
+      "sha256": "a8483c3ad8613c708cddcc5cd2d0c52822b517e3fc9b841a366012c52fa1ce89",
+      "size": 3189,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/monitorfind/0.1.0-r1/monitorfind-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/SKAN/MonitorFind/0.1.0-r1/MonitorFind-0.1.0-r1-any.kspkg"
       ]
     }
   }

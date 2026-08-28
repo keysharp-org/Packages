@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "scriptsock",
-  "owner": "astravista",
+  "name": "ScriptSock",
+  "owner": "AstraVista",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-11-01T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "922e5c269c3caf8c37c93205b632b8ff6f71b37de7066bc58065bd70b6898a94",
-      "size": 5264,
+      "sha256": "68d0c23242d4269e04fe9c772fe8888460534ceb256f744d60d43ada109b064a",
+      "size": 5261,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/astravista/scriptsock/0.1.0-r1/scriptsock-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/AstraVista/ScriptSock/0.1.0-r1/ScriptSock-0.1.0-r1-any.kspkg"
       ]
     }
   }

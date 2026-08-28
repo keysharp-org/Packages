@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "lua",
-  "owner": "delta-pythagorean",
+  "name": "Lua",
+  "owner": "Delta-Pythagorean",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-11-01T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "9dc4b42a8635d306b79b3d3d71995969ed7433f5360f81fff60931ebc368242a",
-      "size": 4326,
+      "sha256": "75732267c3eb8d6fe2029f6426a3b56b3365586ec0dd4475b6ee1058d9a85743",
+      "size": 4325,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/delta-pythagorean/lua/0.1.0-r1/lua-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Delta-Pythagorean/Lua/0.1.0-r1/Lua-0.1.0-r1-any.kspkg"
       ]
     }
   }

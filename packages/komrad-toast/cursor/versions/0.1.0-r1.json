@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "cursor",
-  "owner": "komrad-toast",
+  "name": "Cursor",
+  "owner": "Komrad-Toast",
   "version": "0.1.0",
   "revision": 1,
   "published": "2025-02-10T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "6962c6ba0cf9a72d8ee0e3b1876ec61f89c0e27c8cfed39d5d73ab3349a30b07",
-      "size": 5853,
+      "sha256": "e8ddeddb4fd618b5023d6b80053b88c3b3f0208848274fc33e4e23e149aae88e",
+      "size": 5851,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/komrad-toast/cursor/0.1.0-r1/cursor-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Komrad-Toast/Cursor/0.1.0-r1/Cursor-0.1.0-r1-any.kspkg"
       ]
     }
   }

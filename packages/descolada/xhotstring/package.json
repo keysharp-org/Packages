@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "xhotstring",
-  "owner": "descolada",
+  "name": "XHotstring",
+  "owner": "Descolada",
   "displayName": "XHotstring",
   "description": "Implements regular expression hotstrings",
   "license": "MIT",

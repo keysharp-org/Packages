@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "memorymodule",
-  "owner": "mrdoge",
+  "name": "MemoryModule",
+  "owner": "MrDoge",
   "version": "0.4.0",
   "revision": 1,
   "published": "2025-02-10T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "c34f13ffe5efcbb6df5073be1353f4a6850203b911c6682113ba401db1d9bcbb",
-      "size": 4157,
+      "sha256": "325c24a4f14ec87e28a349db8e8fdc89780fdda687e8633ad6ec720be815d225",
+      "size": 4155,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/mrdoge/memorymodule/0.4.0-r1/memorymodule-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/MrDoge/MemoryModule/0.4.0-r1/MemoryModule-0.4.0-r1-any.kspkg"
       ]
     }
   }

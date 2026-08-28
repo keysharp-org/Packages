@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "native",
+  "name": "Native",
   "owner": "thqby",
   "displayName": "Native",
   "description": "Create native functions or methods from MCode, load modules written in C/C++ as native classes or functions.",

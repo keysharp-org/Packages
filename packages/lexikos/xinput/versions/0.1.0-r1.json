@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "xinput",
+  "name": "XInput",
   "owner": "lexikos",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "98b0f16fdb7d1f6b09bacf4ea11577eea4a84e50adfd9e1c6d6184b0b091e77f",
-      "size": 2514,
+      "sha256": "f7a600f33754a019cd2347f3e4c6768aac3203dd0c6e2e05b0f74d64ac21fbf9",
+      "size": 2512,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/xinput/0.1.0-r1/xinput-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/XInput/0.1.0-r1/XInput-0.1.0-r1-any.kspkg"
       ]
     }
   }

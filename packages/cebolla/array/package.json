@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "array",
-  "owner": "cebolla",
+  "name": "Array",
+  "owner": "Cebolla",
   "displayName": "Array",
   "description": "An AutoHotkey library implementing common array methods",
   "license": "NOASSERTION",

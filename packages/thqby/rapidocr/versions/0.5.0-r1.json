@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "rapidocr",
+  "name": "RapidOcr",
   "owner": "thqby",
   "version": "0.5.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "15ba0beaa052da918050470218aacc3ac80dc45682ce43cb6b29947b775b097c",
-      "size": 2763,
+      "sha256": "8bdc7a7800e08628009ff4d1c981986723ca2c2bccc205fd7d89c53ad5b00155",
+      "size": 2761,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/rapidocr/0.5.0-r1/rapidocr-0.5.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/RapidOcr/0.5.0-r1/RapidOcr-0.5.0-r1-any.kspkg"
       ]
     }
   }

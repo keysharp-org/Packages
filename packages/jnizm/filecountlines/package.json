@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "filecountlines",
-  "owner": "jnizm",
+  "name": "FileCountLines",
+  "owner": "jNizM",
   "displayName": "FileCountLines",
   "description": "Count the number of lines in a file",
   "license": "MIT",

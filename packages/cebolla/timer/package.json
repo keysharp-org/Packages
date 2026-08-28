@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "timer",
-  "owner": "cebolla",
+  "name": "Timer",
+  "owner": "Cebolla",
   "displayName": "Timer",
   "description": "A reusable timer object with history functionality.",
   "license": "MIT",

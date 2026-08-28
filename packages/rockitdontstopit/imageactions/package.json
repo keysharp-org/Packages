@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "imageactions",
+  "name": "ImageActions",
   "owner": "rockitdontstopit",
   "displayName": "ImageActions",
   "description": "A helper class for FindText, simplifying FindText image searches and clicking",

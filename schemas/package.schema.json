@@ -10,13 +10,13 @@
     "schema": { "const": 1 },
     "name": {
       "type": "string",
-      "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+      "pattern": "^[A-Za-z0-9]([A-Za-z0-9._-]*[A-Za-z0-9])?$",
       "maxLength": 64,
-      "description": "Lowercase; must match the directory name."
+      "description": "Must match the directory name exactly, casing included. Ids keep their author's casing (Descolada/OCR), but comparison is case-insensitive everywhere and the registry rejects two ids differing only by case."
     },
     "owner": {
       "type": "string",
-      "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+      "pattern": "^[A-Za-z0-9]([A-Za-z0-9._-]*[A-Za-z0-9])?$",
       "maxLength": 64
     },
     "displayName": { "type": "string", "maxLength": 64 },

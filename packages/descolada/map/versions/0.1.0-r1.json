@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "map",
-  "owner": "descolada",
+  "name": "Map",
+  "owner": "Descolada",
   "version": "0.1.0",
   "revision": 1,
   "published": "2023-09-05T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "f573a751d76f9660f812620aefb484695ee27aa0cb61d7f7cc85518230b4c832",
-      "size": 1669,
+      "sha256": "2bbf5c1be8bb771bcf7bb26dc2958d2e0476e0c23805ea86efb6dc21c851d238",
+      "size": 1670,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/map/0.1.0-r1/map-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/Map/0.1.0-r1/Map-0.1.0-r1-any.kspkg"
       ]
     }
   }

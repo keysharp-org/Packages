@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "guienhancerkit",
+  "name": "GuiEnhancerKit",
   "owner": "nperovic",
   "version": "1.0.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "1495a8eb8e26a53b47de288671f39ce2dd1bbe6aee1fc44543b59d5b547ea785",
-      "size": 9793,
+      "sha256": "4b7e7093a41a0074cf779f6db397c281ce40263b6c7595b83cba6c7de826a955",
+      "size": 9790,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/nperovic/guienhancerkit/1.0.0-r1/guienhancerkit-1.0.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/nperovic/GuiEnhancerKit/1.0.0-r1/GuiEnhancerKit-1.0.0-r1-any.kspkg"
       ]
     }
   }

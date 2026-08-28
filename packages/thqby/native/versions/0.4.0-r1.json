@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "native",
+  "name": "Native",
   "owner": "thqby",
   "version": "0.4.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "38f58fb1853be64c9636f3ae81b895f4b05bd7ecc53ff93646eb9ef5038b4b9c",
+      "sha256": "683f5e24be39f3725b638419688a3e8d2e7635ee7a8385c3f18f9e10bdbdddba",
       "size": 4938,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/native/0.4.0-r1/native-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/Native/0.4.0-r1/Native-0.4.0-r1-any.kspkg"
       ]
     }
   }

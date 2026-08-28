@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "aquahotkey",
-  "owner": "0w0demonic",
+  "name": "AquaHotkey",
+  "owner": "0w0Demonic",
   "displayName": "AquaHotkey",
   "description": "Class prototyping library for AutoHotkey v2. Extends AHK, provides stdlib.",
   "license": "MIT",

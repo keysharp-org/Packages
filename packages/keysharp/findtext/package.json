@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "findtext",
-  "owner": "keysharp",
+  "name": "FindText",
+  "owner": "Keysharp",
   "displayName": "FindText",
   "description": "Find text or images on screen by pattern matching. Cross-platform port of FeiYue's FindText.",
   "license": "NOASSERTION",

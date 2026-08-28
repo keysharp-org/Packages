@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "child-process",
+  "name": "child_process",
   "owner": "thqby",
   "version": "0.13.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "88013444983bbd5d870f20fc21d3b2f3a6b5a3c9716b2a68860b9cd296544235",
-      "size": 4212,
+      "sha256": "438a534f1eeafb3c91d79689901cf701f313a56a0adc26727b99aceefc025df3",
+      "size": 4211,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/child-process/0.13.0-r1/child-process-0.13.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/child_process/0.13.0-r1/child_process-0.13.0-r1-any.kspkg"
       ]
     }
   }

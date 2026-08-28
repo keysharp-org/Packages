@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "guictrltips",
+  "name": "GuiCtrlTips",
   "owner": "just-me",
   "displayName": "GuiCtrlTips",
   "description": "Add tooltips to your Gui.Controls",

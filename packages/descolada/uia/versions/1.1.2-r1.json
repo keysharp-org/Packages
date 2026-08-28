@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "uia",
-  "owner": "descolada",
+  "name": "UIA",
+  "owner": "Descolada",
   "version": "1.1.2",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "27b77c31174981035358690e43ec562f704e1645a72689f287fe4507775cded7",
-      "size": 84708,
+      "sha256": "2e83a48f8e5f990e4a3e0cf8fee20444abe724be45d2c51f75ad92b150ab9b34",
+      "size": 84710,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/uia/1.1.2-r1/uia-1.1.2-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/UIA/1.1.2-r1/UIA-1.1.2-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "jsongo",
-  "owner": "groggyotter",
+  "owner": "GroggyOtter",
   "displayName": "jsongo",
   "description": "Full JSON support for AHKv2 written natively in AHK.",
   "license": "GPL-3.0",

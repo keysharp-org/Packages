@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "remotetreeview",
-  "owner": "thiojoe",
+  "name": "RemoteTreeView",
+  "owner": "ThioJoe",
   "displayName": "RemoteTreeView",
   "description": "Access data from external (non-GUI) TreeView Control.",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "msgpack",
+  "name": "MsgPack",
   "owner": "holy-tao",
   "version": "1.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "8fc3a0e35c9f27719989ce242265c8994fa9f0431115b57f2cf1d810da3ece18",
-      "size": 10206,
+      "sha256": "f0c9331089b5602122c27e3e90516d0b52c27885e3c1020c321a5f3322e9b94a",
+      "size": 10203,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/holy-tao/msgpack/1.1.0-r1/msgpack-1.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/holy-tao/MsgPack/1.1.0-r1/MsgPack-1.1.0-r1-any.kspkg"
       ]
     }
   }

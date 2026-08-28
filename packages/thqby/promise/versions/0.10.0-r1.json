@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "promise",
+  "name": "Promise",
   "owner": "thqby",
   "version": "0.10.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "6a56fb18779ce51256bbe829337a95e0eb5352ceadee4e02bbb21b5e964ca051",
+      "sha256": "d695a5d849816e0533ef4f24c7442b6259ff11d20257f8a8b77ba74d6e97b6b0",
       "size": 2663,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/promise/0.10.0-r1/promise-0.10.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/Promise/0.10.0-r1/Promise-0.10.0-r1-any.kspkg"
       ]
     }
   }

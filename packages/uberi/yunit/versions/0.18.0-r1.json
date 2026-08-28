@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "yunit",
-  "owner": "uberi",
+  "name": "Yunit",
+  "owner": "Uberi",
   "version": "0.18.0",
   "revision": 1,
   "published": "2016-10-25T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "89e44a9e1c9efdbb8262723e98d37e8c3efd5efed64127e8d378a264c472f4f3",
+      "sha256": "1bfb9e8b5b1baaf436b1825552ed50857bd2d64dee2c2e6037cd7253170d9398",
       "size": 1240,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/uberi/yunit/0.18.0-r1/yunit-0.18.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Uberi/Yunit/0.18.0-r1/Yunit-0.18.0-r1-any.kspkg"
       ]
     }
   }

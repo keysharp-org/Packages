@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "colorbutton",
+  "name": "ColorButton",
   "owner": "nperovic",
   "version": "1.2.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "babd824748daa6253e50b2169768766c338d2b59a4bc03ee42f2738ea17d1816",
-      "size": 3657,
+      "sha256": "4e9a0790e71b6747ef71465eae8b7f4ee33186dfe022a1deb0e6c54cc320d4e4",
+      "size": 3655,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/nperovic/colorbutton/1.2.0-r1/colorbutton-1.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/nperovic/ColorButton/1.2.0-r1/ColorButton-1.2.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "filereadline",
-  "owner": "descolada",
+  "name": "FileReadLine",
+  "owner": "Descolada",
   "displayName": "FileReadLine",
   "description": "Read a single line from a file",
   "license": "NOASSERTION",

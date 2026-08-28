@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "confman",
+  "name": "ConfMan",
   "owner": "cyruz",
   "displayName": "ConfMan",
   "description": "Ini files management class, implementing an object central storage and an interface dealing with the underlined classes",

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "crypt",
+  "name": "Crypt",
   "owner": "thqby",
   "version": "0.2.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "8116a659fbbfe2face9f560a2030c4df4f1167f6ac7a0fca70666cc703db3c38",
-      "size": 1377,
+      "sha256": "c9badebe3f2d0c0bd0c53c8fec3884c25f3cb0767b0cb654b24506a98555bdf7",
+      "size": 1376,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/crypt/0.2.0-r1/crypt-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/Crypt/0.2.0-r1/Crypt-0.2.0-r1-any.kspkg"
       ]
     }
   }

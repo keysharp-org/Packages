@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "winevent",
-  "owner": "descolada",
+  "name": "WinEvent",
+  "owner": "Descolada",
   "displayName": "WinEvent",
   "description": "Can be used to monitor for window events such as close, open, minimize etc",
   "license": "MIT",

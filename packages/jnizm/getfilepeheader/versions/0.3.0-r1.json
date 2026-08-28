@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "getfilepeheader",
-  "owner": "jnizm",
+  "name": "GetFilePEHeader",
+  "owner": "jNizM",
   "version": "0.3.0",
   "revision": 1,
   "published": "2023-01-12T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "435dbb153396da205fba82a4b405ba33ee06a3ce572c27f158d27187ac3b804d",
-      "size": 1164,
+      "sha256": "3c81908bb3ae57778e85ccd9107890139593daf282d2e8b8208293da1462b9fd",
+      "size": 1161,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/getfilepeheader/0.3.0-r1/getfilepeheader-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/GetFilePEHeader/0.3.0-r1/GetFilePEHeader-0.3.0-r1-any.kspkg"
       ]
     }
   }

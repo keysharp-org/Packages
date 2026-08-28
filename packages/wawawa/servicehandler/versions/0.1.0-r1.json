@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "servicehandler",
+  "name": "ServiceHandler",
   "owner": "wawawa",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "dac872b32e7af086870baaccee1caa5f5ea49ca474aa4d07caaa2f3ebfb19d42",
-      "size": 1878,
+      "sha256": "fe33fdb934873604508914902164d3fbcb44991b08a97852237974870d443fea",
+      "size": 1876,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/wawawa/servicehandler/0.1.0-r1/servicehandler-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/wawawa/ServiceHandler/0.1.0-r1/ServiceHandler-0.1.0-r1-any.kspkg"
       ]
     }
   }

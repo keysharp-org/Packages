@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "socket",
+  "name": "Socket",
   "owner": "thqby",
   "version": "0.7.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "e73057fc6e244ef154f7de13847aa160d68dc34a38a07508b5b782cca1933247",
-      "size": 4896,
+      "sha256": "1348b13de4e1dff7a91b6b173024932077ef7867ea278f5d3fae19c4c56a2778",
+      "size": 4897,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/socket/0.7.0-r1/socket-0.7.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/Socket/0.7.0-r1/Socket-0.7.0-r1-any.kspkg"
       ]
     }
   }

@@ -15,7 +15,7 @@
         "required": ["id", "version", "revision", "platform", "sha256", "sources", "entry"],
         "additionalProperties": false,
         "properties": {
-          "id": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$" },
+          "id": { "type": "string", "pattern": "^[A-Za-z0-9._-]+/[A-Za-z0-9._-]+$" },
           "version": { "type": "string" },
           "revision": { "type": "integer", "minimum": 1 },
           "platform": { "enum": ["any", "win-x64", "win-arm64", "linux-x64", "linux-arm64", "osx-x64", "osx-arm64"] },

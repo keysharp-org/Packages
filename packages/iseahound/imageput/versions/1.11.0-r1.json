@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "imageput",
+  "name": "ImagePut",
   "owner": "iseahound",
   "version": "1.11.0",
   "revision": 1,
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "9e58b25f387448c7c0e22e42ce09daeb8c14d04e0a6ed24d724d917f8af874ac",
-      "size": 59134,
+      "sha256": "06d41831528270a8a5e35b43aae4a4a2f22f222c9c9fb383abe2d72db635d012",
+      "size": 59132,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/iseahound/imageput/1.11.0-r1/imageput-1.11.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/iseahound/ImagePut/1.11.0-r1/ImagePut-1.11.0-r1-any.kspkg"
       ]
     }
   }

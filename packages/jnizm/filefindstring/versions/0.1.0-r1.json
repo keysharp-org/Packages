@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "filefindstring",
-  "owner": "jnizm",
+  "name": "FileFindString",
+  "owner": "jNizM",
   "version": "0.1.0",
   "revision": 1,
   "published": "2021-04-23T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "6820ffca79d7758334ebde8717e37fc5ad1e1ce6aa869a8255315e0445f9c216",
-      "size": 841,
+      "sha256": "6c140e8f6cf2361aa7509bfe1e29161652f03c78a4353aefd8f58a7c85c7cd89",
+      "size": 840,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/filefindstring/0.1.0-r1/filefindstring-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/FileFindString/0.1.0-r1/FileFindString-0.1.0-r1-any.kspkg"
       ]
     }
   }

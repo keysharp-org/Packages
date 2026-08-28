@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "watchfolder",
+  "name": "WatchFolder",
   "owner": "just-me",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "929c7c97e5b3678ab9dc8fc3a98f420923a06f4665f9a346270690ecce0e944a",
-      "size": 3873,
+      "sha256": "fd61c28ece561e361aa71eda9044db31f0b2b0cc453036f9b1a5c717e5bbb2e6",
+      "size": 3872,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/watchfolder/0.1.0-r1/watchfolder-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/WatchFolder/0.1.0-r1/WatchFolder-0.1.0-r1-any.kspkg"
       ]
     }
   }

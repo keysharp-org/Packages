@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "objregisteractive",
+  "name": "ObjRegisterActive",
   "owner": "lexikos",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "acf8b9aa2dc7da28187f299ecc81ad00a08a608a59358fa1109b48070e53b7aa",
-      "size": 1166,
+      "sha256": "fc888f6c241f2153ecad2dda6830d05929f2894cb5b347f40d1d90497aaea879",
+      "size": 1162,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/objregisteractive/0.1.0-r1/objregisteractive-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/ObjRegisterActive/0.1.0-r1/ObjRegisterActive-0.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "togglesound",
-  "owner": "skan",
+  "name": "ToggleSound",
+  "owner": "SKAN",
   "version": "0.3.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "78a0d639fb7dce20df86bdacd63dc6b53c8889325ff1f949aaa018cbd6b082bd",
-      "size": 2228,
+      "sha256": "c47cb19e15b06a07b51a4ccb4f65a5e6e12eea34ab15d215ee4252e9212b8b48",
+      "size": 2227,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/togglesound/0.3.0-r1/togglesound-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/SKAN/ToggleSound/0.3.0-r1/ToggleSound-0.3.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "clisak",
-  "owner": "thearkive",
+  "name": "CliSAK",
+  "owner": "TheArkive",
   "displayName": "CliSAK",
   "description": "CLI class: easy one-time and streaming output that collects stdOut and stdErr, and allows writing to stdIn",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "runcmd",
-  "owner": "skan",
+  "name": "RunCMD",
+  "owner": "SKAN",
   "version": "0.2.0",
   "revision": 1,
   "published": "2025-02-10T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "2310ca87d199a081182d90de427398f198e3dafe1e96c3298c81285b56da1a1c",
-      "size": 1665,
+      "sha256": "08c0bc915ebd93850aacee2ffcc674e6a906ace059a6e2dc50fa6c603cfe1c4f",
+      "size": 1663,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/runcmd/0.2.0-r1/runcmd-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/SKAN/RunCMD/0.2.0-r1/RunCMD-0.2.0-r1-any.kspkg"
       ]
     }
   }

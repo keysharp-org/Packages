@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "build",
-  "owner": "joyhak",
+  "name": "Build",
+  "owner": "JoyHak",
   "displayName": "Build",
   "description": "Builds AHK script, it's dependencies into (self-extracting) archive.",
   "license": "MIT",

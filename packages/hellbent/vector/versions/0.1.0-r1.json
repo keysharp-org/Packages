@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "vector",
-  "owner": "hellbent",
+  "name": "Vector",
+  "owner": "Hellbent",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "2f8d304bf40620a3c9ffb87b5e0cb005cd8989c577c0de8dc96193d557555a26",
-      "size": 3589,
+      "sha256": "a0a941acc6923188673ccee765942f09a517692a9b819e039736b7928b3d3590",
+      "size": 3588,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/hellbent/vector/0.1.0-r1/vector-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Hellbent/Vector/0.1.0-r1/Vector-0.1.0-r1-any.kspkg"
       ]
     }
   }

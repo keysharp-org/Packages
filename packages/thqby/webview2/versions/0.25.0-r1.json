@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "webview2",
+  "name": "WebView2",
   "owner": "thqby",
   "version": "0.25.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "e05debbe74e70aaff943da20f54c319d734b3650546dbb7548b2c39a25993fa1",
-      "size": 30285,
+      "sha256": "62b01443ae929a901239b35d8d33678892f5605b6406d1f62dc006a2ba296d2c",
+      "size": 30283,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/webview2/0.25.0-r1/webview2-0.25.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/WebView2/0.25.0-r1/WebView2-0.25.0-r1-any.kspkg"
       ]
     }
   }

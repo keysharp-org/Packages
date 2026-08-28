@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "tkinter",
-  "owner": "monoeven",
+  "owner": "MonoEven",
   "version": "0.94.0",
   "revision": 1,
   "published": "2026-06-03T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "88d3a096b489eca8cb92d70f357b0e51973d413a995a4364fbc35ff4b8f2fe72",
-      "size": 60042,
+      "sha256": "a00a5fac44e8610cd8ca59e7bcafe687a54e718e46d47e16768d46345f6f04a3",
+      "size": 60045,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/monoeven/tkinter/0.94.0-r1/tkinter-0.94.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/MonoEven/tkinter/0.94.0-r1/tkinter-0.94.0-r1-any.kspkg"
       ]
     }
   }

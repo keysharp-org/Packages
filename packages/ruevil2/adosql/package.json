@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "adosql",
-  "owner": "ruevil2",
+  "name": "ADOSQL",
+  "owner": "Ruevil2",
   "displayName": "ADOSQL",
   "description": "Wraps the utility of ADODB to connect to a database, submit a query, and read the resulting recordset",
   "license": "NOASSERTION",

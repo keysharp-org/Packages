@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "mica",
+  "name": "Mica",
   "owner": "owhs",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "ab83b2813cfc635e7844e4adea5ec87759b40c65ea444aa0ae75051718dde914",
-      "size": 10663,
+      "sha256": "887141c09a10242cfafd9146277273a8f944a71a084d57f4f22e2a7a92fbb7d0",
+      "size": 10662,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/mica/0.1.0-r1/mica-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/Mica/0.1.0-r1/Mica-0.1.0-r1-any.kspkg"
       ]
     }
   }

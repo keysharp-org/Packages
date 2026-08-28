@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "getadaptersinfo",
-  "owner": "jnizm",
+  "name": "GetAdaptersInfo",
+  "owner": "jNizM",
   "version": "0.4.0",
   "revision": 1,
   "published": "2023-01-12T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "0e08d4030a9b5cb86e07a969a8a0ff263cd469aa85b5133917f9f9759947f52b",
-      "size": 1625,
+      "sha256": "b954a231d4ccd19f6292bf3c96faa05229c3342aaabd6ee7485f1ec61cb8b447",
+      "size": 1624,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/getadaptersinfo/0.4.0-r1/getadaptersinfo-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/GetAdaptersInfo/0.4.0-r1/GetAdaptersInfo-0.4.0-r1-any.kspkg"
       ]
     }
   }

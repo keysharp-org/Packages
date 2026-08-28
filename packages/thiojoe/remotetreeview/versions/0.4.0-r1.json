@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "remotetreeview",
-  "owner": "thiojoe",
+  "name": "RemoteTreeView",
+  "owner": "ThioJoe",
   "version": "0.4.0",
   "revision": 1,
   "published": "2024-11-08T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "b4b725802ec86536213430b3f1e2f919d2c07382f4fc8e63b01693fae463323e",
-      "size": 9490,
+      "sha256": "2ed9a54590ce1695e40adc1531bebd5da65c9343e6331da2546a72e9ab41a1de",
+      "size": 9489,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thiojoe/remotetreeview/0.4.0-r1/remotetreeview-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/ThioJoe/RemoteTreeView/0.4.0-r1/RemoteTreeView-0.4.0-r1-any.kspkg"
       ]
     }
   }

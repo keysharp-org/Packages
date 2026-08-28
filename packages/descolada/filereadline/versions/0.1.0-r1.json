@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "filereadline",
-  "owner": "descolada",
+  "name": "FileReadLine",
+  "owner": "Descolada",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "63d5766ee9718857e159a3ee2bd9dbe4907e736640e8bb17bc09587661e902ce",
-      "size": 714,
+      "sha256": "d16ed41a542b572a6b02663defb9d0dedd07c15e5fe6eb6da71129b011dfd983",
+      "size": 708,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/filereadline/0.1.0-r1/filereadline-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/FileReadLine/0.1.0-r1/FileReadLine-0.1.0-r1-any.kspkg"
       ]
     }
   }

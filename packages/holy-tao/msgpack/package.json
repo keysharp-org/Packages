@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "msgpack",
+  "name": "MsgPack",
   "owner": "holy-tao",
   "displayName": "MsgPack",
   "description": "An efficient binary serialization format. ",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "hash",
-  "owner": "jnizm",
+  "name": "Hash",
+  "owner": "jNizM",
   "version": "1.0.2",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "51d76237d3b6f7bb151428a6627db6655e29d2eae4f924e453473559e11f9834",
-      "size": 6756,
+      "sha256": "87d940172f1a599244cf2105b9f9d5505a670d5209a8d2dc0683d95d05ee5b41",
+      "size": 6758,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/hash/1.0.2-r1/hash-1.0.2-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/Hash/1.0.2-r1/Hash-1.0.2-r1-any.kspkg"
       ]
     }
   }

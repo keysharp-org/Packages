@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "import-v1lib",
+  "name": "import_v1lib",
   "owner": "thqby",
   "version": "0.1.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "99d714695f1e08dba4414f439501071a4aaa87ca66484a9f3ca247c0a3b529eb",
-      "size": 1738,
+      "sha256": "89136997f7c8e6ef28eb42cb56110f3d960c53c4b59a3eebdfe7703b96c492ba",
+      "size": 1737,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/import-v1lib/0.1.0-r1/import-v1lib-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/import_v1lib/0.1.0-r1/import_v1lib-0.1.0-r1-any.kspkg"
       ]
     }
   }

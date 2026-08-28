@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "tooltipoptions",
+  "name": "ToolTipOptions",
   "owner": "just-me",
   "displayName": "ToolTipOptions",
   "description": "Can set font, color and title options for subsequent calls to the ToolTip command",

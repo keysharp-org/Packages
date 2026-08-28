@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "clr",
+  "name": "CLR",
   "owner": "lexikos",
   "version": "1.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "7ba517bc22363d7b9b31ab9365fd1ddca14e35329ea2ebc1f1713c0432d4fc75",
-      "size": 3513,
+      "sha256": "18326adfacd3dcd4c9f9c739ab5d8c735b780bcbf726a223ac892896f8e6d0ba",
+      "size": 3514,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/clr/1.1.0-r1/clr-1.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/CLR/1.1.0-r1/CLR-1.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "ahksoup",
-  "owner": "devpnal",
+  "name": "AhkSoup",
+  "owner": "devPnal",
   "version": "0.3.0",
   "revision": 1,
   "published": "2024-11-07T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "7514c9625d0dc34f8919908db588cb64bea5179f514c983af635944d1ac891c6",
-      "size": 2731,
+      "sha256": "5a0a72c8966aec288004d0bdb51b6d3e8c849f90dc98c43ba6b5a63658be8f1d",
+      "size": 2729,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/devpnal/ahksoup/0.3.0-r1/ahksoup-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/devPnal/AhkSoup/0.3.0-r1/AhkSoup-0.3.0-r1-any.kspkg"
       ]
     }
   }

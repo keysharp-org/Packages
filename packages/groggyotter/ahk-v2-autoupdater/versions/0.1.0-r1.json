@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "ahk-v2-autoupdater",
-  "owner": "groggyotter",
+  "name": "AHK-v2-AutoUpdater",
+  "owner": "GroggyOtter",
   "version": "0.1.0",
   "revision": 1,
   "published": "2023-07-09T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "8b33723bf1643380ac62bb99c255deb6ce0f6b2eaa96ede80fd6f9524b8fed2f",
+      "sha256": "d2921b92bee34aed9047bc6fd4544f76358750f0ddc486fa6f27dd1a8df8379d",
       "size": 1240,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/groggyotter/ahk-v2-autoupdater/0.1.0-r1/ahk-v2-autoupdater-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/GroggyOtter/AHK-v2-AutoUpdater/0.1.0-r1/AHK-v2-AutoUpdater-0.1.0-r1-any.kspkg"
       ]
     }
   }

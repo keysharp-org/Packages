@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "cjson",
-  "owner": "g33kdude",
+  "name": "cJson",
+  "owner": "G33kDude",
   "version": "0.4.1",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "0870424256c57b2ff1b6d339acbc1ae77a4fb4cd8d335ba3e695607607d51ae0",
-      "size": 11346,
+      "sha256": "3888ad9d047b4ac7b9f92277aaec13cd302910ec27d6ac3e32a08afa27cb69da",
+      "size": 11347,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/g33kdude/cjson/0.4.1-r1/cjson-0.4.1-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/G33kDude/cJson/0.4.1-r1/cJson-0.4.1-r1-any.kspkg"
       ]
     }
   }

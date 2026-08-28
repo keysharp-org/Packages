@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "keyboard",
-  "owner": "joyhak",
+  "name": "Keyboard",
+  "owner": "JoyHak",
   "displayName": "Keyboard",
   "description": "Set/Get/Toggle keyboard layout (language)",
   "license": "MIT",

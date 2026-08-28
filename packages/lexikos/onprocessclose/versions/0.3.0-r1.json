@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "onprocessclose",
+  "name": "OnProcessClose",
   "owner": "lexikos",
   "version": "0.3.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "3fef4ff081bbe8d151ad414a75fb447f19424ed4f610d80bf74d0c85917b26e4",
-      "size": 1193,
+      "sha256": "1e088d6b5b95fb0797eaaaa4e3a1490fb21b13983509dfd74dc37b7c9c08c8f4",
+      "size": 1190,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/onprocessclose/0.3.0-r1/onprocessclose-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/OnProcessClose/0.3.0-r1/OnProcessClose-0.3.0-r1-any.kspkg"
       ]
     }
   }

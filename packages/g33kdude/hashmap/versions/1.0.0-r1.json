@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "hashmap",
-  "owner": "g33kdude",
+  "name": "HashMap",
+  "owner": "G33kDude",
   "version": "1.0.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "74c190376238a4c6a496fedfa046a12001e72dce749d189c36707227916a2bb0",
-      "size": 16051,
+      "sha256": "8bd32f7695096a384864bf92ce9a345b5c519a8555fda3cbdd8d0b9dcae0c07b",
+      "size": 16049,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/g33kdude/hashmap/1.0.0-r1/hashmap-1.0.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/G33kDude/HashMap/1.0.0-r1/HashMap-1.0.0-r1-any.kspkg"
       ]
     }
   }

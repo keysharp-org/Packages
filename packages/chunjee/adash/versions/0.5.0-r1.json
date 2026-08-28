@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "adash",
-  "owner": "chunjee",
+  "owner": "Chunjee",
   "version": "0.5.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "d27f50803227ef209cf8175d8837e459a42ce83ff6e73fd4145ab4b55d728854",
-      "size": 8138,
+      "sha256": "1be2ba4414110e9b84ae7ecfddbc892f9ae84f2481992c11afc05b5f63146e0b",
+      "size": 8139,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/chunjee/adash/0.5.0-r1/adash-0.5.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Chunjee/adash/0.5.0-r1/adash-0.5.0-r1-any.kspkg"
       ]
     }
   }

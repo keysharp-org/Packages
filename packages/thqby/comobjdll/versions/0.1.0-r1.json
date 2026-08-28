@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "comobjdll",
+  "name": "ComObjDll",
   "owner": "thqby",
   "version": "0.1.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "0cfeddf5e15ab868ae5e1a60725032f65577c5f175dbbf37238393b27f0a5cd4",
-      "size": 1957,
+      "sha256": "2d6e6df1b39ca051c0e1c3a52d45b695c334d94fdad3c1fc4cc924e20d7953a5",
+      "size": 1953,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/comobjdll/0.1.0-r1/comobjdll-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/ComObjDll/0.1.0-r1/ComObjDll-0.1.0-r1-any.kspkg"
       ]
     }
   }

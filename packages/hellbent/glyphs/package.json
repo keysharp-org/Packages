@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "glyphs",
-  "owner": "hellbent",
+  "name": "Glyphs",
+  "owner": "Hellbent",
   "displayName": "Glyphs",
   "description": "Render multi-color text in AHK GUIs with support for gradients, shadows, and advanced formatting",
   "license": "NOASSERTION",

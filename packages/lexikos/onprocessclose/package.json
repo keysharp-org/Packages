@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "onprocessclose",
+  "name": "OnProcessClose",
   "owner": "lexikos",
   "displayName": "OnProcessClose",
   "description": "Monitor for process close event efficiently",

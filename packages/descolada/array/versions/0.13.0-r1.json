@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "array",
-  "owner": "descolada",
+  "name": "Array",
+  "owner": "Descolada",
   "version": "0.13.0",
   "revision": 1,
   "published": "2024-09-02T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "304e31546bf5c321f9d888c593497174366b722d170fe325194e77ab6485498c",
-      "size": 4214,
+      "sha256": "72576e437a93fd29919fa1d0ba28cecb7009c34283530c6251ee2a78a02d2de9",
+      "size": 4215,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/array/0.13.0-r1/array-0.13.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/Array/0.13.0-r1/Array-0.13.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "child-process",
+  "name": "child_process",
   "owner": "thqby",
   "displayName": "child_process",
   "description": "Create a child process, and read stdout/stderr asynchronously, supporting multiple stdin inputs",

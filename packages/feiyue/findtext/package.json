@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "findtext",
+  "name": "FindText",
   "owner": "feiyue",
   "displayName": "FindText",
   "description": "A high-performance image search library, which can use images in text form",

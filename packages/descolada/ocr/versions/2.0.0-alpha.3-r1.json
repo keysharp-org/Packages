@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "ocr",
-  "owner": "descolada",
+  "name": "OCR",
+  "owner": "Descolada",
   "version": "2.0.0-alpha.3",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "2ee9a5c13fbbfd74f370ce7406accd332f5f56d5a2162bfa2a7d15e92a5c6753",
-      "size": 25708,
+      "sha256": "8b46264f11841440cb60f5f97da579101676fe1e07e9dbcff2fe75328f416132",
+      "size": 25709,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/ocr/2.0.0-alpha.3-r1/ocr-2.0.0-alpha.3-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/OCR/2.0.0-alpha.3-r1/OCR-2.0.0-alpha.3-r1-any.kspkg"
       ]
     }
   }

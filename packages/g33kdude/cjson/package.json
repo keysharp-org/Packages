@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "cjson",
-  "owner": "g33kdude",
+  "name": "cJson",
+  "owner": "G33kDude",
   "displayName": "cJson",
   "description": "A high-performance JSON parsing library",
   "license": "MIT",

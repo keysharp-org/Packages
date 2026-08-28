@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "gpgfx",
+  "name": "GpGFX",
   "owner": "bceenaeiklmr",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "5400be28b42d82ad9fb2c1ddc9ff15e1a58f593c967c1d588d2142c3f6b1698d",
-      "size": 35748,
+      "sha256": "4982a5a24e71ca39cf57f4e62307e8be8c4c95ab78be74ccda3de811f70a255b",
+      "size": 35745,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/bceenaeiklmr/gpgfx/0.1.0-r1/gpgfx-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/bceenaeiklmr/GpGFX/0.1.0-r1/GpGFX-0.1.0-r1-any.kspkg"
       ]
     }
   }

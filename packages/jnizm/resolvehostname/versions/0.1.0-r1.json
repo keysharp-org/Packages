@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "resolvehostname",
-  "owner": "jnizm",
+  "name": "ResolveHostname",
+  "owner": "jNizM",
   "version": "0.1.0",
   "revision": 1,
   "published": "2021-04-30T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "132f8cbcfcad95118a1a167f6656d9624df4d56cd5312f2bec840d50877c0ef5",
+      "sha256": "9d62ff211e5d3d06cbb8008891032b20c8727d079c8199f9bc651d80423d0e74",
       "size": 1137,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/resolvehostname/0.1.0-r1/resolvehostname-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/ResolveHostname/0.1.0-r1/ResolveHostname-0.1.0-r1-any.kspkg"
       ]
     }
   }

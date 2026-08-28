@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "customdialog",
+  "name": "CustomDialog",
   "owner": "owhs",
   "version": "0.1.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "eb0b3714dadc3249a5db66a872083a196b999b0cf496f15c4e551b7b149e4dc6",
-      "size": 10216,
+      "sha256": "6730024d4a2919e4811c427a0161545c866285e9c1dfb42cfb91db7d896e55f6",
+      "size": 10218,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/customdialog/0.1.0-r1/customdialog-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/CustomDialog/0.1.0-r1/CustomDialog-0.1.0-r1-any.kspkg"
       ]
     }
   }

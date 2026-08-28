@@ -7,7 +7,8 @@ clients download is published to <https://packages.keysharp.org>.
 Install things with [KPM](https://github.com/keysharp-org/KPM):
 
 ```
-kpm add keysharp/findtext
+kpm add Keysharp/FindText
+kpm add FindText            # a bare name works when only one package has it
 ```
 
 ## The registry is client-neutral
@@ -17,9 +18,13 @@ Nothing here requires KPM. The public contract is:
 | Piece | Where |
 |---|---|
 | Schemas for every file kind | [`schemas/`](schemas/) |
-| The whole registry, one document | `https://packages.keysharp.org/index.json.gz` |
-| Browsing view, newest release per package | `https://packages.keysharp.org/catalog.json` |
+| The whole registry, one document | `https://keysharp-org.github.io/Packages/index.json.gz` |
+| Browsing view, newest release per package | `https://keysharp-org.github.io/Packages/catalog.json` |
 | Artifacts, addressed by SHA-256 | this repository's releases |
+
+The index host is client configuration and is never written into a lockfile — lockfiles pin artifact
+URLs and hashes — so moving the index to a custom domain later costs a client release and breaks
+nothing already published.
 
 KPM is the reference implementation of that contract — this repository's own CI uses it — not the
 protocol. Another client, an editor plugin, or a script fetching `catalog.json` consumes the same
@@ -43,7 +48,11 @@ packages/<owner>/<name>/
 └── README.md
 ```
 
-An id is `owner/name`, both lowercase. The directory path *is* the identity.
+An id is `Owner/Name`, and the directory path *is* the identity — casing included. Ids keep the
+casing their author uses (`Descolada/OCR`, `thqby/child_process`), because these are people's names
+and their libraries' names. Comparison is case-insensitive everywhere, so `kpm add descolada/ocr`
+finds it and the registry refuses two ids that differ only by case — which would be one directory on
+Windows and macOS.
 
 ## Two kinds of package
 
@@ -92,8 +101,24 @@ that it works.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Licensing
+## Licensing and takedowns
 
 Each package records its own licence. `NOASSERTION` means the source states no licence — common for
-forum scripts — and is recorded honestly rather than guessed. If you intend to redistribute such a
-package, ask its author.
+forum scripts — and is recorded honestly rather than guessed.
+
+The registry hosts artifacts for imported packages regardless, with provenance and author credit in
+every release manifest, which is what ScriptHub and Aris already do for this same corpus. **If you
+are an author and want your package removed, open an issue and it will be taken down** — no
+justification needed. Equally, if you want it kept and maintained, claim it (below).
+
+## Claiming a package
+
+Packages imported under your name are held by the organisation until you claim them. Open a pull
+request adding a line to [CODEOWNERS](CODEOWNERS):
+
+```
+/packages/YourName/  @your-github-handle
+```
+
+Once merged you review changes to your own packages. Claiming also lets you correct the licence, the
+description, or anything else in `package.json`.

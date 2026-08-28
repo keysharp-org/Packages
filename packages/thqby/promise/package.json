@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "promise",
+  "name": "Promise",
   "owner": "thqby",
   "displayName": "Promise",
   "description": "Implements a Javascript-like Promise",

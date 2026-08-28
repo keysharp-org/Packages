@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "windowfunctions",
-  "owner": "cebolla",
+  "name": "WindowFunctions",
+  "owner": "Cebolla",
   "displayName": "WindowFunctions",
   "description": "Some Win32 window function (EnumChildWindows, GetDpi etc) wrappers for AutoHotkey.",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "jab",
-  "owner": "descolada",
+  "name": "JAB",
+  "owner": "Descolada",
   "displayName": "JAB",
   "description": "Java Access Bridge library to automate Java applications interfaces",
   "license": "MIT",

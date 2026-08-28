@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "shinsoverlayclass",
-  "owner": "spawnova",
+  "name": "ShinsOverlayClass",
+  "owner": "Spawnova",
   "displayName": "ShinsOverlayClass",
   "description": "A Direct2D overlay, made to be user friendly and fast.",
   "license": "NOASSERTION",

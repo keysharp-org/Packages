@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "uia-browser",
-  "owner": "descolada",
+  "name": "UIA_Browser",
+  "owner": "Descolada",
   "displayName": "UIA_Browser",
   "description": "An addon for Descolada/UIA library to simplify automating browsers via UIA",
   "license": "NOASSERTION",

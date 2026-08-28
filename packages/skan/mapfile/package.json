@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "mapfile",
-  "owner": "skan",
+  "name": "MapFile",
+  "owner": "SKAN",
   "displayName": "MapFile",
   "description": "Maps a view of a file object (Parameter FileObj) into the address space of AutoHotkey process",
   "license": "NOASSERTION",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "tkinter",
-  "owner": "monoeven",
+  "owner": "MonoEven",
   "displayName": "tkinter",
   "description": "Create desktop windows and GUIs with Tk and ttk widgets",
   "license": "NOASSERTION",

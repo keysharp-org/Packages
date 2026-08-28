@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "range",
-  "owner": "descolada",
+  "name": "Range",
+  "owner": "Descolada",
   "version": "0.3.0",
   "revision": 1,
   "published": "2026-06-24T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "181128de33b735549fe698ca357d0f039f8d67cae0ad3a97f29decf8f731114f",
-      "size": 751,
+      "sha256": "feb649eaa3ee35458cc839835680de429580755002d75ab1182c269f01447c79",
+      "size": 752,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/range/0.3.0-r1/range-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/Range/0.3.0-r1/Range-0.3.0-r1-any.kspkg"
       ]
     }
   }

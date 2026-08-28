@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "remotelistview",
-  "owner": "the-codingman",
+  "name": "RemoteListView",
+  "owner": "The-CoDingman",
   "displayName": "RemoteListView",
   "description": "Access data from external (non-GUI) ListView Control.",
   "license": "MIT",

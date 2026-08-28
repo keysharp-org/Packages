@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "hotgestures",
-  "owner": "tebayaki",
+  "name": "HotGestures",
+  "owner": "Tebayaki",
   "displayName": "HotGestures",
   "description": "This is a light Autohotkey library for mouse gestures creating and recognizing. It helps you to customize any one-stroke pattern and bind it to any function.",
   "license": "MIT",

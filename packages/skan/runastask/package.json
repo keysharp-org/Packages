@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "runastask",
-  "owner": "skan",
+  "name": "RunAsTask",
+  "owner": "SKAN",
   "displayName": "RunAsTask",
   "description": "Auto-elevates script without UAC prompt",
   "license": "NOASSERTION",

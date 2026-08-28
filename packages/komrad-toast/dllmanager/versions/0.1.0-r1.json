@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "dllmanager",
-  "owner": "komrad-toast",
+  "name": "DLLManager",
+  "owner": "Komrad-Toast",
   "version": "0.1.0",
   "revision": 1,
   "published": "2025-02-10T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "be0380228b912120f4cf14d2406c288d3b05adad53675742eaa48e7c3d2eae15",
-      "size": 1036,
+      "sha256": "28074a11702b63802dc64b5fbc5502f4b68b2a18fc9b2e18ca54a06b733acbf9",
+      "size": 1034,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/komrad-toast/dllmanager/0.1.0-r1/dllmanager-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Komrad-Toast/DLLManager/0.1.0-r1/DLLManager-0.1.0-r1-any.kspkg"
       ]
     }
   }

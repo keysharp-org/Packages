@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "websocket",
+  "name": "WebSocket",
   "owner": "thqby",
   "displayName": "WebSocket",
   "description": "The websocket client implemented through winhttp",

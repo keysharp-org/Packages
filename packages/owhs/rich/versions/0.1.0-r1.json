@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "rich",
+  "name": "Rich",
   "owner": "owhs",
   "version": "0.1.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "e57a9fcf980f1fd901f01e5213c3436cb2a0a0248b6f2b2717e3534803324732",
-      "size": 11012,
+      "sha256": "59772b3ed9359049464ea28035130a9525897dd20a2e226681820df2b24e46f3",
+      "size": 11014,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/rich/0.1.0-r1/rich-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/Rich/0.1.0-r1/Rich-0.1.0-r1-any.kspkg"
       ]
     }
   }

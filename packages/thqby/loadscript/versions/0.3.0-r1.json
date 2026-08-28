@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "loadscript",
+  "name": "LoadScript",
   "owner": "thqby",
   "version": "0.3.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "978e702d7a2a86b91b0c1c0738799aba729aa4669c4ecb6204ebb67d6062665b",
-      "size": 1940,
+      "sha256": "31d6b6ad6b3208c9d4761777efbcaab7feec554346529afe3c0d57d7276dcd66",
+      "size": 1939,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/loadscript/0.3.0-r1/loadscript-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/LoadScript/0.3.0-r1/LoadScript-0.3.0-r1-any.kspkg"
       ]
     }
   }

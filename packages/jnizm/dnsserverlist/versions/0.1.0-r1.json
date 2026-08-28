@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "dnsserverlist",
-  "owner": "jnizm",
+  "name": "DnsServerList",
+  "owner": "jNizM",
   "version": "0.1.0",
   "revision": 1,
   "published": "2023-01-17T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "7d9c4e87d5e3489c10db5529ca8d2f24112617d30ce4e3c5680cdf93b88cc1c5",
-      "size": 985,
+      "sha256": "5c51498d138d04065b7340f40a9119f4dbc5c40bfa5f101f2ac310440d51a8a7",
+      "size": 982,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/dnsserverlist/0.1.0-r1/dnsserverlist-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/DnsServerList/0.1.0-r1/DnsServerList-0.1.0-r1-any.kspkg"
       ]
     }
   }

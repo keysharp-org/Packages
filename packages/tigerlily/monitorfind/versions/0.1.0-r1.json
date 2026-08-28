@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "monitorfind",
-  "owner": "tigerlily",
+  "name": "MonitorFind",
+  "owner": "Tigerlily",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "47eecaa9c189fc2a62c230109eaff144abc2a7c39d220525fd06d59b4dbc2ea6",
-      "size": 6298,
+      "sha256": "95ac6d1f382079cb71f872457a19ad624695fc99b66111ded9866fbfb88dddfb",
+      "size": 6295,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/tigerlily/monitorfind/0.1.0-r1/monitorfind-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Tigerlily/MonitorFind/0.1.0-r1/MonitorFind-0.1.0-r1-any.kspkg"
       ]
     }
   }

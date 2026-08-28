@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "listviewextensions",
+  "name": "ListViewExtensions",
   "owner": "just-me",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "4983e961bc87a1b660b63235cb8b92b275599bcd1ef7cc9f9ca6010e0c5a3fd0",
-      "size": 7661,
+      "sha256": "ecfee3f80702077dc162d21fa65686935e225bc7577b567098d4d535425c5ea5",
+      "size": 7654,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/listviewextensions/0.1.0-r1/listviewextensions-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/ListViewExtensions/0.1.0-r1/ListViewExtensions-0.1.0-r1-any.kspkg"
       ]
     }
   }

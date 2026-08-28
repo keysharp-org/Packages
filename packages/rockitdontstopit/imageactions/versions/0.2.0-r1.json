@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "imageactions",
+  "name": "ImageActions",
   "owner": "rockitdontstopit",
   "version": "0.2.0",
   "revision": 1,
@@ -14,7 +14,7 @@
   ],
   "capabilities": [],
   "dependencies": {
-    "feiyue/findtext": "*"
+    "feiyue/FindText": "*"
   },
   "source": {
     "kind": "scripthub",
@@ -24,10 +24,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "dcd4de0fe0935df619bf9f45457e83cf7d57fa9453a1cc0e3636ba96421a95b7",
-      "size": 3580,
+      "sha256": "e110f6bc900e5463fd79e6154bad13633e91235568e432e4946e698dd6e5723e",
+      "size": 3581,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/rockitdontstopit/imageactions/0.2.0-r1/imageactions-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/rockitdontstopit/ImageActions/0.2.0-r1/ImageActions-0.2.0-r1-any.kspkg"
       ]
     }
   }

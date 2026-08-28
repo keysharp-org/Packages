@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "socket",
+  "name": "Socket",
   "owner": "thqby",
   "displayName": "Socket",
   "description": "Simple implementation of a socket Server and Client.",

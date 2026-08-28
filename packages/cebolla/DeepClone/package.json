@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "DeepClone",
+  "owner": "Cebolla",
+  "displayName": "DeepClone",
+  "description": "Deep clones an object, with an option to specify a maximum depth.",
+  "license": "MIT",
+  "homepage": "https://github.com/Nich-Cebolla/AutoHotkey-Object.Prototype.DeepClone",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

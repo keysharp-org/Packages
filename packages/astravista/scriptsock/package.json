@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "scriptsock",
-  "owner": "astravista",
+  "name": "ScriptSock",
+  "owner": "AstraVista",
   "displayName": "ScriptSock",
   "description": "Communicate easily between scripts",
   "license": "NOASSERTION",

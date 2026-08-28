@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "gtooltip",
-  "owner": "the-codingman",
+  "name": "gToolTip",
+  "owner": "The-CoDingman",
   "displayName": "gToolTip",
   "description": "Class for creating ToolTips that can be clicked, dragged, and customized by font and color",
   "license": "MIT",

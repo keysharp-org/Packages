@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "dnsserverlist",
-  "owner": "jnizm",
+  "name": "DnsServerList",
+  "owner": "jNizM",
   "displayName": "DnsServerList",
   "description": "Gets a list of DNS servers for the local computer",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "radify",
-  "owner": "xmcqcx",
+  "name": "Radify",
+  "owner": "XMCQCX",
   "version": "0.2.0",
   "revision": 1,
   "published": "2025-08-05T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "c68768ff40583e33463bf7ccc710d74d98f98dc365e3e58efea50755057cbd11",
-      "size": 97039,
+      "sha256": "9e86e47b2c6fc5169a988ad24d450eff7d12046a9a0597e1a0d48004e4dad060",
+      "size": 97041,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/xmcqcx/radify/0.2.0-r1/radify-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/XMCQCX/Radify/0.2.0-r1/Radify-0.2.0-r1-any.kspkg"
       ]
     }
   }

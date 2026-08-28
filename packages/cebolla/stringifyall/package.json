@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "stringifyall",
-  "owner": "cebolla",
+  "name": "StringifyAll",
+  "owner": "Cebolla",
   "displayName": "StringifyAll",
   "description": "A customizable solution for serializing AutoHotkey (AHK) object properties, including inherited properties, and/or items into a 100% valid JSON string.",
   "license": "MIT",

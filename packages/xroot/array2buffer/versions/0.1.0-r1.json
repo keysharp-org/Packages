@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "array2buffer",
+  "name": "Array2Buffer",
   "owner": "xroot",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "2626edca07bfe423105dd51763845c07a839cf9d8b2badd632700ff2e87392da",
-      "size": 1289,
+      "sha256": "628faa96d2ed2e7b8788f335d1c4127ad061dc7785e9243b28f5bf85d1c15870",
+      "size": 1290,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/xroot/array2buffer/0.1.0-r1/array2buffer-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/xroot/Array2Buffer/0.1.0-r1/Array2Buffer-0.1.0-r1-any.kspkg"
       ]
     }
   }

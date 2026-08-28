@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "hotkeychain",
+  "name": "HotKeyChain",
   "owner": "prasad383",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "130df8cab2901cfbe193f9d40552e5671b613d6d95dba01bd8778eddb82b43a7",
-      "size": 2914,
+      "sha256": "f1e847924d8c1f8283a040631225ca4c3c0a59da19f27be9564c708699f5f0ba",
+      "size": 2912,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/prasad383/hotkeychain/0.1.0-r1/hotkeychain-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/prasad383/HotKeyChain/0.1.0-r1/HotKeyChain-0.1.0-r1-any.kspkg"
       ]
     }
   }

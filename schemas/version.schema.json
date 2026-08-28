@@ -8,8 +8,8 @@
   "additionalProperties": false,
   "properties": {
     "schema": { "const": 1 },
-    "name": { "type": "string", "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$" },
-    "owner": { "type": "string", "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$" },
+    "name": { "type": "string", "pattern": "^[A-Za-z0-9]([A-Za-z0-9._-]*[A-Za-z0-9])?$" },
+    "owner": { "type": "string", "pattern": "^[A-Za-z0-9]([A-Za-z0-9._-]*[A-Za-z0-9])?$" },
     "version": {
       "type": "string",
       "description": "SemVer. The human-facing number; packaging fixes bump revision instead."

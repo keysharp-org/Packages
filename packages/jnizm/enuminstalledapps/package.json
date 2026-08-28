@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "enuminstalledapps",
-  "owner": "jnizm",
+  "name": "EnumInstalledApps",
+  "owner": "jNizM",
   "displayName": "EnumInstalledApps",
   "description": "Gets general information about an application (from the Add/Remove Programs Application)",
   "license": "MIT",

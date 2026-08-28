@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "guibuttonicon",
-  "owner": "fanaticguru",
+  "name": "GuiButtonIcon",
+  "owner": "FanaticGuru",
   "displayName": "GuiButtonIcon",
   "description": "A function that allows an icon to be assigned to a Gui Button using the button's hwnd to identify the button",
   "license": "NOASSERTION",

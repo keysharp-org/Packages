@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "midi",
+  "name": "MIDI",
   "owner": "emliberace",
   "displayName": "MIDI",
   "description": "The MIDIv2 library grants MIDI functionality to AutoHotKey v2. Send and receive MIDI in your AHK scripts with ease.",

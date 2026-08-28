@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "memorymodule",
-  "owner": "mrdoge",
+  "name": "MemoryModule",
+  "owner": "MrDoge",
   "displayName": "MemoryModule",
   "description": "Include a .dll into a compiled .exe and then load the .dll and use it without having to extract the .dll",
   "license": "NOASSERTION",

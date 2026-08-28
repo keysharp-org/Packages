@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "sqlitedb",
+  "name": "SQLiteDB",
   "owner": "just-me",
   "displayName": "SQLiteDB",
   "description": "Class definitions as wrappers for SQLite3.dll to work with SQLite DBs",

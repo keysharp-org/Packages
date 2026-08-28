@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "isprocesselevated",
-  "owner": "jnizm",
+  "name": "IsProcessElevated",
+  "owner": "jNizM",
   "displayName": "IsProcessElevated",
   "description": "Retrieves whether a process has elevated privileges",
   "license": "MIT",

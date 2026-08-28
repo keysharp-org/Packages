@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "getopenedfiles",
+  "name": "GetOpenedFiles",
   "owner": "neogna2",
   "version": "0.2.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "fcf845246384308af2f0ffa4674a8effc57334d4708932758df351b0e06beb75",
-      "size": 1763,
+      "sha256": "ac10a6637b618f22a48de5b04d2d39e800b546818afe2fa019526ba1aa4c5e7c",
+      "size": 1760,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/neogna2/getopenedfiles/0.2.0-r1/getopenedfiles-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/neogna2/GetOpenedFiles/0.2.0-r1/GetOpenedFiles-0.2.0-r1-any.kspkg"
       ]
     }
   }

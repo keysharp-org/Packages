@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "winevent",
-  "owner": "descolada",
+  "name": "WinEvent",
+  "owner": "Descolada",
   "version": "0.31.0",
   "revision": 1,
   "published": "2025-04-12T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "73c72b1bc6e32c900712621bcf0eefaa5752ae7fafd97df304ca393fcd461bfe",
-      "size": 7039,
+      "sha256": "e16bdd376ca0e9ed9b817001aeaece65a5f356ec35f840e2827a4ad4563ad5ae",
+      "size": 7038,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/winevent/0.31.0-r1/winevent-0.31.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/WinEvent/0.31.0-r1/WinEvent-0.31.0-r1-any.kspkg"
       ]
     }
   }

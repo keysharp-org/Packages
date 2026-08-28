@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "base64",
+  "name": "Base64",
   "owner": "thqby",
   "displayName": "Base64",
   "description": "Encode a buffer to a base64 string, or decode a base64 string.",

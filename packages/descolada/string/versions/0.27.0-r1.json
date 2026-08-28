@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "string",
-  "owner": "descolada",
+  "name": "String",
+  "owner": "Descolada",
   "version": "0.27.0",
   "revision": 1,
   "published": "2023-09-05T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "d8cd2df01d0726696103ee008a539116b1e608637b4dc3db429e6a8fd08108a9",
+      "sha256": "96983abe518af8e6a6ba757bce200811f70213b239bb02c47f2667f2d677c970",
       "size": 6752,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/string/0.27.0-r1/string-0.27.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/String/0.27.0-r1/String-0.27.0-r1-any.kspkg"
       ]
     }
   }

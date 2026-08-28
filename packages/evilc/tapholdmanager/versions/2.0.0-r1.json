@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "tapholdmanager",
-  "owner": "evilc",
+  "name": "TapHoldManager",
+  "owner": "evilC",
   "version": "2.0.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "43861c454a6109a1edf890b5c55acce9ab381155166a0646518a2496af4d684d",
-      "size": 2360,
+      "sha256": "8dae818d7e0f428b52f41458a03f35a780282243b72e89c994a750ae4193343e",
+      "size": 2357,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/evilc/tapholdmanager/2.0.0-r1/tapholdmanager-2.0.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/evilC/TapHoldManager/2.0.0-r1/TapHoldManager-2.0.0-r1-any.kspkg"
       ]
     }
   }

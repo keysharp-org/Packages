@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "detours",
+  "name": "Detours",
   "owner": "thqby",
   "version": "0.1.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "36085677731ee264dc92530d32579030ae47aec6b3e867346d75cebbce8daf7a",
-      "size": 2734,
+      "sha256": "7473837572382f1e7a51b9aa590218b86e3209d0448a36fdcf7197d467adb8c4",
+      "size": 2733,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/detours/0.1.0-r1/detours-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/Detours/0.1.0-r1/Detours-0.1.0-r1-any.kspkg"
       ]
     }
   }

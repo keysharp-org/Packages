@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "runcmd",
-  "owner": "skan",
+  "name": "RunCMD",
+  "owner": "SKAN",
   "displayName": "RunCMD",
   "description": "Run a program in windowless mode and capture its output",
   "license": "NOASSERTION",

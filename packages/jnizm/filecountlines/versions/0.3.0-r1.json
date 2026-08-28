@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "filecountlines",
-  "owner": "jnizm",
+  "name": "FileCountLines",
+  "owner": "jNizM",
   "version": "0.3.0",
   "revision": 1,
   "published": "2023-01-12T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "31de2e7e8c5520375adbeeb5c83193ba3eba4aa93f7d57356909745f9130f755",
-      "size": 884,
+      "sha256": "2248fcba16299b9c50beb5503b1a9fced3a222ed50259f33c8839c81aa3672a1",
+      "size": 883,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/filecountlines/0.3.0-r1/filecountlines-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/FileCountLines/0.3.0-r1/FileCountLines-0.3.0-r1-any.kspkg"
       ]
     }
   }

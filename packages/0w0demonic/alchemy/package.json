@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "alchemy",
-  "owner": "0w0demonic",
+  "name": "Alchemy",
+  "owner": "0w0Demonic",
   "displayName": "Alchemy",
   "description": "Toolkit for OOP and data manipulation: map chains, class methods and properties privatizers, API client generators, self-generating enum classes, cascading objects and classes and more.",
   "license": "MIT",

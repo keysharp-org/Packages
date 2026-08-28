@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "sh-watcher",
-  "owner": "mrdoge",
+  "name": "SH_Watcher",
+  "owner": "MrDoge",
   "displayName": "SH_Watcher",
   "description": "Monitors for folder changes based on an event-driven method.",
   "license": "NOASSERTION",

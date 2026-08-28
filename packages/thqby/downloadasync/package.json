@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "downloadasync",
+  "name": "DownloadAsync",
   "owner": "thqby",
   "displayName": "DownloadAsync",
   "description": "Asynchronous download, you can get the download progress, and call the specified function after the download is complete.",

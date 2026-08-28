@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "scriptvar",
-  "owner": "astravista",
+  "name": "ScriptVar",
+  "owner": "AstraVista",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-10-01T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "6093e0abbe019dd6b991681f9ea45a6f5d2b80fa3acb7cd6d4101bec2152edfb",
-      "size": 3666,
+      "sha256": "9ac2c6a2e2417315a43dac9fce35702710bd397f40aaa7a8bf031059d04511bf",
+      "size": 3665,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/astravista/scriptvar/0.1.0-r1/scriptvar-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/AstraVista/ScriptVar/0.1.0-r1/ScriptVar-0.1.0-r1-any.kspkg"
       ]
     }
   }

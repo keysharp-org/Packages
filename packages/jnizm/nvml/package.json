@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "nvml",
-  "owner": "jnizm",
+  "name": "NVML",
+  "owner": "jNizM",
   "displayName": "NVML",
   "description": "Wrapper for NVIDIA NVML: retrieve info about NVIDIA graphics cards",
   "license": "MIT, NVML",

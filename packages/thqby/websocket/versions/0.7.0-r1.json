@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "websocket",
+  "name": "WebSocket",
   "owner": "thqby",
   "version": "0.7.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "d41b9001fad4bb78e519afa97cf66c56a03a1a8442adc3fb1891c657b1d57f0a",
-      "size": 5281,
+      "sha256": "7d6ad6e12565ca4f5e87fcd32f477175f4dbe43d66ff87d8342be946c013aa2d",
+      "size": 5279,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/websocket/0.7.0-r1/websocket-0.7.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/WebSocket/0.7.0-r1/WebSocket-0.7.0-r1-any.kspkg"
       ]
     }
   }

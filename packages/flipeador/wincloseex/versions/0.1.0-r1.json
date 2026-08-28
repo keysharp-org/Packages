@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "wincloseex",
-  "owner": "flipeador",
+  "name": "WinCloseEx",
+  "owner": "Flipeador",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-10-01T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "2e1e045d571ce1c3eb8cc3117926e70d68166c7bcae75ae0b5d59a0df34fc9ab",
-      "size": 2865,
+      "sha256": "43140ef4ad075e265ae0aeaf2cc8f0029db67c82b2bd854776882e8b79771a7d",
+      "size": 2869,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/flipeador/wincloseex/0.1.0-r1/wincloseex-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Flipeador/WinCloseEx/0.1.0-r1/WinCloseEx-0.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "inheritance",
-  "owner": "cebolla",
+  "name": "Inheritance",
+  "owner": "Cebolla",
   "displayName": "Inheritance",
   "description": "Inheritance is a library containing functions to aid working with AHK's object inheritance model: GetPropsInfo, ClassFactory, GetBaseObjects, and GetPropDesc.",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "runastask",
-  "owner": "skan",
+  "name": "RunAsTask",
+  "owner": "SKAN",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "7c78f56154e23e32643e476e1a427884284ab7b974f0eb998cec7e34f7757026",
-      "size": 2193,
+      "sha256": "25e9fba1a4a30134802b57c2e505a60dc9c540ad00944ecf8e8cf3ceec370f88",
+      "size": 2189,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/runastask/0.1.0-r1/runastask-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/SKAN/RunAsTask/0.1.0-r1/RunAsTask-0.1.0-r1-any.kspkg"
       ]
     }
   }

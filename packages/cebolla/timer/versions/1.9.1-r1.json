@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "timer",
-  "owner": "cebolla",
+  "name": "Timer",
+  "owner": "Cebolla",
   "version": "1.9.1",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "b3b8ffdda45aa9a2016e33826b24144eed4a715b953b950f29c854e597ac0793",
-      "size": 3109,
+      "sha256": "825fa137be5615d209c965f6a1cfed4e6a0c544a5c3756cceac8f2b56baac3d9",
+      "size": 3110,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/timer/1.9.1-r1/timer-1.9.1-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Cebolla/Timer/1.9.1-r1/Timer-1.9.1-r1-any.kspkg"
       ]
     }
   }

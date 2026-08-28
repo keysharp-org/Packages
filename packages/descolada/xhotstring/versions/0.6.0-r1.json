@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "xhotstring",
-  "owner": "descolada",
+  "name": "XHotstring",
+  "owner": "Descolada",
   "version": "0.6.0",
   "revision": 1,
   "published": "2025-10-08T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "d17e20e3a4f1feec4b88df1dafb8b3405e77ecc68c9da582f875a31b3d5c9c9e",
+      "sha256": "2c6aa6b3a792270d06ed8b544cfaae793993e1b19af3b13487cd3957257e7f6a",
       "size": 6230,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/xhotstring/0.6.0-r1/xhotstring-0.6.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/XHotstring/0.6.0-r1/XHotstring-0.6.0-r1-any.kspkg"
       ]
     }
   }

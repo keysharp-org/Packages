@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "interceptiontapholdmanager",
-  "owner": "evilc",
+  "name": "InterceptionTapHoldManager",
+  "owner": "evilC",
   "version": "2.0.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -14,7 +14,7 @@
   ],
   "capabilities": [],
   "dependencies": {
-    "evilc/tapholdmanager": "*"
+    "evilC/TapHoldManager": "*"
   },
   "source": {
     "kind": "git",
@@ -25,10 +25,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "6cca837f943df62db46506243e871753518eb4b286a2109f4dfeacb7e53532d0",
-      "size": 1097,
+      "sha256": "f584871ad7f058a9dbc3313e1880c75abf10555176cb92598cbb4ad6c3b90db1",
+      "size": 1099,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/evilc/interceptiontapholdmanager/2.0.0-r1/interceptiontapholdmanager-2.0.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/evilC/InterceptionTapHoldManager/2.0.0-r1/InterceptionTapHoldManager-2.0.0-r1-any.kspkg"
       ]
     }
   }

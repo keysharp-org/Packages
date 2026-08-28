@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "changelogsorter",
-  "owner": "joyhak",
+  "name": "ChangeLogSorter",
+  "owner": "JoyHak",
   "version": "1.0.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "add06f3d517a1efee7d20bbad24c9de015aedead513450d1253133f5c6d70e2d",
-      "size": 1329,
+      "sha256": "e6d9b4c9a5e03458cdfc99eaf3cd4da920908fcc96e91d6819181660299c37a5",
+      "size": 1328,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/changelogsorter/1.0.0-r1/changelogsorter-1.0.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/JoyHak/ChangeLogSorter/1.0.0-r1/ChangeLogSorter-1.0.0-r1-any.kspkg"
       ]
     }
   }

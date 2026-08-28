@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "enuminstalledapps",
-  "owner": "jnizm",
+  "name": "EnumInstalledApps",
+  "owner": "jNizM",
   "version": "0.1.0",
   "revision": 1,
   "published": "2021-04-23T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "0e572a319553a6974376acdc4edadc3bf167598ceb75959a5d41b7b34a5aa4e0",
-      "size": 1189,
+      "sha256": "faf6f19cb978793bd9e2cfd8c889f8fa0cf6824c9799191ff39f78868d17b889",
+      "size": 1186,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/enuminstalledapps/0.1.0-r1/enuminstalledapps-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/EnumInstalledApps/0.1.0-r1/EnumInstalledApps-0.1.0-r1-any.kspkg"
       ]
     }
   }

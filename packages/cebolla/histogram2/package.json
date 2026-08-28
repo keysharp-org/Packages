@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "histogram2",
-  "owner": "cebolla",
+  "name": "Histogram2",
+  "owner": "Cebolla",
   "displayName": "Histogram2",
   "description": "Generates a histogram from an array of numbers.",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "launcher",
-  "owner": "joyhak",
+  "name": "Launcher",
+  "owner": "JoyHak",
   "displayName": "Launcher",
   "description": "Launch saved scripts and applications, manage auto-startup scripts. Supports both CLI & GUI.",
   "license": "MIT",

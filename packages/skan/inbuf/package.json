@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "inbuf",
-  "owner": "skan",
+  "name": "InBuf",
+  "owner": "SKAN",
   "displayName": "InBuf",
   "description": "Find values from a buffer",
   "license": "NOASSERTION",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "tanuki",
-  "owner": "0w0demonic",
+  "name": "Tanuki",
+  "owner": "0w0Demonic",
   "version": "0.28.0",
   "revision": 1,
   "published": "2025-10-10T00:00:00+00:00",
@@ -14,8 +14,8 @@
   ],
   "capabilities": [],
   "dependencies": {
-    "0w0demonic/aquahotkey": "*",
-    "holy-tao/ahkwin32projection": "*"
+    "0w0Demonic/AquaHotkey": "*",
+    "holy-tao/AhkWin32Projection": "*"
   },
   "source": {
     "kind": "git",
@@ -24,10 +24,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "80154992d4fe5c6f8e600dff1bdd3b36f52c70ac93cc324cd1f4eb7e771461f0",
-      "size": 1914,
+      "sha256": "6cb7e44917479065efdf57a52032fd87c3ca2aeeaa82b072377ce86dc5381224",
+      "size": 1925,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/0w0demonic/tanuki/0.28.0-r1/tanuki-0.28.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/0w0Demonic/Tanuki/0.28.0-r1/Tanuki-0.28.0-r1-any.kspkg"
       ]
     }
   }

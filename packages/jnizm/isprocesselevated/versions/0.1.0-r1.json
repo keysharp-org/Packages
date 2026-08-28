@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "isprocesselevated",
-  "owner": "jnizm",
+  "name": "IsProcessElevated",
+  "owner": "jNizM",
   "version": "0.1.0",
   "revision": 1,
   "published": "2023-01-16T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "9fe3568401e812fa917ebcef5e56f3d4d2880a06b49a6101594817c4878d2ca6",
-      "size": 1123,
+      "sha256": "e84cc09bc7a01b0cc2b2c0cafa7e445016dd6ca1c3ddd2f8c97f5854d954690b",
+      "size": 1122,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/isprocesselevated/0.1.0-r1/isprocesselevated-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/IsProcessElevated/0.1.0-r1/IsProcessElevated-0.1.0-r1-any.kspkg"
       ]
     }
   }

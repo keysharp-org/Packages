@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "xml",
+  "name": "XML",
   "owner": "docterry",
   "displayName": "XML",
   "description": "Build and parse XML.",

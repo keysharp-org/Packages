@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "getcontrolshwnd",
-  "owner": "joyhak",
+  "name": "GetControlsHwnd",
+  "owner": "JoyHak",
   "version": "0.1.0",
   "revision": 1,
   "published": "2026-06-24T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "af0e06b05e763208266c2167be0b193d9a02e49d370603b27003a72259573144",
-      "size": 937,
+      "sha256": "8f92ea7b75b69bca0c8e6aed336258e1a671381e11cb8524b7963b019e514310",
+      "size": 932,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/getcontrolshwnd/0.1.0-r1/getcontrolshwnd-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/JoyHak/GetControlsHwnd/0.1.0-r1/GetControlsHwnd-0.1.0-r1-any.kspkg"
       ]
     }
   }

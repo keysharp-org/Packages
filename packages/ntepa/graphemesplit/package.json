@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "graphemesplit",
+  "name": "GraphemeSplit",
   "owner": "ntepa",
   "displayName": "GraphemeSplit",
   "description": "Splits a string into graphemes",

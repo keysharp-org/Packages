@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "ntl",
+  "name": "NTL",
   "owner": "thqby",
   "version": "0.1.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "c382168ed27d8caf749e280aaa7e58b964734b2185ffc8b8677998db1ac966e2",
+      "sha256": "feaf463f06c035120dbc1190baa583cc414cb829b8b282495cc4b05c8a25ea56",
       "size": 1646,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/ntl/0.1.0-r1/ntl-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/NTL/0.1.0-r1/NTL-0.1.0-r1-any.kspkg"
       ]
     }
   }

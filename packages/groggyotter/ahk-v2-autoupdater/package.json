@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "ahk-v2-autoupdater",
-  "owner": "groggyotter",
+  "name": "AHK-v2-AutoUpdater",
+  "owner": "GroggyOtter",
   "displayName": "AHK-v2-AutoUpdater",
   "description": "Class object that will notify you of AHKv2 updates and ask if you'd like to download the new version.",
   "license": "GPL-3.0",

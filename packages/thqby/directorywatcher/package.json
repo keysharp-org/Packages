@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "directorywatcher",
+  "name": "DirectoryWatcher",
   "owner": "thqby",
   "displayName": "DirectoryWatcher",
   "description": "Call the notification function when the specified directory changes",

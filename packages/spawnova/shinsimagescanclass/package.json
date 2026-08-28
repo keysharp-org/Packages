@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "shinsimagescanclass",
-  "owner": "spawnova",
+  "name": "ShinsImageScanClass",
+  "owner": "Spawnova",
   "displayName": "ShinsImageScanClass",
   "description": "Search for images and pixels extremely fast and also with background window support",
   "license": "NOASSERTION",

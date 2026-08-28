@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "changelogsorter",
-  "owner": "joyhak",
+  "name": "ChangeLogSorter",
+  "owner": "JoyHak",
   "displayName": "ChangeLogSorter",
   "description": "Merges change logs into one file in chronological order.",
   "license": "NOASSERTION",

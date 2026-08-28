@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "json",
+  "name": "JSON",
   "owner": "thqby",
   "displayName": "JSON",
   "description": "A basic JSON library",

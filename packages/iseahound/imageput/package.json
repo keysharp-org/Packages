@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "imageput",
+  "name": "ImagePut",
   "owner": "iseahound",
   "displayName": "ImagePut",
   "description": "A core library for images in AutoHotkey",

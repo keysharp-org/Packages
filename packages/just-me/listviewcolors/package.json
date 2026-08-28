@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "listviewcolors",
+  "name": "ListViewColors",
   "owner": "just-me",
   "displayName": "ListViewColors",
   "description": "Colorize any ListView rows, invidial cells and selection (supports non-GUI control).",

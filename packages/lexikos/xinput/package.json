@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "xinput",
+  "name": "XInput",
   "owner": "lexikos",
   "displayName": "XInput",
   "description": "Wraps a few key functions of XInput: get XBox controller information (read L/R triggers), set level of vibration",

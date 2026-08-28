@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "audio",
+  "name": "Audio",
   "owner": "thqby",
   "version": "0.1.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "ed4779705f5bccd752fef8e3c12d1b6d133d3b13c455c0632a9506700107c28e",
-      "size": 5577,
+      "sha256": "0f192755588a831ded31d755da5d0f857413bf51f2a84a89e2784e5c29066524",
+      "size": 5576,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/audio/0.1.0-r1/audio-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/Audio/0.1.0-r1/Audio-0.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "getcontrolshwnd",
-  "owner": "joyhak",
+  "name": "GetControlsHwnd",
+  "owner": "JoyHak",
   "displayName": "GetControlsHwnd",
   "description": "Search for all controls that matches specified win32 / custom class name",
   "license": "MIT",

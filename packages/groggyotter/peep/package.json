@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "peep",
-  "owner": "groggyotter",
+  "name": "Peep",
+  "owner": "GroggyOtter",
   "displayName": "Peep",
   "description": "Easily get information from nested objects.",
   "license": "MIT",

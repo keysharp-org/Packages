@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "DeepClone",
+  "owner": "Cebolla",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2025-02-11T00:00:00+00:00",
+  "entry": "src/Object.Prototype.DeepClone.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Nich-Cebolla/AutoHotkey-Object.Prototype.DeepClone",
+    "commit": "e968f0d0abb3c8d5705c58aed2e0e0b8a22a4e33"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "548011b4d2496941d290de81b040a68bf236e9f4e23c7d27e3a5917bcb5b66bb",
+      "size": 2605,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Cebolla/DeepClone/0.4.0-r1/DeepClone-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "gdip",
+  "name": "Gdip",
   "owner": "buliasz",
   "version": "0.78.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "16eab14c9c80815dc32b08922bf89dbebf7042222b359cecb78dc45165673cf8",
-      "size": 25202,
+      "sha256": "1de58d12e3536b582959c4da1487738fde9a4f70b744cf6388a9e20a34b646ee",
+      "size": 25201,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/buliasz/gdip/0.78.0-r1/gdip-0.78.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/buliasz/Gdip/0.78.0-r1/Gdip-0.78.0-r1-any.kspkg"
       ]
     }
   }

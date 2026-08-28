@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "pathx",
-  "owner": "skan",
+  "name": "PathX",
+  "owner": "SKAN",
   "displayName": "PathX",
   "description": "PathX() is an alternative solution for SplitPath(). It breaks down a fullpath to individual parts and returns them as an object.",
   "license": "NOASSERTION",

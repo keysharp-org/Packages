@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "jxon",
-  "owner": "thearkive",
+  "name": "JXON",
+  "owner": "TheArkive",
   "version": "0.8.0",
   "revision": 1,
   "published": "2022-12-18T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "abf9b730684c2acbc321c2704ef7573b824c474ec0a997b6f45074ff969c9613",
-      "size": 2988,
+      "sha256": "c08b5d925d027523974ec7b6a09d2b1fc224f163cd5e3707a1e3a5729217714d",
+      "size": 2989,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thearkive/jxon/0.8.0-r1/jxon-0.8.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/TheArkive/JXON/0.8.0-r1/JXON-0.8.0-r1-any.kspkg"
       ]
     }
   }

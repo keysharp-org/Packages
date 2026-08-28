@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "jarteplus",
+  "name": "JartePlus",
   "owner": "burque505",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "716a0b80d964c3a20a25ea3ec329f0eedafd1503438550b6022f898072b17ece",
-      "size": 2211,
+      "sha256": "3f0e764ea4a3b769b986f5407edeb36882ee951fa51924b0e02e04babacfe765",
+      "size": 2208,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/burque505/jarteplus/0.1.0-r1/jarteplus-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/burque505/JartePlus/0.1.0-r1/JartePlus-0.1.0-r1-any.kspkg"
       ]
     }
   }

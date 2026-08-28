@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "chrome",
+  "name": "Chrome",
   "owner": "thqby",
   "displayName": "Chrome",
   "description": "Automate Google Chrome using native AutoHotkey\nNOTICE: this also requires a JSON library, for example G33kDude/cJson or thqby/JSON",

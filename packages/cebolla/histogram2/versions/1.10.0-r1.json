@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "histogram2",
-  "owner": "cebolla",
+  "name": "Histogram2",
+  "owner": "Cebolla",
   "version": "1.10.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "96ebfc91ddf9f8d1019a0db301e88060bce62f7dbde9d2211376a5f401d95615",
-      "size": 1411,
+      "sha256": "8ef522db4d9e2fad583ddd4c52388b01167aad9bc7194b34435cc161d873d05c",
+      "size": 1413,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/histogram2/1.10.0-r1/histogram2-1.10.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Cebolla/Histogram2/1.10.0-r1/Histogram2-1.10.0-r1-any.kspkg"
       ]
     }
   }

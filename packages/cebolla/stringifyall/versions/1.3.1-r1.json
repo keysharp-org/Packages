@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "stringifyall",
-  "owner": "cebolla",
+  "name": "StringifyAll",
+  "owner": "Cebolla",
   "version": "1.3.1",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -14,7 +14,7 @@
   ],
   "capabilities": [],
   "dependencies": {
-    "cebolla/inheritance": "*"
+    "Cebolla/Inheritance": "*"
   },
   "source": {
     "kind": "git",
@@ -24,10 +24,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "f11e81c3a5937a7bf3c9ac6431f84fdb6ea317ceef57c02c8a7e4ac97eeab8f5",
-      "size": 14144,
+      "sha256": "595e1160d77d4b9b538f4702ab786908d67f59bf9c87d5270432918a1fe7417a",
+      "size": 14145,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/stringifyall/1.3.1-r1/stringifyall-1.3.1-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Cebolla/StringifyAll/1.3.1-r1/StringifyAll-1.3.1-r1-any.kspkg"
       ]
     }
   }

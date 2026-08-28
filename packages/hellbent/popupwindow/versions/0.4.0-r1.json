@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "popupwindow",
-  "owner": "hellbent",
+  "name": "PopupWindow",
+  "owner": "Hellbent",
   "version": "0.4.0",
   "revision": 1,
   "published": "2024-11-01T00:00:00+00:00",
@@ -14,7 +14,7 @@
   ],
   "capabilities": [],
   "dependencies": {
-    "buliasz/gdip": "*"
+    "buliasz/Gdip": "*"
   },
   "source": {
     "kind": "scripthub",
@@ -24,10 +24,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "27654db67a3375b9f597e3e32231c454d2a68c32b8c9ebe7ff692cd3ddef482f",
-      "size": 3006,
+      "sha256": "75648d0ecb768227a5aaa23757df540d1be58111a384a6a5e7853989f331ebb3",
+      "size": 3005,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/hellbent/popupwindow/0.4.0-r1/popupwindow-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Hellbent/PopupWindow/0.4.0-r1/PopupWindow-0.4.0-r1-any.kspkg"
       ]
     }
   }

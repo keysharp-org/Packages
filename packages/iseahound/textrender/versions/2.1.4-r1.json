@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "textrender",
+  "name": "TextRender",
   "owner": "iseahound",
   "version": "2.1.4",
   "revision": 1,
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "56c914bc3f14fcfba3d511b10ce8155c332edb7c6e38997a09b0d51b2f90c70a",
-      "size": 39088,
+      "sha256": "edae5f39b2b9bbdb99d4f56594c0ce58a467587aa571002561499baad4fdd54c",
+      "size": 39086,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/iseahound/textrender/2.1.4-r1/textrender-2.1.4-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/iseahound/TextRender/2.1.4-r1/TextRender-2.1.4-r1-any.kspkg"
       ]
     }
   }

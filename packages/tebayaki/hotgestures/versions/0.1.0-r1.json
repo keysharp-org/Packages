@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "hotgestures",
-  "owner": "tebayaki",
+  "name": "HotGestures",
+  "owner": "Tebayaki",
   "version": "0.1.0",
   "revision": 1,
   "published": "2023-09-29T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "b9fccc7a01722102e6c97e7caaed3e0df44108b6a378ac0078e36de79dd771c5",
+      "sha256": "be0d0763c299487a925e85d3627a296f9c9b185e549a86c004c3d8f36aec6947",
       "size": 7209,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/tebayaki/hotgestures/0.1.0-r1/hotgestures-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Tebayaki/HotGestures/0.1.0-r1/HotGestures-0.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "inbuf",
-  "owner": "skan",
+  "name": "InBuf",
+  "owner": "SKAN",
   "version": "0.4.0",
   "revision": 1,
   "published": "2024-11-01T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "97f739a2aa718d33378f0538a88bc03d2ffa4fa65796bbda6708de98ee259f86",
-      "size": 3141,
+      "sha256": "a62626860400cff920bc0864c346ad5b8f40452316879cf0a4bbe26878399d29",
+      "size": 3139,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/inbuf/0.4.0-r1/inbuf-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/SKAN/InBuf/0.4.0-r1/InBuf-0.4.0-r1-any.kspkg"
       ]
     }
   }

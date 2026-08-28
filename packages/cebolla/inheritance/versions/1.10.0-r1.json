@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "inheritance",
-  "owner": "cebolla",
+  "name": "Inheritance",
+  "owner": "Cebolla",
   "version": "1.10.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "eb18dc02174f29609aa6d7f0ff6055d40cba4dc4838ce54144bec4c6808b0c66",
-      "size": 29584,
+      "sha256": "fbbc42e77aa7c4a8e4d8fe17c2fedfa3b17969d5d31a743ce4f3a93a27a94437",
+      "size": 29586,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/inheritance/1.10.0-r1/inheritance-1.10.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Cebolla/Inheritance/1.10.0-r1/Inheritance-1.10.0-r1-any.kspkg"
       ]
     }
   }

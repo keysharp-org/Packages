@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "javascriptstrings",
-  "owner": "groggyotter",
+  "name": "JavaScriptStrings",
+  "owner": "GroggyOtter",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-04-21T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "a61b666b4eb5f973183b5646f08c42894d4661155874862498a16e0e5bb0bd1a",
-      "size": 1779,
+      "sha256": "33686ecf2d5161b937136fc4e528ba1c5adffbfec257d9c909123f78789208b8",
+      "size": 1790,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/groggyotter/javascriptstrings/0.1.0-r1/javascriptstrings-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/GroggyOtter/JavaScriptStrings/0.1.0-r1/JavaScriptStrings-0.1.0-r1-any.kspkg"
       ]
     }
   }

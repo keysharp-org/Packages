@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "cgdip",
+  "name": "CGdip",
   "owner": "thqby",
   "displayName": "CGdip",
   "description": "Gdip implemented as a class instead of seperate functions",

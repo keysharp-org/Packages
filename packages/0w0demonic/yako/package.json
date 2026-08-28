@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "yako",
-  "owner": "0w0demonic",
+  "name": "Yako",
+  "owner": "0w0Demonic",
   "displayName": "Yako",
   "description": "Overwrite window procedures of external applications via DLL injection.",
   "license": "MIT",

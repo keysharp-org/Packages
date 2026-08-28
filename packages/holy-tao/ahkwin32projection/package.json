@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "ahkwin32projection",
+  "name": "AhkWin32Projection",
   "owner": "holy-tao",
   "displayName": "AhkWin32Projection",
   "description": "Win32 API bindings for 64-bit AutoHotkey V2",

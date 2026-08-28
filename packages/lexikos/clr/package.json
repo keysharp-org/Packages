@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "clr",
+  "name": "CLR",
   "owner": "lexikos",
   "displayName": "CLR",
   "description": "Load the Common Language Runtime into the script's process, load .NET assemblies, instantiate objects and call instance methods or properties, compile C# or VB code on the fly or to file",

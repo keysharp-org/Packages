@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "dnsquery",
-  "owner": "jnizm",
+  "name": "DNSQuery",
+  "owner": "jNizM",
   "displayName": "DNSQuery",
   "description": "Retrieves the Resource Record (RR) depends on DNS Record Type",
   "license": "MIT",

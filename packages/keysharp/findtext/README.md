@@ -4,7 +4,7 @@ Finds text or images on screen by pattern matching, and captures patterns intera
 GUI. This is a cross-platform Keysharp port of FeiYue's `FindText.ahk` v10.2.
 
 ```ahk
-#Include <KPM/keysharp/findtext>
+#Include <KPM/Keysharp/FindText>
 
 if (ok := FindText(&x, &y, 0, 0, A_ScreenWidth, A_ScreenHeight, 0, 0, text))
     Click(x, y)

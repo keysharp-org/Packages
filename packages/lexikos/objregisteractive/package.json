@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "objregisteractive",
+  "name": "ObjRegisterActive",
   "owner": "lexikos",
   "displayName": "ObjRegisterActive",
   "description": "Registers an object as the active object for a given class ID.",

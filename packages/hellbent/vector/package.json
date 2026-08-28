@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "vector",
-  "owner": "hellbent",
+  "name": "Vector",
+  "owner": "Hellbent",
   "displayName": "Vector",
   "description": "Vector math class",
   "license": "NOASSERTION",

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "cgdip",
+  "name": "CGdip",
   "owner": "thqby",
   "version": "0.2.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "184d1bef1ddfa5a29eb96970fd13847e9f8c1e074a6703f891301a26351fc36d",
-      "size": 11760,
+      "sha256": "b9b7a77fb7c5d4c10399d9bd896210dd975c5abc3428cd73655cc0c01433201f",
+      "size": 11758,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/cgdip/0.2.0-r1/cgdip-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/CGdip/0.2.0-r1/CGdip-0.2.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "findtext",
+  "name": "FindText",
   "owner": "feiyue",
   "version": "0.4.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "10392304ac6188213a85f553eeda4f61055bf2ebf63de12585e8846e4e125e2e",
-      "size": 40581,
+      "sha256": "aabf3b0393e770b5ba0aaa7b039a8ca7275ffb98dcfbe19255dcb37245360a87",
+      "size": 40580,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/feiyue/findtext/0.4.0-r1/findtext-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/feiyue/FindText/0.4.0-r1/FindText-0.4.0-r1-any.kspkg"
       ]
     }
   }

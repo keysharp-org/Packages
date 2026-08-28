@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "stdouttovar",
+  "name": "StdoutToVar",
   "owner": "cyruz",
   "displayName": "StdoutToVar",
   "description": "Runs a command line program and returns its output",

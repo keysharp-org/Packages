@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "everyhangul",
-  "owner": "devpnal",
+  "name": "EveryHangul",
+  "owner": "devPnal",
   "version": "2.2.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "3f557d2cbf8c6167c200136ea220c495ac8504d83efa1c7758c32feff5e6b97a",
+      "sha256": "7b6b7291c944b9743815826c97c2bbe20ab6844b38a08b84bab1cd76ce69310f",
       "size": 8046,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/devpnal/everyhangul/2.2.0-r1/everyhangul-2.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/devPnal/EveryHangul/2.2.0-r1/EveryHangul-2.2.0-r1-any.kspkg"
       ]
     }
   }

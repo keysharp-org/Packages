@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "stdlib",
-  "owner": "monoeven",
+  "owner": "MonoEven",
   "version": "0.1.0",
   "revision": 1,
   "published": "2026-07-03T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "507afb6bd166f83bba490ab1a735ae73ac74df0d4e15637f1ef168ffbbdb5b0c",
-      "size": 563056,
+      "sha256": "f15c296f920e2bc9d867859f6e600d47974ee7159d8faa025e1360c74a3a1f9f",
+      "size": 563059,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/monoeven/stdlib/0.1.0-r1/stdlib-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/MonoEven/stdlib/0.1.0-r1/stdlib-0.1.0-r1-any.kspkg"
       ]
     }
   }

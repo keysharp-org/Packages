@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "everyhangul",
-  "owner": "devpnal",
+  "name": "EveryHangul",
+  "owner": "devPnal",
   "displayName": "EveryHangul",
   "description": "Library for processing the Korean alphabet, \"Hangul\".",
   "license": "MIT",

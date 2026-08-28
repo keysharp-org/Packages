@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "yaml",
+  "name": "YAML",
   "owner": "thqby",
   "version": "0.4.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "de3662ad99bdb4dbd69550aa5a45ab65972da139e84c63240b3fd62b4fa697d0",
-      "size": 7810,
+      "sha256": "b785c239fc9fb182cabba35bd85ef2b87140b5903e73c35e3510d881395f64e1",
+      "size": 7808,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/yaml/0.4.0-r1/yaml-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/YAML/0.4.0-r1/YAML-0.4.0-r1-any.kspkg"
       ]
     }
   }

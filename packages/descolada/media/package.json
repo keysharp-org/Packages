@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "media",
-  "owner": "descolada",
+  "name": "Media",
+  "owner": "Descolada",
   "displayName": "Media",
   "description": "Implements UWP Media Control, allowing access and control of the playing media (but not any media, only UWP ones that are notified by a tray tip with the play-pause buttons and playing song title)",
   "license": "MIT",

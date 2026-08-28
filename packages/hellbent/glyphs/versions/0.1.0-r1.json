@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "glyphs",
-  "owner": "hellbent",
+  "name": "Glyphs",
+  "owner": "Hellbent",
   "version": "0.1.0",
   "revision": 1,
   "published": "2025-07-02T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "b53fe2d43eb706fd0820d148ad03c2d264968a3c1ebbd2cb048335dbc4ab4fb2",
-      "size": 7540,
+      "sha256": "dabf723404e42803a40b3802a0891512bf86468c85faf2c4cfecf1ea74fcbf2f",
+      "size": 7539,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/hellbent/glyphs/0.1.0-r1/glyphs-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Hellbent/Glyphs/0.1.0-r1/Glyphs-0.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "json",
+  "name": "JSON",
   "owner": "thqby",
   "version": "0.6.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "6653cf40529f6f564a8f983086ea7083452785c955e67204b1bab5f9be2c2dc1",
-      "size": 3071,
+      "sha256": "b7322124b03e4590b043f2469124cd0ce28681a43ad2c6fa5d48798bba842c97",
+      "size": 3069,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/json/0.6.0-r1/json-0.6.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/JSON/0.6.0-r1/JSON-0.6.0-r1-any.kspkg"
       ]
     }
   }

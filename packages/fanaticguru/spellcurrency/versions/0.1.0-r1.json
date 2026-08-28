@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "spellcurrency",
-  "owner": "fanaticguru",
+  "name": "SpellCurrency",
+  "owner": "FanaticGuru",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "736dcff234a262edb8426a58fb23bf5797bc3f7c24d052f8c3a3628b1869312a",
-      "size": 1759,
+      "sha256": "bda58e9dc94f5b9fb0da7359687c9696d3aef0528b6410e808bb54df4e989fb6",
+      "size": 1756,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/fanaticguru/spellcurrency/0.1.0-r1/spellcurrency-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/FanaticGuru/SpellCurrency/0.1.0-r1/SpellCurrency-0.1.0-r1-any.kspkg"
       ]
     }
   }

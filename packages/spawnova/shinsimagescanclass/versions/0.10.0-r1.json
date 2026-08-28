@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "shinsimagescanclass",
-  "owner": "spawnova",
+  "name": "ShinsImageScanClass",
+  "owner": "Spawnova",
   "version": "0.10.0",
   "revision": 1,
   "published": "2024-09-03T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "f48d266721d9ef4e0bf109d995361c00149a7ce9ad0196b01f40096de3ffa281",
-      "size": 37609,
+      "sha256": "5c235dbdd16f43e1bfa7e63a433f1995b3b2f826ab06585fe94575df20d987e6",
+      "size": 37604,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/spawnova/shinsimagescanclass/0.10.0-r1/shinsimagescanclass-0.10.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Spawnova/ShinsImageScanClass/0.10.0-r1/ShinsImageScanClass-0.10.0-r1-any.kspkg"
       ]
     }
   }

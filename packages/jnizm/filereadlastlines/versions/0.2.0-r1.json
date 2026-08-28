@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "filereadlastlines",
-  "owner": "jnizm",
+  "name": "FileReadLastLines",
+  "owner": "jNizM",
   "version": "0.2.0",
   "revision": 1,
   "published": "2021-10-13T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "4c9904790650b6c60754504eb866ccafaed957685cc8ffe93d3b02f5e9a8737d",
-      "size": 861,
+      "sha256": "5b3fc4326067ebcda5d4079757093336d728353729bfb1b5276bd4c7d43764fe",
+      "size": 854,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/filereadlastlines/0.2.0-r1/filereadlastlines-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/FileReadLastLines/0.2.0-r1/FileReadLastLines-0.2.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "sqlite",
-  "owner": "raptorx",
+  "name": "SQLite",
+  "owner": "RaptorX",
   "version": "0.4.3",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "4358d87bfb87c693a63788b2e4c3cb2681b7dbab2984c926160ae29525ec8e91",
+      "sha256": "e48b02068ae36dce0c39ebe778070e6fa836ed1bb4c8d97aff36f32d65b2821b",
       "size": 3915,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/raptorx/sqlite/0.4.3-r1/sqlite-0.4.3-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/RaptorX/SQLite/0.4.3-r1/SQLite-0.4.3-r1-any.kspkg"
       ]
     }
   }

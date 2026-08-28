@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "name": "findtext",
-  "owner": "keysharp",
+  "name": "FindText",
+  "owner": "Keysharp",
   "version": "0.1.0",
   "revision": 1,
-  "published": "2026-08-28T12:44:07+00:00",
+  "published": "2026-08-28T15:19:15+00:00",
   "entry": "src/FindText.ks",
   "engines": {
     "keysharp": ">=0.0.0.17"
@@ -20,7 +20,7 @@
   "source": {
     "kind": "ports",
     "repository": "keysharp-org/Packages",
-    "path": "packages/keysharp/findtext",
+    "path": "packages/Keysharp/FindText",
     "upstream": {
       "kind": "forum",
       "path": "FindText.ahk v10.2",
@@ -29,10 +29,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "e2db6a4087f3d044cb6b4375f7262778a5d16171bbbc7f1609550b39be1ca679",
-      "size": 41996,
+      "sha256": "16ff6fbcda7e260f7d1008251255956373f8204faced1f98d4b02f44e365b5cd",
+      "size": 41991,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/keysharp/findtext/0.1.0-r1/findtext-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Keysharp/FindText/0.1.0-r1/FindText-0.1.0-r1-any.kspkg"
       ]
     }
   }

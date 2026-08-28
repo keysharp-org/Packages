@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "stdlib",
-  "owner": "monoeven",
+  "owner": "MonoEven",
   "displayName": "stdlib",
   "description": "Python-inspired standard library",
   "license": "NOASSERTION",

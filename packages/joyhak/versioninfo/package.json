@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "versioninfo",
-  "owner": "joyhak",
+  "name": "VersionInfo",
+  "owner": "JoyHak",
   "displayName": "VersionInfo",
   "description": "Set VersionInfo (metadata) for any executable",
   "license": "MIT",

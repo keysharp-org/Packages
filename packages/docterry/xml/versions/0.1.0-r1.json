@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "xml",
+  "name": "XML",
   "owner": "docterry",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "5b5683c10b31fc79c32862023b714e11fd2a6b2a350d849a1acb905353cb6d3a",
+      "sha256": "bed8cf7b38c7c645c60e96d2d6a65f8a8eea0d15d390b2081d150e374e72ca90",
       "size": 2629,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/docterry/xml/0.1.0-r1/xml-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/docterry/XML/0.1.0-r1/XML-0.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "graphemesplit",
+  "name": "GraphemeSplit",
   "owner": "ntepa",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "519d8e71bb4d169d8bd1620741b6dbc67c2314b0439f73bb1b8b734c79b85f5d",
-      "size": 15959,
+      "sha256": "77ffaff90fc6b5c4b1a69c349977f667bdf61342c68af64ea49f3474ccea31cf",
+      "size": 15958,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/ntepa/graphemesplit/0.1.0-r1/graphemesplit-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/ntepa/GraphemeSplit/0.1.0-r1/GraphemeSplit-0.1.0-r1-any.kspkg"
       ]
     }
   }

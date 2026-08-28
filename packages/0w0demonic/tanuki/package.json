@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "tanuki",
-  "owner": "0w0demonic",
+  "name": "Tanuki",
+  "owner": "0w0Demonic",
   "displayName": "Tanuki",
   "description": "Win32-powered GUI library that directly extends the built-in Gui type and its controls.",
   "license": "MIT",

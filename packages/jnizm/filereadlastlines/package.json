@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "filereadlastlines",
-  "owner": "jnizm",
+  "name": "FileReadLastLines",
+  "owner": "jNizM",
   "displayName": "FileReadLastLines",
   "description": "Read last x lines of a text file",
   "license": "MIT",

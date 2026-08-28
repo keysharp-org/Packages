@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "chrome",
+  "name": "Chrome",
   "owner": "thqby",
   "version": "0.2.0",
   "revision": 1,
@@ -14,7 +14,7 @@
   ],
   "capabilities": [],
   "dependencies": {
-    "thqby/websocket": "*"
+    "thqby/WebSocket": "*"
   },
   "source": {
     "kind": "git",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "1a53718ddc6ab868db296455988f150a553252537ddd4253dcc45b48a2c421d1",
-      "size": 3998,
+      "sha256": "4dbd553a32919d722dfd00982205746ec1c637e341f6e6a2b12f651b3b9eac9e",
+      "size": 4000,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/chrome/0.2.0-r1/chrome-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/Chrome/0.2.0-r1/Chrome-0.2.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "midi",
+  "name": "MIDI",
   "owner": "emliberace",
   "version": "1.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "e43556299d23c13d77f039c9d2ccf581506e5d668742c6d7848a440b4ca1ba1b",
-      "size": 6272,
+      "sha256": "b15ed54074fae6b77b114df75b417c65faaf82f25f876d67a5bf9f6ce88a93a0",
+      "size": 6271,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/emliberace/midi/1.1.0-r1/midi-1.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/emliberace/MIDI/1.1.0-r1/MIDI-1.1.0-r1-any.kspkg"
       ]
     }
   }

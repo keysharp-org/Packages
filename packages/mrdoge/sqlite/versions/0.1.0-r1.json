@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "sqlite",
-  "owner": "mrdoge",
+  "owner": "MrDoge",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-10-25T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "b6c08c1e52dde4fd98f56157d0aa351abaa572f5e5dee64c6172061386f7405f",
-      "size": 3691,
+      "sha256": "72b559145a562ba1e5b877f7ec12568ae6d878f874b8c55f70af4e698401fc4a",
+      "size": 3689,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/mrdoge/sqlite/0.1.0-r1/sqlite-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/MrDoge/sqlite/0.1.0-r1/sqlite-0.1.0-r1-any.kspkg"
       ]
     }
   }

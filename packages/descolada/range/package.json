@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "range",
-  "owner": "descolada",
+  "name": "Range",
+  "owner": "Descolada",
   "displayName": "Range",
   "description": "Iterate in range [min, max]. Loops backwards or generates sequence of numbers",
   "license": "MIT",

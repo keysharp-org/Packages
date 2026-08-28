@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "popupwindow",
-  "owner": "hellbent",
+  "name": "PopupWindow",
+  "owner": "Hellbent",
   "displayName": "PopupWindow",
   "description": "Simplifies the process of working with layered windows",
   "license": "NOASSERTION",

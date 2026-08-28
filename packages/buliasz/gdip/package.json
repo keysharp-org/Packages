@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "gdip",
+  "name": "Gdip",
   "owner": "buliasz",
   "displayName": "Gdip",
   "description": "GDI+ library (Gdip_All.ahk) for graphics manipulation",

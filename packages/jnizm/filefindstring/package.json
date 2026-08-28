@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "filefindstring",
-  "owner": "jnizm",
+  "name": "FileFindString",
+  "owner": "jNizM",
   "displayName": "FileFindString",
   "description": "Finds a specific word / string in a text file",
   "license": "MIT",

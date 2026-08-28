@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "clisak",
-  "owner": "thearkive",
+  "name": "CliSAK",
+  "owner": "TheArkive",
   "version": "0.17.0",
   "revision": 1,
   "published": "2021-06-21T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "47999e6bb282e9736affa8e10785cbc5633b130048df048cddbe8834d5c9e5f2",
-      "size": 16488,
+      "sha256": "05e379da7731f23fc36479664796bc9e0903703c19eeee7d1f0cbfda6bb2ac59",
+      "size": 16484,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thearkive/clisak/0.17.0-r1/clisak-0.17.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/TheArkive/CliSAK/0.17.0-r1/CliSAK-0.17.0-r1-any.kspkg"
       ]
     }
   }

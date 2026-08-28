@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "guictrltips",
+  "name": "GuiCtrlTips",
   "owner": "just-me",
   "version": "0.2.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "d11df76e1beabcc0ac155521ea37b7c4c19c651fedd11a0564fa8708db0a1a1b",
-      "size": 2998,
+      "sha256": "39da4f95c5c5bfb20be1370ec0c2474fae4ad159792ef005b54ef0eac9789d1a",
+      "size": 2995,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/guictrltips/0.2.0-r1/guictrltips-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/GuiCtrlTips/0.2.0-r1/GuiCtrlTips-0.2.0-r1-any.kspkg"
       ]
     }
   }

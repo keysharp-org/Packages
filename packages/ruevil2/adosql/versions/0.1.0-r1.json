@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "adosql",
-  "owner": "ruevil2",
+  "name": "ADOSQL",
+  "owner": "Ruevil2",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-10-01T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "d0bfd27d84b216791fd275d9890d55ff6ac544af60162ceb0dc9341d1a501da1",
-      "size": 2856,
+      "sha256": "ef349da87713cfc6b5e76006222c8f95faf23082910f8c96e6acc7c44f7b3f5d",
+      "size": 2853,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/ruevil2/adosql/0.1.0-r1/adosql-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Ruevil2/ADOSQL/0.1.0-r1/ADOSQL-0.1.0-r1-any.kspkg"
       ]
     }
   }

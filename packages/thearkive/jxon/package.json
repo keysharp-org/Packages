@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "jxon",
-  "owner": "thearkive",
+  "name": "JXON",
+  "owner": "TheArkive",
   "displayName": "JXON",
   "description": "JSON serializer for AHK v2",
   "license": "MIT",

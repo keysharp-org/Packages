@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "ahkwin32projection",
+  "name": "AhkWin32Projection",
   "owner": "holy-tao",
   "version": "8.0.0-alpha",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "46ad83bfb519615a7bbec29e3488a50aaeb35ae74842bf9f7a1c7270458db85e",
+      "sha256": "97223fa6aee7168cc267d347d11c4016e2d38b3b6c650e7270e6324443dd62a5",
       "size": 17090,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/holy-tao/ahkwin32projection/8.0.0-alpha-r1/ahkwin32projection-8.0.0-alpha-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/holy-tao/AhkWin32Projection/8.0.0-alpha-r1/AhkWin32Projection-8.0.0-alpha-r1-any.kspkg"
       ]
     }
   }

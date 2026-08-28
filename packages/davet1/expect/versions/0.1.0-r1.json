@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "expect",
-  "owner": "davet1",
+  "name": "Expect",
+  "owner": "DaveT1",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-10-01T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "8866388a6ba16a085dc8f51ff4b9abaae409804618f4f1d4c864fbf3e7f5b724",
-      "size": 6407,
+      "sha256": "e4de0fefc9db59872fe3b465e58b0e9ecd595ff9e6b7fed87cffedc0a576e93c",
+      "size": 6404,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/davet1/expect/0.1.0-r1/expect-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/DaveT1/Expect/0.1.0-r1/Expect-0.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "qmk",
+  "name": "QMK",
   "owner": "thehafenator",
   "displayName": "QMK",
   "description": "Brings QMK-like functionality to any keyboard on Windows.",

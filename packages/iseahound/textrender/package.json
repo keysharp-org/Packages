@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "textrender",
+  "name": "TextRender",
   "owner": "iseahound",
   "displayName": "TextRender",
   "description": "Draw images and text on the screen, configure its background color, text outline, and drop shadow, make the text clickable and more",

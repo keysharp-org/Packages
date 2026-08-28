@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "sqlitedb",
+  "name": "SQLiteDB",
   "owner": "just-me",
   "version": "0.3.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "78a40cc9afbde9177d6582c46ba04c78db4d0d4fa8070e302dd99da331ee2cb5",
-      "size": 9848,
+      "sha256": "87cb1e64f61ec4cf95e169ecc980e621a7041718a19b71dc51253808266afe08",
+      "size": 9846,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/sqlitedb/0.3.0-r1/sqlitedb-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/SQLiteDB/0.3.0-r1/SQLiteDB-0.3.0-r1-any.kspkg"
       ]
     }
   }

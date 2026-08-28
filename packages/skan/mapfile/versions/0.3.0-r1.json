@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "mapfile",
-  "owner": "skan",
+  "name": "MapFile",
+  "owner": "SKAN",
   "version": "0.3.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "30a949b4816c01be4a490686bc369d2ea0f38e65461d8f1a48a23e93cac7ab4e",
-      "size": 1320,
+      "sha256": "5c69b8f232a81531bf2e887f7a6faec9c755d87b48031805f41739fca8c182cd",
+      "size": 1317,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/mapfile/0.3.0-r1/mapfile-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/SKAN/MapFile/0.3.0-r1/MapFile-0.3.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "dunit",
-  "owner": "descolada",
+  "name": "DUnit",
+  "owner": "Descolada",
   "displayName": "DUnit",
   "description": "Alternative unit testing framework to YUnit",
   "license": "MIT",

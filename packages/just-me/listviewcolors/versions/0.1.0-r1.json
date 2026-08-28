@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "listviewcolors",
+  "name": "ListViewColors",
   "owner": "just-me",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "0322b246ae26fd2840661522f8d49c126f6ab794f6a90e920690008629390a74",
+      "sha256": "55a8ffef751436300e0985c3cfd3d4ca5d0776a5c5dcda9eb8f3284a4ab810a7",
       "size": 4021,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/listviewcolors/0.1.0-r1/listviewcolors-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/ListViewColors/0.1.0-r1/ListViewColors-0.1.0-r1-any.kspkg"
       ]
     }
   }

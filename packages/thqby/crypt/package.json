@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "crypt",
+  "name": "Crypt",
   "owner": "thqby",
   "displayName": "Crypt",
   "description": "Cryptograhic functions for MD5, SHA, and AES hashes",

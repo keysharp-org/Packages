@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "directorywatcher",
+  "name": "DirectoryWatcher",
   "owner": "thqby",
   "version": "0.4.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "807dcc9a8a71f03c4dabd0b279ac9fec3fe215e0dbc958517898683ab8f2a468",
-      "size": 1863,
+      "sha256": "8f961cff9e5b4ad8efac70cb337405e7d7d2f8f0eb195e24ccd54362f9a9e0fe",
+      "size": 1861,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/directorywatcher/0.4.0-r1/directorywatcher-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/DirectoryWatcher/0.4.0-r1/DirectoryWatcher-0.4.0-r1-any.kspkg"
       ]
     }
   }

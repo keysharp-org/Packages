@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "Notify",
+  "owner": "XMCQCX",
+  "version": "0.11.0",
+  "revision": 1,
+  "published": "2025-01-02T00:00:00+00:00",
+  "entry": "src/Notify.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "XMCQCX/Notify_Class",
+    "commit": "9f72bc9190f29b3132a27c8d58a5d46a61892c10",
+    "url": "https://github.com/XMCQCX/Notify_Class"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "c825b535cb70bcaf428a2b9d38f3bfe4ba02201ab5c1339fe31a16bcfacc343c",
+      "size": 17440,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/XMCQCX/Notify/0.11.0-r1/Notify-0.11.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

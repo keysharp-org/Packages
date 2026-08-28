@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "Notify",
+  "owner": "XMCQCX",
+  "displayName": "Notify",
+  "description": "Create and display notification GUIs",
+  "license": "MIT",
+  "homepage": "https://github.com/XMCQCX/Notify_Class",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

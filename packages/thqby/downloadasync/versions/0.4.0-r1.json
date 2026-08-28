@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "downloadasync",
+  "name": "DownloadAsync",
   "owner": "thqby",
   "version": "0.4.0",
   "revision": 1,
@@ -14,7 +14,7 @@
   ],
   "capabilities": [],
   "dependencies": {
-    "thqby/winhttprequest": "*"
+    "thqby/WinHttpRequest": "*"
   },
   "source": {
     "kind": "git",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "4001f373c2a4685a810d7e9e7ebaa831cc9c7ec2256206c695402e1f1104b4da",
-      "size": 1340,
+      "sha256": "793b0dffba3a5225c95ff0389e5d30295a21a3f37d016824e7ad4f663eab33f3",
+      "size": 1342,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/downloadasync/0.4.0-r1/downloadasync-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/DownloadAsync/0.4.0-r1/DownloadAsync-0.4.0-r1-any.kspkg"
       ]
     }
   }

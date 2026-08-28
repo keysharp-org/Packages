@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "getinterpreter",
-  "owner": "joyhak",
+  "name": "GetInterpreter",
+  "owner": "JoyHak",
   "displayName": "GetInterpreter",
   "description": "Returns path to the required AutoHotkey interpreter (with version) for specific script",
   "license": "MIT",

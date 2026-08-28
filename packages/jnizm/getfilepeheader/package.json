@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "getfilepeheader",
-  "owner": "jnizm",
+  "name": "GetFilePEHeader",
+  "owner": "jNizM",
   "displayName": "GetFilePEHeader",
   "description": "Get the PE File Header information (Machine Type)",
   "license": "MIT",

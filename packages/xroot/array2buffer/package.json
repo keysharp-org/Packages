@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "array2buffer",
+  "name": "Array2Buffer",
   "owner": "xroot",
   "displayName": "Array2Buffer",
   "description": "A simple way to create a buffer (eg Win32 data structure) from a 2D-array containing the data and type.",

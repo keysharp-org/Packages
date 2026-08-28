@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "markdowntobbcode",
-  "owner": "joyhak",
+  "name": "MarkdownToBBCode",
+  "owner": "JoyHak",
   "version": "2.0.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "f0aff119ceaa0c47355c2b345b94eac60b4e2a07ebc8615798111f1f6bd4763e",
-      "size": 4442,
+      "sha256": "ed13c7996f5429b085208801247d3698772abbb4af89ed7237a2f1d4e04bfba0",
+      "size": 4447,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/markdowntobbcode/2.0.0-r1/markdowntobbcode-2.0.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/JoyHak/MarkdownToBBCode/2.0.0-r1/MarkdownToBBCode-2.0.0-r1-any.kspkg"
       ]
     }
   }

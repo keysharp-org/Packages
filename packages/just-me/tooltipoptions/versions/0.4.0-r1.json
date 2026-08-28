@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "tooltipoptions",
+  "name": "ToolTipOptions",
   "owner": "just-me",
   "version": "0.4.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "21fc938cd45f4a9788d6616f78c53d8659facb2be791f22b4095daa31f186b39",
-      "size": 3416,
+      "sha256": "296440b4e3607309e10751c0c897b504d2daf2e5239b95615947147fcdc85c30",
+      "size": 3412,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/tooltipoptions/0.4.0-r1/tooltipoptions-0.4.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/ToolTipOptions/0.4.0-r1/ToolTipOptions-0.4.0-r1-any.kspkg"
       ]
     }
   }

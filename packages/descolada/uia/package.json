@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "uia",
-  "owner": "descolada",
+  "name": "UIA",
+  "owner": "Descolada",
   "displayName": "UIA",
   "description": "An AutoHotkey v2 wrapper for the UIAutomation framework, which can be used to automate windows that normally might be difficult or impossible to automate with AHK",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "acc",
-  "owner": "descolada",
+  "name": "Acc",
+  "owner": "Descolada",
   "version": "0.58.0",
   "revision": 1,
   "published": "2026-01-31T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "6df4b14a20e49f545b3112dec0bdb161dbb090254e5a749c4c7988badc1c0c33",
+      "sha256": "c86bdc814fd69fa30930ec2c6e41885f8d517ad640deb42b4e6d9213c3802daf",
       "size": 24220,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/acc/0.58.0-r1/acc-0.58.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/Acc/0.58.0-r1/Acc-0.58.0-r1-any.kspkg"
       ]
     }
   }

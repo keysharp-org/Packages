@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "name": "ocr",
-  "owner": "keysharp",
+  "name": "OCR",
+  "owner": "Keysharp",
   "version": "0.1.0",
   "revision": 1,
-  "published": "2026-08-28T12:44:07+00:00",
+  "published": "2026-08-28T15:19:15+00:00",
   "entry": "src/OCR.ks",
   "engines": {
     "keysharp": ">=0.0.0.17"
@@ -17,7 +17,7 @@
   "source": {
     "kind": "ports",
     "repository": "keysharp-org/Packages",
-    "path": "packages/keysharp/ocr",
+    "path": "packages/Keysharp/OCR",
     "upstream": {
       "kind": "git",
       "repository": "Descolada/OCR",
@@ -26,10 +26,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "4c786a788a3c0e20b49e78066e5f4105845a6ba3f9b02f22f7657cfc07b2d112",
-      "size": 16957,
+      "sha256": "ebe13a8b4dc256e38a372491977c88fd8e3ba9df29d87d32b34780fbd33eec25",
+      "size": 16959,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/keysharp/ocr/0.1.0-r1/ocr-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Keysharp/OCR/0.1.0-r1/OCR-0.1.0-r1-any.kspkg"
       ]
     }
   }

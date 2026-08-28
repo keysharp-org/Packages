@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "pathx",
-  "owner": "skan",
+  "name": "PathX",
+  "owner": "SKAN",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "38e75d3064eaab5fcbc81b43f58f2520be9bde48f76d13f72c530c9f091fd8d5",
-      "size": 1040,
+      "sha256": "85f6707ae3148f690648e7079da9ad99d636b03303f3ea36b493bfeeaba2702f",
+      "size": 1038,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/pathx/0.1.0-r1/pathx-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/SKAN/PathX/0.1.0-r1/PathX-0.1.0-r1-any.kspkg"
       ]
     }
   }

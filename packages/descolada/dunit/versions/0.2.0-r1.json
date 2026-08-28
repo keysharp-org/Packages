@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "dunit",
-  "owner": "descolada",
+  "name": "DUnit",
+  "owner": "Descolada",
   "version": "0.2.0",
   "revision": 1,
   "published": "2024-10-11T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "9b4faf81bdf0d4f058b320598a1ab7b861a47a97c3de26045b325b0800282e74",
-      "size": 6205,
+      "sha256": "9d1624e312a0d8fc6b845fffcdc035bc4f2c813c61e0f4b92445aba10f43db8a",
+      "size": 6203,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/dunit/0.2.0-r1/dunit-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/DUnit/0.2.0-r1/DUnit-0.2.0-r1-any.kspkg"
       ]
     }
   }

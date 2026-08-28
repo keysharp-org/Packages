@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "reverselookup",
-  "owner": "jnizm",
+  "name": "ReverseLookup",
+  "owner": "jNizM",
   "displayName": "ReverseLookup",
   "description": "Gets the Hostname by the IP Address (Reverse Lookup) like nslookup",
   "license": "NOASSERTION",

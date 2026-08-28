@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "settingsmanager",
+  "name": "SettingsManager",
   "owner": "prasad383",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "b65e957c02e7cf8a7383a2fa44e492eb99e86e14c1465cba2c99ec56d8eb772e",
-      "size": 1799,
+      "sha256": "440fb85583d494518421506b165d812f0edac0ac59ec18d46867afb84ec468d1",
+      "size": 1798,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/prasad383/settingsmanager/0.1.0-r1/settingsmanager-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/prasad383/SettingsManager/0.1.0-r1/SettingsManager-0.1.0-r1-any.kspkg"
       ]
     }
   }

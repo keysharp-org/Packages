@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "regexmatchall",
-  "owner": "joyhak",
+  "name": "RegExMatchAll",
+  "owner": "JoyHak",
   "version": "0.1.0",
   "revision": 1,
   "published": "2026-06-24T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "b66a21e972ad1d38bb3f34f4a3fd20ae87d46de2330b96dfb781ac8c98625483",
-      "size": 878,
+      "sha256": "70cd24e9c0229045dd5e7d3a33656f9aad60e14c10f108d8d0b6210a7f7be11b",
+      "size": 875,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/regexmatchall/0.1.0-r1/regexmatchall-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/JoyHak/RegExMatchAll/0.1.0-r1/RegExMatchAll-0.1.0-r1-any.kspkg"
       ]
     }
   }

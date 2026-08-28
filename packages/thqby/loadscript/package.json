@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "loadscript",
+  "name": "LoadScript",
   "owner": "thqby",
   "displayName": "LoadScript",
   "description": "Loads a script file or script code as a subprocess and returns an object that can be used to call functions or get/set global variables.",

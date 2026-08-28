@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "getadaptersinfo",
-  "owner": "jnizm",
+  "name": "GetAdaptersInfo",
+  "owner": "jNizM",
   "displayName": "GetAdaptersInfo",
   "description": "Gets network adapter information for the local computer",
   "license": "MIT",

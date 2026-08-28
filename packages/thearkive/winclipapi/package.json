@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "winclipapi",
-  "owner": "thearkive",
+  "name": "WinClipAPI",
+  "owner": "TheArkive",
   "displayName": "WinClipAPI",
   "description": "Base class for the WinClip library",
   "license": "MIT",

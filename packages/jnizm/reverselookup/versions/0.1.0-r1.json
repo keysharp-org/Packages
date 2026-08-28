@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "reverselookup",
-  "owner": "jnizm",
+  "name": "ReverseLookup",
+  "owner": "jNizM",
   "version": "0.1.0",
   "revision": 1,
   "published": "2021-04-30T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "6c8169ba8f72ae488b7e694f1743c2e4774f2e292c8e0e67de93b8cf36492e99",
-      "size": 989,
+      "sha256": "6ce3dc3898598ba59e540e746e6ce743fbf7a79ccc0d33d03f616fd1aab7db6b",
+      "size": 988,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/reverselookup/0.1.0-r1/reverselookup-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/ReverseLookup/0.1.0-r1/ReverseLookup-0.1.0-r1-any.kspkg"
       ]
     }
   }

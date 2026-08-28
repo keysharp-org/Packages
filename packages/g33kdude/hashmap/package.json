@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "hashmap",
-  "owner": "g33kdude",
+  "name": "HashMap",
+  "owner": "G33kDude",
   "displayName": "HashMap",
   "description": "Provides a hash map based alternative implementation of AutoHotkey's Map class, with the goal of allowing drop-in replacement for situations where the native Map's performance limitations have been reached",
   "license": "MIT",

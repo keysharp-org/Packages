@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "winclip",
-  "owner": "thearkive",
+  "name": "WinClip",
+  "owner": "TheArkive",
   "version": "0.3.0",
   "revision": 1,
   "published": "2023-07-22T00:00:00+00:00",
@@ -14,7 +14,7 @@
   ],
   "capabilities": [],
   "dependencies": {
-    "thearkive/winclipapi": "*"
+    "TheArkive/WinClipAPI": "*"
   },
   "source": {
     "kind": "git",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "756352b8015ddbfc7e666f1bcca26be75cb78397d1bfcbffce4d823010af4ffa",
-      "size": 7822,
+      "sha256": "14e0d987585ab78179a5d6d838da2b7264820cbe298229d1fa07d5e64797e83e",
+      "size": 7824,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thearkive/winclip/0.3.0-r1/winclip-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/TheArkive/WinClip/0.3.0-r1/WinClip-0.3.0-r1-any.kspkg"
       ]
     }
   }

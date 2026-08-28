@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "array",
-  "owner": "cebolla",
+  "name": "Array",
+  "owner": "Cebolla",
   "version": "0.11.0",
   "revision": 1,
   "published": "2025-03-09T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "f010cd24ccbeb588e98d45e8f97e3605765846b0c39f2d42f6dac1dee6f1472c",
-      "size": 6880,
+      "sha256": "a1ac53399d1f399bc9a3a97abe1433ffb14dfab8694dc1f30a49e87ee8915227",
+      "size": 6881,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/array/0.11.0-r1/array-0.11.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Cebolla/Array/0.11.0-r1/Array-0.11.0-r1-any.kspkg"
       ]
     }
   }

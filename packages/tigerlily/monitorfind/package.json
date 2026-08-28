@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "monitorfind",
-  "owner": "tigerlily",
+  "name": "MonitorFind",
+  "owner": "Tigerlily",
   "displayName": "MonitorFind",
   "description": "Wrapper for monitor configuration WinAPI functions, get and set monitor properties (brightness etc)",
   "license": "NOASSERTION",

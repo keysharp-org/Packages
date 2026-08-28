@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "guibuttonicon",
-  "owner": "fanaticguru",
+  "name": "GuiButtonIcon",
+  "owner": "FanaticGuru",
   "version": "0.1.0",
   "revision": 1,
   "published": "2025-02-10T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "1c5ef11240e98dfc0af95e627fd6ab8e87ab6563394838c4f55d17d39da7faab",
-      "size": 1493,
+      "sha256": "1b2b93bc46b955d2e3f8c478feac85dc201df229dcd385c6e1d9633ec8277347",
+      "size": 1487,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/fanaticguru/guibuttonicon/0.1.0-r1/guibuttonicon-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/FanaticGuru/GuiButtonIcon/0.1.0-r1/GuiButtonIcon-0.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "qmk",
+  "name": "QMK",
   "owner": "thehafenator",
   "version": "0.2.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "08be56931ad528a4357de6ac3cf16ffb72436f72e7a556fb95fdc0f9a9583ad6",
+      "sha256": "e170342ecb9ce92a06b1811227c1f755c8114cdc29f6808b06841ff193400739",
       "size": 11204,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thehafenator/qmk/0.2.0-r1/qmk-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thehafenator/QMK/0.2.0-r1/QMK-0.2.0-r1-any.kspkg"
       ]
     }
   }

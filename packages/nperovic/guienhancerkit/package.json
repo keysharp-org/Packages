@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "guienhancerkit",
+  "name": "GuiEnhancerKit",
   "owner": "nperovic",
   "displayName": "GuiEnhancerKit",
   "description": "Provides a set of extended methods and properties to enhance your AutoHotkey Gui development experience",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "yako",
-  "owner": "0w0demonic",
+  "name": "Yako",
+  "owner": "0w0Demonic",
   "version": "1.0.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "79844e1fad3b29e11099ce7939d1aa844d878f3b7561d3e9b3696e729fe67503",
-      "size": 1502,
+      "sha256": "3fb7cc591a4f2a2e0b8514916bb4d479e3e7fb7f4a74c39d5fcce8f13619153f",
+      "size": 1503,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/0w0demonic/yako/1.0.0-r1/yako-1.0.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/0w0Demonic/Yako/1.0.0-r1/Yako-1.0.0-r1-any.kspkg"
       ]
     }
   }

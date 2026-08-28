@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "rapidocr",
+  "name": "RapidOcr",
   "owner": "thqby",
   "displayName": "RapidOcr",
   "description": "A cross platform OCR Library based on PaddleOCR & OnnxRuntime",

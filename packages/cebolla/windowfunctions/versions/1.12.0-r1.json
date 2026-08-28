@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "windowfunctions",
-  "owner": "cebolla",
+  "name": "WindowFunctions",
+  "owner": "Cebolla",
   "version": "1.12.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "5ce929967a8247bb79c8f6ccdaff06a202048084bd81c4949be6621fb2189a7c",
-      "size": 3754,
+      "sha256": "652cb6771122d843f5a7baa383a1cc9dfc5725ea8d2825c77bc03674bb76c5f5",
+      "size": 3753,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/windowfunctions/1.12.0-r1/windowfunctions-1.12.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Cebolla/WindowFunctions/1.12.0-r1/WindowFunctions-1.12.0-r1-any.kspkg"
       ]
     }
   }

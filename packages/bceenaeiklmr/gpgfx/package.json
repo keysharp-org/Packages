@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "gpgfx",
+  "name": "GpGFX",
   "owner": "bceenaeiklmr",
   "displayName": "GpGFX",
   "description": "GpGFX is a graphics library for AutoHotkey v2, providing drawing and rendering capabilities using Gdiplus. It includes classes for creating and manipulating shapes, colors, fonts, layers, and more.",

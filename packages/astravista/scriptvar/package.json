@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "scriptvar",
-  "owner": "astravista",
+  "name": "ScriptVar",
+  "owner": "AstraVista",
   "displayName": "ScriptVar",
   "description": "Deep clone an object, convert a user class object to a string packet, convert a compiled packet back to object",
   "license": "NOASSERTION",

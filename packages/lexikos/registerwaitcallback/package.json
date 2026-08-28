@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "registerwaitcallback",
+  "name": "RegisterWaitCallback",
   "owner": "lexikos",
   "displayName": "RegisterWaitCallback",
   "description": "Monitor for a handle signal event",

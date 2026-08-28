@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "versioninfo",
-  "owner": "joyhak",
+  "name": "VersionInfo",
+  "owner": "JoyHak",
   "version": "0.1.0",
   "revision": 1,
   "published": "2026-06-24T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "1c105a44f1fbbec542b7b2add7b8eede7a77b197bee81e211f2362b868186bf8",
-      "size": 3083,
+      "sha256": "f33f5856e5a70dbccd51424047e03f07a6879f894661aa297afd67a8421e7b29",
+      "size": 3082,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/versioninfo/0.1.0-r1/versioninfo-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/JoyHak/VersionInfo/0.1.0-r1/VersionInfo-0.1.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "misc",
-  "owner": "descolada",
+  "name": "Misc",
+  "owner": "Descolada",
   "displayName": "Misc",
   "description": "Miscallaneous useful functions such as RegExMatchAll, Highlight, WinGetInfo, GetCaretPos, ConvertWinPos, etc.",
   "license": "MIT",

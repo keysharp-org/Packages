@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "confman",
+  "name": "ConfMan",
   "owner": "cyruz",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "065f263d30a7ffa01f1ce6bb443d8d8fd188030c187292f7d2931908d65251f1",
-      "size": 6440,
+      "sha256": "0de0ae2aa60c47652f9d7fe4e666ed723b57637e72c177016c90619331cc90e6",
+      "size": 6438,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/cyruz/confman/0.1.0-r1/confman-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/cyruz/ConfMan/0.1.0-r1/ConfMan-0.1.0-r1-any.kspkg"
       ]
     }
   }

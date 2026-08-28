@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "tooltipex",
+  "name": "ToolTipEx",
   "owner": "nperovic",
   "displayName": "ToolTipEx",
   "description": "Creates a pop-up tooltip that follows the mouse movement, can be switched between dark and light themes, and be clicked and dragged",

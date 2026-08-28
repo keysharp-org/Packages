@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "yaml",
+  "name": "YAML",
   "owner": "thqby",
   "displayName": "YAML",
   "description": "Converts a AutoHotkey Object Notation (YAML/JSON) string into an object.",

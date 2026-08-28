@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "tooltipex",
+  "name": "ToolTipEx",
   "owner": "nperovic",
   "version": "0.5.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "3ad411846032ed34813634f7eb35fb223d856ebf335a506dbc222d7cc4a04878",
-      "size": 2134,
+      "sha256": "bdcfb3f45b6a9c88961707b9090dca1cbb9488121a0533d39da6e0cb097a7eae",
+      "size": 2131,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/nperovic/tooltipex/0.5.0-r1/tooltipex-0.5.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/nperovic/ToolTipEx/0.5.0-r1/ToolTipEx-0.5.0-r1-any.kspkg"
       ]
     }
   }

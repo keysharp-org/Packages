@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "watchfolder",
+  "name": "WatchFolder",
   "owner": "just-me",
   "displayName": "WatchFolder",
   "description": "Notifies about changes within folders, a rewrite of HotKeyIt's WatchDirectory()",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "wincloseex",
-  "owner": "flipeador",
+  "name": "WinCloseEx",
+  "owner": "Flipeador",
   "displayName": "WinCloseEx",
   "description": "Close a window with different methods",
   "license": "NOASSERTION",

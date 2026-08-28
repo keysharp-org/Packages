@@ -4,7 +4,7 @@ Recognizes text in an image and returns a structured result — lines and words,
 and bounding box — plus helpers for highlighting, clicking, searching and sorting results.
 
 ```ahk
-#Include <KPM/keysharp/ocr>
+#Include <KPM/Keysharp/OCR>
 
 result := OCR(image)
 for line in result.Lines

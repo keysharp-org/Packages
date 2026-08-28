@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "ocr",
-  "owner": "descolada",
+  "name": "OCR",
+  "owner": "Descolada",
   "displayName": "OCR",
   "description": "OCR library using Windows' built-in UWP OCR capabilities",
   "license": "MIT",

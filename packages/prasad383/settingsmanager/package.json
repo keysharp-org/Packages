@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "settingsmanager",
+  "name": "SettingsManager",
   "owner": "prasad383",
   "displayName": "SettingsManager",
   "description": "A simple class to manage settings for any script using ini files.",

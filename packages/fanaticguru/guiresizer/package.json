@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "guiresizer",
-  "owner": "fanaticguru",
+  "name": "GuiResizer",
+  "owner": "FanaticGuru",
   "displayName": "GuiResizer",
   "description": "A class to simplify adjusting GUI controls to GUI resizing",
   "license": "NOASSERTION",

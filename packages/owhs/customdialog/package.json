@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "customdialog",
+  "name": "CustomDialog",
   "owner": "owhs",
   "displayName": "CustomDialog",
   "description": "Create a highly customizable dialog box",

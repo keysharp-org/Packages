@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "base64",
+  "name": "Base64",
   "owner": "thqby",
   "version": "0.1.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "2e3a418e5630dbad6aaaa2053a9b969c76a9ae42b36aa97d1f4a0b93e92cc162",
-      "size": 998,
+      "sha256": "896cea303096d8cf84b24dc0175deed640c8d425ed28477495b4f4bd35141522",
+      "size": 997,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/base64/0.1.0-r1/base64-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/Base64/0.1.0-r1/Base64-0.1.0-r1-any.kspkg"
       ]
     }
   }

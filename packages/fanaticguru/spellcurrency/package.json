@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "spellcurrency",
-  "owner": "fanaticguru",
+  "name": "SpellCurrency",
+  "owner": "FanaticGuru",
   "displayName": "SpellCurrency",
   "description": "A function to convert a number to currency words",
   "license": "NOASSERTION",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "yunit",
-  "owner": "uberi",
+  "name": "Yunit",
+  "owner": "Uberi",
   "displayName": "Yunit",
   "description": "Super simple unit testing framework",
   "license": "AGPL-3.0",

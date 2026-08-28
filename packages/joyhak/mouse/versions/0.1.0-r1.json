@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "mouse",
-  "owner": "joyhak",
+  "name": "Mouse",
+  "owner": "JoyHak",
   "version": "0.1.0",
   "revision": 1,
   "published": "2026-06-24T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "e0362a35df9bb611f7b1aa0ea39a15b9e07c37f65cfa13d795dfd3d9295d1aa2",
+      "sha256": "2286aadb878836134dd72fdef50315b7c668f51c9d762cb6d34aa5f2d77e2d31",
       "size": 1381,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/mouse/0.1.0-r1/mouse-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/JoyHak/Mouse/0.1.0-r1/Mouse-0.1.0-r1-any.kspkg"
       ]
     }
   }

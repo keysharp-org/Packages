@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "map",
-  "owner": "descolada",
+  "name": "Map",
+  "owner": "Descolada",
   "displayName": "Map",
   "description": "Adds useful methods to maps",
   "license": "MIT",

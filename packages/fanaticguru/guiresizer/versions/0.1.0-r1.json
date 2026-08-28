@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "guiresizer",
-  "owner": "fanaticguru",
+  "name": "GuiResizer",
+  "owner": "FanaticGuru",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-10-01T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "434e7fa1155e0bf96ee05a0332748dc0fe9bcfb8c865585a3d808ff2fe466505",
-      "size": 3814,
+      "sha256": "0db993b5c7c4e148d66d7c9b61cd573f05ade4c23799c577fc1aad1238c2268c",
+      "size": 3809,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/fanaticguru/guiresizer/0.1.0-r1/guiresizer-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/FanaticGuru/GuiResizer/0.1.0-r1/GuiResizer-0.1.0-r1-any.kspkg"
       ]
     }
   }

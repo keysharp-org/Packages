@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "hotkeychain",
+  "name": "HotKeyChain",
   "owner": "prasad383",
   "displayName": "HotKeyChain",
   "description": "This class creates an interactive hotkey system with a GUI menu, supporting nested hotkeys and customizable appearance",

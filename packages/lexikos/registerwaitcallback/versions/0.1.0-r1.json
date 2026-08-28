@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "registerwaitcallback",
+  "name": "RegisterWaitCallback",
   "owner": "lexikos",
   "version": "0.1.0",
   "revision": 1,
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "96e36b7e4bdb106fd8c401c1c857d9dc409f82f5a3065ab5b25ab90cd20fdda4",
-      "size": 2056,
+      "sha256": "1f9f18c6857ae9b8b424d9650bfefbd540d382a655c4b17593b2c5fcbf293234",
+      "size": 2051,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/registerwaitcallback/0.1.0-r1/registerwaitcallback-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/RegisterWaitCallback/0.1.0-r1/RegisterWaitCallback-0.1.0-r1-any.kspkg"
       ]
     }
   }

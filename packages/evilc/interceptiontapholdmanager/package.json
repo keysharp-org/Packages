@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "interceptiontapholdmanager",
-  "owner": "evilc",
+  "name": "InterceptionTapHoldManager",
+  "owner": "evilC",
   "displayName": "InterceptionTapHoldManager",
   "description": "A patch for TapHoldManager that allows it to be used with the Interception driver. See main description under evilC/TapHoldManager",
   "license": "MIT",

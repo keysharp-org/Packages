@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "colorbutton",
+  "name": "ColorButton",
   "owner": "nperovic",
   "displayName": "ColorButton",
   "description": "An extended method for changing a button's background color",

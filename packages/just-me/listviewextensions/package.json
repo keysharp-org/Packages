@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "listviewextensions",
+  "name": "ListViewExtensions",
   "owner": "just-me",
   "displayName": "ListViewExtensions",
   "description": "Additional functions for GUI ListView controls",

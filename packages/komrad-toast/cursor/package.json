@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "cursor",
-  "owner": "komrad-toast",
+  "name": "Cursor",
+  "owner": "Komrad-Toast",
   "displayName": "Cursor",
   "description": "Setting cursors, loading cursors from file (.bmp / .ico / .cur / .ani), programmatically creating custom cursors, turning on trails and shadows, setting the cursor bounding rectangle, and more can be accomplished with this class",
   "license": "MIT",

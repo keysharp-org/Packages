@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "misc",
-  "owner": "descolada",
+  "name": "Misc",
+  "owner": "Descolada",
   "version": "0.21.0",
   "revision": 1,
   "published": "2024-11-11T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "9f68bed023dad85737e98854a783274365fa3fed991d60d00a7dd34c88c5487e",
+      "sha256": "8a7c70366c133e731dd2c971bc289a2a1d63655d8cb34395e200ba97c3320e08",
       "size": 10628,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/misc/0.21.0-r1/misc-0.21.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/Misc/0.21.0-r1/Misc-0.21.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "getopenedfiles",
+  "name": "GetOpenedFiles",
   "owner": "neogna2",
   "displayName": "GetOpenedFiles",
   "description": "Gets an array of files currently in use by a process",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "wisegui",
-  "owner": "skan",
+  "name": "WiseGui",
+  "owner": "SKAN",
   "version": "0.3.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "cfa67f8a416d55e9426200a5438f212f8b17f5022b7680214d943cd11567396e",
-      "size": 6621,
+      "sha256": "f57a8f3280705738c00bd88016531a41d6caccf88e1bfc98bee0efb7bae87e34",
+      "size": 6618,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/wisegui/0.3.0-r1/wisegui-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/SKAN/WiseGui/0.3.0-r1/WiseGui-0.3.0-r1-any.kspkg"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "peep",
-  "owner": "groggyotter",
+  "name": "Peep",
+  "owner": "GroggyOtter",
   "version": "0.2.0",
   "revision": 1,
   "published": "2024-03-30T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "b64ddaad17d759ac1329829b5680ad936ada5ab2b2450d1037e0085dbecda34e",
-      "size": 7961,
+      "sha256": "5d265977669173bbefd8634254ad3387db6d97a8f34b26293fd328ef006c6c5b",
+      "size": 7962,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/groggyotter/peep/0.2.0-r1/peep-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/GroggyOtter/Peep/0.2.0-r1/Peep-0.2.0-r1-any.kspkg"
       ]
     }
   }

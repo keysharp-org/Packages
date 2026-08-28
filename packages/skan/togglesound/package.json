@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "togglesound",
-  "owner": "skan",
+  "name": "ToggleSound",
+  "owner": "SKAN",
   "displayName": "ToggleSound",
   "description": "Toggle between audio devices using their names or IDs",
   "license": "NOASSERTION",

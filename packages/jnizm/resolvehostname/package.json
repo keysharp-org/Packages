@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "resolvehostname",
-  "owner": "jnizm",
+  "name": "ResolveHostname",
+  "owner": "jNizM",
   "displayName": "ResolveHostname",
   "description": "Gets the IP Address from a Hostname (Resolve Hostname to IP Address) like nslookup",
   "license": "MIT",

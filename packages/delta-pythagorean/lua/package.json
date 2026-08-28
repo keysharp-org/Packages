@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "lua",
-  "owner": "delta-pythagorean",
+  "name": "Lua",
+  "owner": "Delta-Pythagorean",
   "displayName": "Lua",
   "description": "Extend your AHK script with Lua",
   "license": "NOASSERTION",

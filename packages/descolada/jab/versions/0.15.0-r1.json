@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "jab",
-  "owner": "descolada",
+  "name": "JAB",
+  "owner": "Descolada",
   "version": "0.15.0",
   "revision": 1,
   "published": "2024-10-19T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "8621c7b433cb2544c3d74148318683214058e6926f99cb26c7b01d34ed95cc59",
-      "size": 22558,
+      "sha256": "92e52d1622c9ea39179d110a611da1e8d0085c74026fb5ad7e2704d320c6af4f",
+      "size": 22560,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/jab/0.15.0-r1/jab-0.15.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/JAB/0.15.0-r1/JAB-0.15.0-r1-any.kspkg"
       ]
     }
   }

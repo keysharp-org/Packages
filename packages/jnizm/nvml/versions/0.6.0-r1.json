@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "nvml",
-  "owner": "jnizm",
+  "name": "NVML",
+  "owner": "jNizM",
   "version": "0.6.0",
   "revision": 1,
   "published": "2021-10-11T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "72fe18f854ab6328c7d5f07abb6fba0d9e2141d9885d0d92ce2079a7a0f378b6",
-      "size": 3358,
+      "sha256": "ddb4b8b7085730ac9b651222c2652f473d08de4e8d753049640e722336d3900f",
+      "size": 3357,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/nvml/0.6.0-r1/nvml-0.6.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/NVML/0.6.0-r1/NVML-0.6.0-r1-any.kspkg"
       ]
     }
   }

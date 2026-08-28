@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "media",
-  "owner": "descolada",
+  "name": "Media",
+  "owner": "Descolada",
   "version": "0.1.0",
   "revision": 1,
   "published": "2024-01-22T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "14164dad6e66a7057c8af64cf5fadcc8085e5a631530a1f1fb4bd8788b62638a",
+      "sha256": "7c2930590c6f4e387026addbd9f62341265161cba135a56e491e9952439e4a4b",
       "size": 5842,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/media/0.1.0-r1/media-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/Media/0.1.0-r1/Media-0.1.0-r1-any.kspkg"
       ]
     }
   }

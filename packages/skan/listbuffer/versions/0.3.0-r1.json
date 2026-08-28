@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "listbuffer",
-  "owner": "skan",
+  "name": "ListBuffer",
+  "owner": "SKAN",
   "version": "0.3.0",
   "revision": 1,
   "published": "2024-09-30T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "398191e3b06784340279cd91b020ef1405f67c3ebe0041bd1f55954e7edf11a1",
-      "size": 14759,
+      "sha256": "a57cabaf82a49d09f00d60f75243d64f4fcd2d0b932bcf022f5aaa7c23f9d7de",
+      "size": 14757,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/listbuffer/0.3.0-r1/listbuffer-0.3.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/SKAN/ListBuffer/0.3.0-r1/ListBuffer-0.3.0-r1-any.kspkg"
       ]
     }
   }

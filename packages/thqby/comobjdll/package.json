@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "comobjdll",
+  "name": "ComObjDll",
   "owner": "thqby",
   "displayName": "ComObjDll",
   "description": "Create a COM object from an unregistered DLL",

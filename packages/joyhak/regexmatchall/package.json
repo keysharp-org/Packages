@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "regexmatchall",
-  "owner": "joyhak",
+  "name": "RegExMatchAll",
+  "owner": "JoyHak",
   "displayName": "RegExMatchAll",
   "description": "Iterate through all string occurences by regex, replace chunks of text",
   "license": "MIT",

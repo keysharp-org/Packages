@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "neutron",
-  "owner": "g33kdude",
+  "name": "Neutron",
+  "owner": "G33kDude",
   "version": "1.0.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -23,10 +23,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "286d6ef21babdc69170218a0609e06019ac2cccbb350f4c52b91f2f0181669f0",
-      "size": 10013,
+      "sha256": "a48ab948d0b5196fc60c9f2e6e910003a79aaf84fbb082df4f8124fa71f63f9c",
+      "size": 10015,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/g33kdude/neutron/1.0.0-r1/neutron-1.0.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/G33kDude/Neutron/1.0.0-r1/Neutron-1.0.0-r1-any.kspkg"
       ]
     }
   }

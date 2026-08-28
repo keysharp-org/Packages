@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "uia-browser",
-  "owner": "descolada",
+  "name": "UIA_Browser",
+  "owner": "Descolada",
   "version": "1.1.1",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -14,7 +14,7 @@
   ],
   "capabilities": [],
   "dependencies": {
-    "descolada/uia": "*"
+    "Descolada/UIA": "*"
   },
   "source": {
     "kind": "git",
@@ -24,10 +24,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "63904bb82ee668ab7db7bb1c03e45c6ab3c4ec13217f2c52233fc87226661270",
-      "size": 9946,
+      "sha256": "50339c9072f6df2e67a15800492fe2da2369d936c1f7a68d6381b8a8dc76eb06",
+      "size": 9940,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/uia-browser/1.1.1-r1/uia-browser-1.1.1-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Descolada/UIA_Browser/1.1.1-r1/UIA_Browser-1.1.1-r1-any.kspkg"
       ]
     }
   }

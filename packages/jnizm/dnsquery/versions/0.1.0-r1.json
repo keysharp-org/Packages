@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "dnsquery",
-  "owner": "jnizm",
+  "name": "DNSQuery",
+  "owner": "jNizM",
   "version": "0.1.0",
   "revision": 1,
   "published": "2023-01-18T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "d7e77034b14ce7183b976a5848c0fb9aab567ebdaa9d14288404acbe30066c7c",
-      "size": 1614,
+      "sha256": "f1ecaafaf645b64638da42654aba497f38ba9ba90853e9da607b6401538dc1e4",
+      "size": 1613,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/dnsquery/0.1.0-r1/dnsquery-0.1.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jNizM/DNSQuery/0.1.0-r1/DNSQuery-0.1.0-r1-any.kspkg"
       ]
     }
   }

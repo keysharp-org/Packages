@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "shinsoverlayclass",
-  "owner": "spawnova",
+  "name": "ShinsOverlayClass",
+  "owner": "Spawnova",
   "version": "0.24.0",
   "revision": 1,
   "published": "2025-02-13T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "591d8eaf1c2f395df0cbc7f2d55353bd3478110eb0a09d9c49d8d8bccaed8327",
-      "size": 9667,
+      "sha256": "35e0dd01ffcf7f8fed4e345bc6bbd3125b26860cb11e453e45320e952c0957ad",
+      "size": 9664,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/spawnova/shinsoverlayclass/0.24.0-r1/shinsoverlayclass-0.24.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Spawnova/ShinsOverlayClass/0.24.0-r1/ShinsOverlayClass-0.24.0-r1-any.kspkg"
       ]
     }
   }

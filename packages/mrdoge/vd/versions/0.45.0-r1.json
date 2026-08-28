@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "vd",
-  "owner": "mrdoge",
+  "name": "VD",
+  "owner": "MrDoge",
   "version": "0.45.0",
   "revision": 1,
   "published": "2025-12-12T00:00:00+00:00",
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "8ac071e686ec9f5342c20e40dce877c98ceb031125d84247cb0facb2846535cb",
-      "size": 6559,
+      "sha256": "cc3241fe321bdda9403ce69addd3e12aa7aeebcc35ea1abd533a0df2b0e0b6b4",
+      "size": 6560,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/mrdoge/vd/0.45.0-r1/vd-0.45.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/MrDoge/VD/0.45.0-r1/VD-0.45.0-r1-any.kspkg"
       ]
     }
   }

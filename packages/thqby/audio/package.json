@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "audio",
+  "name": "Audio",
   "owner": "thqby",
   "displayName": "Audio",
   "description": "Core Audio APIs",

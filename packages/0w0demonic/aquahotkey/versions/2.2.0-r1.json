@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "aquahotkey",
-  "owner": "0w0demonic",
+  "name": "AquaHotkey",
+  "owner": "0w0Demonic",
   "version": "2.2.0",
   "revision": 1,
   "published": "2026-08-28T00:00:00+00:00",
@@ -22,10 +22,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "61be327155f0b0eea1ed717e40519f86955e7005cb70ebb6e721b0c6c2bcdb46",
-      "size": 665,
+      "sha256": "300d8276bdb9eb47e95340e89919830e4f962f3624d8c8eebe5f815415611813",
+      "size": 666,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/0w0demonic/aquahotkey/2.2.0-r1/aquahotkey-2.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/0w0Demonic/AquaHotkey/2.2.0-r1/AquaHotkey-2.2.0-r1-any.kspkg"
       ]
     }
   }

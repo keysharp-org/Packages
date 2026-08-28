@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "winhttprequest",
+  "name": "WinHttpRequest",
   "owner": "thqby",
   "version": "0.2.0",
   "revision": 1,
@@ -21,10 +21,10 @@
   },
   "artifacts": {
     "any": {
-      "sha256": "fda4672f903aecc43e2d3e6bb642291ca3b61d7fda0241ff4e79530cfe995011",
-      "size": 3089,
+      "sha256": "c59b735b9bde92c8eb8ab8840a90bdcfb6699152b0e5c1d3c7f8e668ce72fd6d",
+      "size": 3085,
       "sources": [
-        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/winhttprequest/0.2.0-r1/winhttprequest-0.2.0-r1-any.kspkg"
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/WinHttpRequest/0.2.0-r1/WinHttpRequest-0.2.0-r1-any.kspkg"
       ]
     }
   }
