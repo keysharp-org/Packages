@@ -34,10 +34,19 @@ keysharp)
 	*) echo "::error::unrecognized asset $asset"; exit 1 ;;
 	esac
 
-	binary=$(find "$destination" /usr/local/bin /Applications -maxdepth 4 -type f \
-		\( -name 'Keysharp' -o -name 'Keysharp.exe' -o -name 'keysharp' \) 2>/dev/null | head -1)
+	# Only search directories that exist. This script runs under `set -e -o pipefail`, so naming a
+	# missing path makes find exit non-zero and takes the whole step with it — redirecting stderr
+	# hides the message but not the status, which is how adding the macOS locations broke Linux.
+	search="$destination"
+	for extra in /usr/local/bin /Applications; do
+		[ -d "$extra" ] && search="$search $extra"
+	done
+
+	# shellcheck disable=SC2086 # deliberately word-split: $search is a list of directories
+	binary=$(find $search -maxdepth 4 -type f \
+		\( -name 'Keysharp' -o -name 'Keysharp.exe' -o -name 'keysharp' \) 2>/dev/null | head -1 || true)
 	if [ -z "$binary" ]; then
-		echo "::error::no Keysharp binary after installing $asset"
+		echo "::error::no Keysharp binary after installing $asset (searched: $search)"
 		exit 1
 	fi
 	chmod +x "$binary" || true
