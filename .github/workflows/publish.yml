@@ -36,6 +36,9 @@ concurrency:
 
 env:
   KPM_REPOSITORY: keysharp-org/KPM
+  # Pinned: the registry states which released kpm validated and published it, and an unrelated
+  # push to KPM cannot change how submissions are judged.
+  KPM_VERSION: v0.1.0
 
 jobs:
   release:
@@ -52,15 +55,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '10.0.x'
-
-      - name: Build kpm
-        run: |
-          git clone --depth 1 https://github.com/${KPM_REPOSITORY}.git "$RUNNER_TEMP/kpm"
-          dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Cli/KPM.Cli.csproj" -c Release -o "$RUNNER_TEMP/kpm-bin"
-          echo "$RUNNER_TEMP/kpm-bin" >> "$GITHUB_PATH"
+      # No setup-dotnet: kpm is self-contained, which is the point of shipping it that way.
+      - name: Install kpm
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/install-kpm.sh
 
       - name: Create releases for anything unpublished
         id: release
@@ -82,18 +81,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # The release job may have pushed the recorded URLs; publish the index built from those.
+          # The index describes main, and nothing in this workflow writes to the branch.
           ref: main
 
-      - uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '10.0.x'
-
-      - name: Build kpm
-        run: |
-          git clone --depth 1 https://github.com/${KPM_REPOSITORY}.git "$RUNNER_TEMP/kpm"
-          dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Cli/KPM.Cli.csproj" -c Release -o "$RUNNER_TEMP/kpm-bin"
-          echo "$RUNNER_TEMP/kpm-bin" >> "$GITHUB_PATH"
+      # No setup-dotnet: kpm is self-contained, which is the point of shipping it that way.
+      - name: Install kpm
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/install-kpm.sh
 
       - name: Build index.json.gz and catalog.json
         run: |
