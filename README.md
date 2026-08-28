@@ -43,8 +43,10 @@ packages/<owner>/<name>/
 ├── versions/
 │   ├── 0.1.0-r1.json     one immutable release each
 │   └── 0.2.0-r1.json
-├── port.json             ┐ source-hosted packages only
-├── src/                  ┘ (see below)
+├── port.json             ┐
+├── src/                  │ source-hosted packages only (see below)
+├── platform/<rid>/       │ source shipped to that platform alone
+├── native/<rid>/         ┘ binaries shipped to that platform alone
 └── README.md
 ```
 
@@ -96,6 +98,13 @@ passing validation — or by someone porting it, which makes it a source-hosted 
 
 Compile-checking is a floor, not proof of behaviour: it says the package parses and compiles, not
 that it works.
+
+A package that needs different code on different platforms puts the shared part in `src/` and each
+platform's own files in `platform/<rid>/` — where a file lives says which artifacts contain it, and
+the same path may not come from both. That keeps every file plain, portable script, unlike
+Keysharp's `#if WINDOWS` preprocessor, which AutoHotkey rejects outright and which therefore makes a
+package Keysharp-only. See
+[CONTRIBUTING.md](CONTRIBUTING.md#shipping-different-code-per-platform).
 
 ## Contributing
 

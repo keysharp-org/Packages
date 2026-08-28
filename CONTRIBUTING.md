@@ -55,6 +55,51 @@ rejects a source change without one.
 No binaries under `src/`. Native payloads belong in `native/<platform>/` and only ever reach
 release assets.
 
+## Shipping different code per platform
+
+Where a file lives says which artifacts contain it:
+
+- **`src/`** — in every artifact.
+- **`platform/<rid>/`** — in that platform's artifact only.
+
+Platform-specific files are placed *inside* `src/` when packed, so a package's own includes and its
+`entry` path never vary by platform — only which artifact carries the file does.
+
+The same path may not come from both places. `src/Engine.ahk` and `platform/linux-x64/Engine.ahk`
+together is an error, not a silent win for one of them, because otherwise a reader looking at
+`src/Engine.ahk` would have no way to tell it is replaced on Linux. If a file differs per platform,
+every platform names its own copy — including the portable `any` build:
+
+```
+packages/Descolada/OCR/
+├── src/
+│   └── OCR.ahk             shared API — #include "Engine.ahk"
+└── platform/
+    ├── any/
+    │   └── Engine.ahk      Windows engine; also what AutoHotkey resolves
+    └── linux-x64/
+        └── Engine.ahk      Tesseract engine
+```
+
+```json
+"platforms": ["any", "linux-x64"],
+"engines": { "autohotkey": ">=2.0", "keysharp": ">=0.0.0.17" }
+```
+
+AutoHotkey and Keysharp on Windows resolve the `any` artifact and get the Windows engine; Keysharp
+on Linux resolves `linux-x64` and gets the Tesseract one. Only one `Engine.ahk` is ever in an
+artifact, so nobody downloads or parses the other platform's code.
+
+**Use this rather than compile-time platform branches.** Keysharp has an `#if WINDOWS` / `#if LINUX`
+preprocessor and it is fine for a Keysharp-only package, but AutoHotkey rejects those lines outright
+(`This line does not contain a recognized action`), so a package that uses them can never claim the
+`autohotkey` engine. The overlay keeps every file plain, portable script and moves the branch to
+packing time, which is what lets one package serve both engines.
+
+Two limits worth knowing: the unit is a whole file, not part of one — a platform that differs in one
+function needs its own copy of that file; and dependencies are declared per release, not per
+platform, so a package needed only by the Linux code is installed for everyone.
+
 ## Updating a package
 
 - **The library changed** → new version. `0.4.0` → `0.5.0`.

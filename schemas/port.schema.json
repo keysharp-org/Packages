@@ -12,7 +12,10 @@
       "type": "string",
       "description": "SemVer of the current source. Changing any file under src/ requires changing this, and the matching versions/<version>-r1.json must ship in the same pull request."
     },
-    "entry": { "type": "string", "description": "Repository-relative, e.g. src/FindText.ks." },
+    "entry": {
+      "type": "string",
+      "description": "Repository-relative, e.g. src/FindText.ks. The same path in every platform's artifact: a platform/<rid>/ overlay replaces files inside src/ rather than living beside it."
+    },
     "engines": {
       "type": "object",
       "minProperties": 1,
@@ -25,6 +28,7 @@
     "platforms": {
       "type": "array",
       "minItems": 1,
+      "description": "One artifact is built per entry. A platform/<rid>/ directory must have its rid listed here, or that code would never be shipped.",
       "items": { "enum": ["any", "win-x64", "win-arm64", "linux-x64", "linux-arm64", "osx-x64", "osx-arm64"] }
     },
     "capabilities": { "type": "array", "items": { "type": "string" } },
