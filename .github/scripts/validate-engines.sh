@@ -41,27 +41,41 @@ if [ "$RUNNER_OS" = Linux ] && [ -z "${DISPLAY:-}" ]; then
 	virtual_display=1
 fi
 
+# One-shot invocations. Keysharp's compile daemon outlives the launcher and inherits whatever handles
+# it was given, and a step whose stdout a live child still holds never reaches EOF — the job then
+# hangs long after the compile finished.
+export KEYSHARP_DAEMON=0
+
+# Both engines take their switches with a leading slash, and the Git Bash behind `shell: bash` on
+# Windows rewrites any such argument into a path: /validate arrived as C:\Program Files\Git\validate,
+# Keysharp took that for the script it was asked to run, and reported the missing file through a
+# modal dialog nobody can close on a runner. The job sat there until killed, having printed nothing.
+# Ignored by the other two platforms' shells.
+export MSYS2_ARG_CONV_EXCL='*'
+
 # A compile takes a couple of seconds; this only has to be shorter than a runner's patience.
 engine_timeout_seconds=180
 engine_log="$RUNNER_TEMP/engine-output.log"
 
-# The engine writes to a file rather than to this step's stdout, and reads stdin from /dev/null. A
-# child that outlives the launcher — Keysharp's compile daemon is one — inherits whatever handles it
-# was given, and a step whose stdout such a child still holds never reaches EOF: the job hangs long
-# after the compile itself finished. KEYSHARP_DAEMON=0 keeps that child from being started at all.
-#
-# MSYS2_ARG_CONV_EXCL is what makes this work on Windows at all. Both engines take their switches
-# with a leading slash, and the Git Bash that runs `shell: bash` there rewrites any such argument as
-# a path: /validate arrived as C:\Program Files\Git\validate, Keysharp took it for the script it was
-# asked to run, and reported the missing file through a modal dialog that no one can close on a
-# runner — the job then sat until it was killed, having printed nothing at all.
+# macOS ships BSD userland and no GNU coreutils, so there is no `timeout` there. It is a safety net
+# rather than a requirement — bounding a wedged engine — so go without it rather than install one.
+with_timeout() {
+	if command -v timeout > /dev/null; then
+		timeout "$engine_timeout_seconds" "$@"
+	else
+		"$@"
+	fi
+}
+
+# The engine writes to a file rather than to this step's stdout, and reads stdin from /dev/null, so
+# that a child holding those handles cannot wedge the run.
 run_engine() {
 	local status=0
 
 	if [ -n "${virtual_display:-}" ]; then
-		KEYSHARP_DAEMON=0 MSYS2_ARG_CONV_EXCL='*' timeout "$engine_timeout_seconds" xvfb-run -a "$@" > "$engine_log" 2>&1 < /dev/null || status=$?
+		with_timeout xvfb-run -a "$@" > "$engine_log" 2>&1 < /dev/null || status=$?
 	else
-		KEYSHARP_DAEMON=0 MSYS2_ARG_CONV_EXCL='*' timeout "$engine_timeout_seconds" "$@" > "$engine_log" 2>&1 < /dev/null || status=$?
+		with_timeout "$@" > "$engine_log" 2>&1 < /dev/null || status=$?
 	fi
 
 	cat "$engine_log"
