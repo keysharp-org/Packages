@@ -28,10 +28,15 @@ archive=$(find "$destination" -maxdepth 1 -type f ! -name SHA256SUMS | head -1)
 
 # The registry verifies every package artifact by hash; the tool doing the verifying deserves the
 # same treatment. SHA256SUMS lists names as ./name, so compare the one line that matters.
-expected=$(grep -F "$(basename "$archive")" "$destination/SHA256SUMS" | awk '{print $1}')
-actual=$(sha256sum "$archive" | awk '{print $1}')
+#
+# Hashed from inside the directory, by basename. Given a path, GNU sha256sum escapes its output line
+# with a leading backslash whenever the name contains one — which every path does on Windows — and
+# the result is a comparison that fails against an identical hash.
+name=$(basename "$archive")
+expected=$(grep -F "$name" "$destination/SHA256SUMS" | awk '{print $1}')
+actual=$(cd "$destination" && sha256sum "$name" | awk '{print $1}')
 if [ "$expected" != "$actual" ]; then
-	echo "::error::$(basename "$archive") hashes to $actual, SHA256SUMS says $expected"
+	echo "::error::$name hashes to $actual, SHA256SUMS says $expected"
 	exit 1
 fi
 
