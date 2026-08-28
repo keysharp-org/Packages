@@ -1,0 +1,10 @@
+# Every checkout must produce identical bytes on every platform.
+#
+# This is not style: a source-hosted package's artifact is packed from these files and identified by
+# its SHA-256, and CI re-packs a submission to check the hash reproduces. Left to core.autocrlf, a
+# Windows checkout would hold CRLF and a Linux runner LF, the same source would pack to two
+# different hashes, and verification would fail on whichever platform did not build it.
+* text=auto eol=lf
+
+# Artifacts are bytes and must never be transformed.
+*.kspkg binary
