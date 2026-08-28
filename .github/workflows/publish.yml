@@ -13,6 +13,11 @@ on:
       - 'packages/**'
       - '.github/workflows/publish.yml'
   workflow_dispatch:
+    inputs:
+      index-only:
+        description: 'Rebuild and deploy the index without publishing any release'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,6 +35,9 @@ env:
 jobs:
   release:
     name: Release new artifacts
+    # Skippable so the index can be redeployed on its own — after a metadata-only change such as a
+    # yank or a corrected description, and to verify Pages before committing to a large publish.
+    if: ${{ inputs.index-only != true }}
     runs-on: ubuntu-latest
     outputs:
       published: ${{ steps.release.outputs.published }}
@@ -67,6 +75,10 @@ jobs:
   index:
     name: Build and deploy the index
     needs: release
+    # Runs even when nothing was released: the index reflects the whole registry, so a metadata-only
+    # change still has to reach clients. Only an actual release failure should stop it, since the
+    # index would then name artifacts that were not published.
+    if: ${{ always() && needs.release.result != 'failure' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
