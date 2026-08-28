@@ -11,26 +11,33 @@ mkdir -p "$destination"
 
 case "$engine" in
 keysharp)
+	# Each release carries both an installer and, on two of three platforms, a portable archive.
+	# The patterns are exact because a wildcard matches both and picking whichever the API listed
+	# first is how this first tried to unzip an .msi.
 	case "$RUNNER_OS" in
-	Linux) asset_pattern='*linux-x64*' ;;
-	Windows) asset_pattern='*win-x64*' ;;
-	macOS) asset_pattern='*osx-arm64*' ;;
+	Linux) asset_pattern='*linux-x64.tar.gz' ;;
+	Windows) asset_pattern='*win-x64.zip' ;;
+	macOS) asset_pattern='*osx-arm64.pkg' ;;
 	*) echo "::error::unsupported runner $RUNNER_OS"; exit 1 ;;
 	esac
 
 	gh release download --repo "${KEYSHARP_REPOSITORY:-Descolada/Keysharp}" \
 		--pattern "$asset_pattern" --dir "$destination" --clobber
 
-	archive=$(find "$destination" -maxdepth 1 -type f | head -1)
-	case "$archive" in
-	*.zip) unzip -q -o "$archive" -d "$destination" ;;
-	*.tar.gz | *.tgz) tar -xzf "$archive" -C "$destination" ;;
-	*) echo "::error::unrecognized archive $archive"; exit 1 ;;
+	asset=$(find "$destination" -maxdepth 1 -type f | head -1)
+	case "$asset" in
+	*.zip) unzip -q -o "$asset" -d "$destination" ;;
+	*.tar.gz | *.tgz) tar -xzf "$asset" -C "$destination" ;;
+	# macOS publishes no portable archive, so the package is installed rather than unpacked. A
+	# runner is disposable and has passwordless sudo, which is the one place that is reasonable.
+	*.pkg) sudo installer -pkg "$asset" -target / ;;
+	*) echo "::error::unrecognized asset $asset"; exit 1 ;;
 	esac
 
-	binary=$(find "$destination" -type f \( -name 'Keysharp' -o -name 'Keysharp.exe' \) | head -1)
+	binary=$(find "$destination" /usr/local/bin /Applications -maxdepth 4 -type f \
+		\( -name 'Keysharp' -o -name 'Keysharp.exe' -o -name 'keysharp' \) 2>/dev/null | head -1)
 	if [ -z "$binary" ]; then
-		echo "::error::no Keysharp binary in the downloaded release"
+		echo "::error::no Keysharp binary after installing $asset"
 		exit 1
 	fi
 	chmod +x "$binary" || true
