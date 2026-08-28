@@ -41,12 +41,39 @@ if [ "$RUNNER_OS" = Linux ] && [ -z "${DISPLAY:-}" ]; then
 	virtual_display=1
 fi
 
+# A compile takes a couple of seconds; this only has to be shorter than a runner's patience.
+engine_timeout_seconds=180
+engine_log="$RUNNER_TEMP/engine-output.log"
+
+# The engine writes to a file rather than to this step's stdout, and reads stdin from /dev/null. A
+# child that outlives the launcher — Keysharp's compile daemon is one — inherits whatever handles it
+# was given, and a step whose stdout such a child still holds never reaches EOF: the job hangs long
+# after the compile itself finished. KEYSHARP_DAEMON=0 keeps that child from being started at all.
+#
+# MSYS2_ARG_CONV_EXCL is what makes this work on Windows at all. Both engines take their switches
+# with a leading slash, and the Git Bash that runs `shell: bash` there rewrites any such argument as
+# a path: /validate arrived as C:\Program Files\Git\validate, Keysharp took it for the script it was
+# asked to run, and reported the missing file through a modal dialog that no one can close on a
+# runner — the job then sat until it was killed, having printed nothing at all.
 run_engine() {
+	local status=0
+
 	if [ -n "${virtual_display:-}" ]; then
-		xvfb-run -a "$@"
+		KEYSHARP_DAEMON=0 MSYS2_ARG_CONV_EXCL='*' timeout "$engine_timeout_seconds" xvfb-run -a "$@" > "$engine_log" 2>&1 < /dev/null || status=$?
 	else
-		"$@"
+		KEYSHARP_DAEMON=0 MSYS2_ARG_CONV_EXCL='*' timeout "$engine_timeout_seconds" "$@" > "$engine_log" 2>&1 < /dev/null || status=$?
 	fi
+
+	cat "$engine_log"
+
+	# timeout's own code for "it was still running when I killed it".
+	if [ "$status" -eq 124 ]; then
+		echo "::error::$engine did not return within ${engine_timeout_seconds}s, and printed what is above"
+		echo "::error::before stopping. Keysharp reports some failures through a modal dialog, which on a"
+		echo "::error::runner with no desktop waits for a click that never comes."
+	fi
+
+	return "$status"
 }
 
 # The switches an engine takes to compile a file without running it. Switches must precede the
