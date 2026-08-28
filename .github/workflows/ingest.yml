@@ -16,9 +16,10 @@ on:
         description: 'Import only entries whose key contains this'
         required: false
 
+# Only contents:write, for creating releases and pushing the branch. Opening the pull request is
+# left to a human, so no pull-requests permission is needed.
 permissions:
   contents: write
-  pull-requests: write
 
 env:
   KPM_REPOSITORY: keysharp-org/KPM
@@ -66,12 +67,47 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: kpm-bot publish --registry . --artifacts "$RUNNER_TEMP/artifacts" --repository "$GITHUB_REPOSITORY"
 
-      - name: Open a pull request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: ingest/upstream
-          title: 'Ingest: upstream package updates'
-          labels: bot
-          commit-message: 'Import upstream package updates'
-          body-path: ${{ runner.temp }}/import.log
-          delete-branch: true
+      # Pushes a branch and stops, rather than opening the pull request itself. Opening one needs
+      # "Actions can create pull requests", which is an organisation-wide switch granting every
+      # workflow in every repository that ability — a lot of reach for the one job that wants it.
+      # A branch needs only the contents:write this already has for creating releases, and the
+      # review gate is unchanged: nothing reaches main except through a pull request.
+      - name: Push the changes as a branch
+        id: push
+        run: |
+          git config user.name  "kpm-bot"
+          git config user.email "kpm-bot@users.noreply.github.com"
+          # Staged first, then asked: a new package is entirely untracked, and `git diff` does not
+          # see untracked files — so checking before staging would report "nothing to propose"
+          # for exactly the case that matters most.
+          git add packages
+
+          if git diff --cached --quiet; then
+            echo "Ingest found nothing to propose." >> "$GITHUB_STEP_SUMMARY"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          branch="ingest/$(date -u +%Y-%m-%d)"
+          git checkout -b "$branch"
+          # Message built in a file rather than inline: the import log is arbitrary upstream text
+          # and has no business being parsed by the shell.
+          { echo "Import upstream package updates"; echo; head -c 4000 "$RUNNER_TEMP/import.log"; } \
+            > "$RUNNER_TEMP/message.txt"
+          git commit -F "$RUNNER_TEMP/message.txt"
+          git push --force-with-lease origin "$branch"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+
+      - name: Say what to review
+        if: steps.push.outputs.changed == 'true'
+        run: |
+          {
+            echo "## Ingest found changes"
+            echo
+            echo "Open the pull request: <https://github.com/$GITHUB_REPOSITORY/compare/${{ steps.push.outputs.branch }}?expand=1>"
+            echo
+            echo '```'
+            head -c 4000 "$RUNNER_TEMP/import.log"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
