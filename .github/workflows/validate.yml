@@ -8,6 +8,9 @@ on:
 
 env:
   KPM_REPOSITORY: keysharp-org/KPM
+  # Pinned: the registry states which released kpm validated and published it, and an unrelated
+  # push to KPM cannot change how submissions are judged.
+  KPM_VERSION: v0.1.0
   KEYSHARP_REPOSITORY: Descolada/Keysharp
 
 jobs:
@@ -20,15 +23,11 @@ jobs:
           # The immutability check diffs against the base, so the whole history is needed.
           fetch-depth: 0
 
-      - uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '10.0.x'
-
-      - name: Build kpm
-        run: |
-          git clone --depth 1 https://github.com/${KPM_REPOSITORY}.git "$RUNNER_TEMP/kpm"
-          dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Cli/KPM.Cli.csproj" -c Release -o "$RUNNER_TEMP/kpm-bin"
-          echo "$RUNNER_TEMP/kpm-bin" >> "$GITHUB_PATH"
+      # No setup-dotnet: kpm is self-contained, which is the point of shipping it that way.
+      - name: Install kpm
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/install-kpm.sh
 
       # A published release is immutable: its manifest may be added, never edited or deleted. Without
       # this, a merged pull request could silently change what an existing lockfile resolves to.
@@ -80,12 +79,11 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
-      - name: Build kpm
+      - name: Install kpm
         shell: bash
-        run: |
-          git clone --depth 1 https://github.com/${KPM_REPOSITORY}.git "$RUNNER_TEMP/kpm"
-          dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Cli/KPM.Cli.csproj" -c Release -o "$RUNNER_TEMP/kpm-bin"
-          echo "$RUNNER_TEMP/kpm-bin" >> "$GITHUB_PATH"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/install-kpm.sh
 
       - name: Install ${{ matrix.engine }}
         id: engine

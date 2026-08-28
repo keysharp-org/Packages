@@ -22,6 +22,7 @@ permissions:
 
 env:
   KPM_REPOSITORY: keysharp-org/KPM
+  KPM_VERSION: v0.1.0
 
 jobs:
   import:
@@ -33,9 +34,13 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
+      # kpm-bot is maintenance tooling and is not a released artifact, so this builds it — but from
+      # the tag the registry is pinned to, not from whatever is currently on main. Same reason the
+      # other workflows use a release: what the registry runs should be a stated version.
       - name: Build the bot
         run: |
-          git clone --depth 1 https://github.com/${KPM_REPOSITORY}.git "$RUNNER_TEMP/kpm"
+          git clone --depth 1 --branch "${KPM_VERSION}" \
+            "https://github.com/${KPM_REPOSITORY}.git" "$RUNNER_TEMP/kpm"
           dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Bot/KPM.Bot.csproj" -c Release -o "$RUNNER_TEMP/bot"
           dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Cli/KPM.Cli.csproj" -c Release -o "$RUNNER_TEMP/bot"
           echo "$RUNNER_TEMP/bot" >> "$GITHUB_PATH"
