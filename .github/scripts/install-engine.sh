@@ -52,10 +52,25 @@ keysharp)
 	# shellcheck disable=SC2086 # deliberately word-split: $search is a list of directories
 	# Deep enough for an .app bundle (Keysharp.app/Contents/MacOS/Keysharp is already four levels)
 	# without walking an entire /Applications on a runner that has one.
+	#
+	# Keep only a candidate with its assembly beside it. The name alone is not enough: the macOS disk
+	# image carries a second bundle, and taking the apphost inside Keyview.app got "the application to
+	# execute does not exist: .../Keyview.app/Contents/MacOS/Keysharp.dll" — which then read as every
+	# package failing to compile.
 	binary=$(find $search -maxdepth 6 -type f \
-		\( -name 'Keysharp' -o -name 'Keysharp.exe' -o -name 'keysharp' \) 2>/dev/null | head -1 || true)
+		\( -name 'Keysharp' -o -name 'Keysharp.exe' -o -name 'keysharp' \) 2>/dev/null \
+		| while read -r candidate; do
+			# An `if`, not a `&&`: under `set -e -o pipefail` a failed test on the last candidate would
+			# be the loop's exit status and take the whole script with it.
+			if [ -f "$(dirname "$candidate")/Keysharp.dll" ]; then
+				echo "$candidate"
+			fi
+		done | head -1 || true)
 	if [ -z "$binary" ]; then
-		echo "::error::no Keysharp binary after installing $asset (searched: $search)"
+		echo "::error::no runnable Keysharp binary after installing $asset (searched: $search)"
+		# shellcheck disable=SC2086
+		find $search -maxdepth 6 -type f \( -name 'Keysharp' -o -name 'Keysharp.exe' -o -name 'keysharp' \) 2>/dev/null \
+			| sed 's/^/  found, but no Keysharp.dll beside it: /'
 		exit 1
 	fi
 	chmod +x "$binary" || true
