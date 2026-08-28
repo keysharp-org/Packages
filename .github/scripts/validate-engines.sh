@@ -99,18 +99,6 @@ compile_check() {
 	esac
 }
 
-# Prove the engine runs at all before judging any package by it. Without this, an engine that cannot
-# start reports every package as failing to compile, and the harness's own breakage reads as the
-# contributor's mistake — which is exactly how a missing display server first presented.
-smoke="$RUNNER_TEMP/engine-smoke.ks"
-printf 'x := 1\n' > "$smoke"
-
-if ! compile_check "$smoke"; then
-	echo "::error::$engine cannot compile a trivial script on this runner, so nothing here can be"
-	echo "::error::judged by it. This is the validation harness being broken, not the packages."
-	exit 1
-fi
-
 failed=0
 
 for package in $packages; do
