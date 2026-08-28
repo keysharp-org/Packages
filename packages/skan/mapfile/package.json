@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "mapfile",
+  "owner": "skan",
+  "displayName": "MapFile",
+  "description": "Maps a view of a file object (Parameter FileObj) into the address space of AutoHotkey process",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=132507",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "ahksoup",
+  "owner": "devpnal",
+  "version": "0.5.0",
+  "revision": 1,
+  "published": "2024-11-09T00:00:00+00:00",
+  "entry": "src/AhkSoup.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "devPnal/ahksoup",
+    "commit": "c8487b99e0dd50983b3071e4e9d82a3fbeccc027"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "830c3a6f6199267af09df5004b550e0be76b79ee0edb71550c10815eb3bb444b",
+      "size": 4285,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/devpnal/ahksoup/0.5.0-r1/ahksoup-0.5.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

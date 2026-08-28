@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "promise",
+  "owner": "thqby",
+  "version": "0.9.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/Promise.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "9abfc1bf8a60fc40933956d655f63667a0bd9211"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "54b51411d72162ec10a8d718ef97183b03e1edd0005e296fefb0255d7cabc3f0",
+      "size": 2703,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/promise/0.9.0-r1/promise-0.9.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

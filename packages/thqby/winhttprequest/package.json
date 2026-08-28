@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "winhttprequest",
+  "owner": "thqby",
+  "displayName": "WinHttpRequest",
+  "description": "Wrapper for WinHttp.WinHttpRequest.5.1 to make web requests.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

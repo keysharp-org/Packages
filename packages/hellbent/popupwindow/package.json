@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "popupwindow",
+  "owner": "hellbent",
+  "displayName": "PopupWindow",
+  "description": "Simplifies the process of working with layered windows",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=132744",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

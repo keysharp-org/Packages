@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "log4ahk",
+  "owner": "holy-tao",
+  "version": "0.5.0",
+  "revision": 1,
+  "published": "2025-12-02T00:00:00+00:00",
+  "entry": "src/Log.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "holy-tao/log4ahk",
+    "commit": "5c35c6364015e08ae9976a4ac773060614086db7"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "9dbcca145a789655c5d186a4592dadf20db9910f34b64d123bd37cf448e84831",
+      "size": 6893,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/holy-tao/log4ahk/0.5.0-r1/log4ahk-0.5.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

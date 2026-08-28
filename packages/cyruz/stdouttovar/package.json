@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "stdouttovar",
+  "owner": "cyruz",
+  "displayName": "StdoutToVar",
+  "description": "Runs a command line program and returns its output",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=109148",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

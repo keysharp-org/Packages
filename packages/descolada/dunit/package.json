@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "dunit",
+  "owner": "descolada",
+  "displayName": "DUnit",
+  "description": "Alternative unit testing framework to YUnit",
+  "license": "MIT",
+  "homepage": "https://github.com/Descolada/AHK-v2-libraries",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

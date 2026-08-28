@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "range",
+  "owner": "descolada",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-24T00:00:00+00:00",
+  "entry": "src/Utilities/Range.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/AhkLib",
+    "commit": "e9779a013aa72735a620c8df939cda11b4dd86fb",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=107759"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "85808adb6d2830293d6edcbdecd113b694754a2c287044c512e11cd5ea424a53",
+      "size": 751,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/range/0.1.0-r1/range-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

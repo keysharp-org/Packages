@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "vd",
+  "owner": "mrdoge",
+  "version": "0.44.0",
+  "revision": 1,
+  "published": "2025-12-12T00:00:00+00:00",
+  "entry": "src/VD.ah2",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "FuPeiJiang/VD.ahk",
+    "commit": "bc5b7433e7bb46981d8fe14545dae9cc0a37bda7"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "5ba3bb4e0535d8d7a114a63c1276ff7ada48543b035bab444a24751648047855",
+      "size": 6231,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/mrdoge/vd/0.44.0-r1/vd-0.44.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

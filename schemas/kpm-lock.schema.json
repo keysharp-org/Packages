@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://packages.keysharp.org/schemas/kpm-lock.schema.json",
+  "title": "Project lockfile",
+  "description": "kpm.lock.json — the exact releases a resolve settled on. 'kpm install' restores this and nothing else, which is what makes a rebuild reproducible and offline-capable.",
+  "type": "object",
+  "required": ["schema", "packages"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": 1 },
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "version", "revision", "platform", "sha256", "sources", "entry"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$" },
+          "version": { "type": "string" },
+          "revision": { "type": "integer", "minimum": 1 },
+          "platform": { "enum": ["any", "win-x64", "win-arm64", "linux-x64", "linux-arm64", "osx-x64", "osx-arm64"] },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "size": { "type": "integer" },
+          "sources": { "type": "array", "items": { "type": "string" } },
+          "sourceCommit": { "type": "string" },
+          "entry": { "type": "string" }
+        }
+      }
+    }
+  }
+}

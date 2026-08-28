@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "misc",
+  "owner": "joyhak",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-24T00:00:00+00:00",
+  "entry": "src/Utilities/Chain.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/AhkLib",
+    "commit": "2e202b1e12f9270dd0bdf870820c0b13f8570036",
+    "url": "https://github.com/JoyHak/AhkLib"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "8a0e1a527e98d81ae5c032bbf03b142cc16e5b1143a7b8fc25197014fbdf470b",
+      "size": 15586,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/misc/0.1.0-r1/misc-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

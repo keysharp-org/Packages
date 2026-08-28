@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "language-indicator",
+  "owner": "yakunins",
+  "displayName": "language-indicator",
+  "description": "Keeps track of your current keyboard language/layout and changes caret and text selection mouse cursor.",
+  "license": "MIT",
+  "homepage": "https://github.com/yakunins/language-indicator",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

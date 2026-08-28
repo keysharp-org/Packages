@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "mapfile",
+  "owner": "skan",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/SKAN/MapFile.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "730448a7c2d0f34dd3e1bf58c6b034cd8a6469d7",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=132507"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "a63b03ad7033aa76733a4785a9aa9c21ef1ecd7b42ea735af0c3e6e1a4c778fe",
+      "size": 1319,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/mapfile/0.1.0-r1/mapfile-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

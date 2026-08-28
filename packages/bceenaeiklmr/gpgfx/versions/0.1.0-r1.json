@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "gpgfx",
+  "owner": "bceenaeiklmr",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-03-23T00:00:00+00:00",
+  "entry": "src/GpGFX_standalone.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "bceenaeiklmr/GpGFX",
+    "commit": "bc1811b8c93e87a00c6b7294632bb515fc34ea72",
+    "url": "https://github.com/bceenaeiklmr/GpGFX"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "5400be28b42d82ad9fb2c1ddc9ff15e1a58f593c967c1d588d2142c3f6b1698d",
+      "size": 35748,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/bceenaeiklmr/gpgfx/0.1.0-r1/gpgfx-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "resolvehostname",
+  "owner": "jnizm",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2023-01-12T00:00:00+00:00",
+  "entry": "src/src/Network/ResolveHostname.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "f19c88f74217e47ca4e2327bde6dcdf871a13ecb"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "a8db5c74fc21f16ab9c98e65b0a7b4eb39ba92eb9b636b6e451fc4115f1c2c0d",
+      "size": 1270,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/resolvehostname/0.3.0-r1/resolvehostname-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

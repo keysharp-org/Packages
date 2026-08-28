@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "winhttprequest",
+  "owner": "thqby",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/WinHttpRequest.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "93b28bcce82f73b3db3913f00edadf50a5c7b31a"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "fda4672f903aecc43e2d3e6bb642291ca3b61d7fda0241ff4e79530cfe995011",
+      "size": 3089,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/winhttprequest/0.2.0-r1/winhttprequest-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

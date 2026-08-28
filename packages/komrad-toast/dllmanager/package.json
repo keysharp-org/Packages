@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "name": "dllmanager",
+  "owner": "komrad-toast",
+  "displayName": "DLLManager",
+  "description": "Simplifies DLL file management. Loads your requested DLLs, keeps track of which DLLs are loaded and how many times that DLL has been referenced, and if the reference count on a DLL drops to 0 it is automatically unloaded.",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=134661",
+  "categories": [
+    "DLL",
+    "win32"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

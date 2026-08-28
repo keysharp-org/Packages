@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "enuminstalledapps",
+  "owner": "jnizm",
+  "displayName": "EnumInstalledApps",
+  "description": "Gets general information about an application (from the Add/Remove Programs Application)",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

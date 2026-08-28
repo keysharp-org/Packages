@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "versioninfo",
+  "owner": "joyhak",
+  "displayName": "VersionInfo",
+  "description": "Set VersionInfo (metadata) for any executable",
+  "license": "MIT",
+  "homepage": "https://github.com/JoyHak/AhkLib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

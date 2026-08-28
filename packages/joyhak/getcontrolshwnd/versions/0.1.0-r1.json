@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "getcontrolshwnd",
+  "owner": "joyhak",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-24T00:00:00+00:00",
+  "entry": "src/Utilities/GetControlsHwnd.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/AhkLib",
+    "commit": "e9779a013aa72735a620c8df939cda11b4dd86fb"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "af0e06b05e763208266c2167be0b193d9a02e49d370603b27003a72259573144",
+      "size": 937,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/getcontrolshwnd/0.1.0-r1/getcontrolshwnd-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

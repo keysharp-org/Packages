@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "mica",
+  "owner": "owhs",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-23T00:00:00+00:00",
+  "entry": "src/v2/owhs/Mica.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "ebc4d49f189f79a2a8bfe51acb8ab853ddff6a6b",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?p=617944"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "ab83b2813cfc635e7844e4adea5ec87759b40c65ea444aa0ae75051718dde914",
+      "size": 10663,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/mica/0.1.0-r1/mica-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

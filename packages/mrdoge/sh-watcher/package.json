@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "sh-watcher",
+  "owner": "mrdoge",
+  "displayName": "SH_Watcher",
+  "description": "Monitors for folder changes based on an event-driven method.",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/FuPeiJiang/SH_Watcher.ah2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "downloadasync",
+  "owner": "thqby",
+  "displayName": "DownloadAsync",
+  "description": "Asynchronous download, you can get the download progress, and call the specified function after the download is complete.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

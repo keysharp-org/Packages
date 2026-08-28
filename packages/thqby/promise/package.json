@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "promise",
+  "owner": "thqby",
+  "displayName": "Promise",
+  "description": "Implements a Javascript-like Promise",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

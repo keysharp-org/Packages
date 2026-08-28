@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "javascriptstrings",
+  "owner": "groggyotter",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2024-04-21T00:00:00+00:00",
+  "entry": "src/src/javascript_strings.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "GroggyOtter/AHK-JavaScript-Strings",
+    "commit": "3a65ae66cf30e6ca420327b93306fc522e0e2f22"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "fb162d1fdb5900e579e8f52f8f965c901355b98c133ac5c07fe18e1ed07e1992",
+      "size": 1759,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/groggyotter/javascriptstrings/0.2.0-r1/javascriptstrings-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

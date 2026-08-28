@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "servicehandler",
+  "owner": "wawawa",
+  "displayName": "ServiceHandler",
+  "description": "Manage your Windows services",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?p=614435",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

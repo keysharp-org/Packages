@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "sh-watcher",
+  "owner": "mrdoge",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-08-13T00:00:00+00:00",
+  "entry": "src/SH_Watcher.ah2",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "FuPeiJiang/SH_Watcher.ah2",
+    "commit": "37507312ab1768fe2b1da12ae4c1a2f8183d48c3"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "d2dda1ca4ec94e288aac29f8183bd2e5fd8388d6e250987c128c3099ac072e56",
+      "size": 2186,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/mrdoge/sh-watcher/0.1.0-r1/sh-watcher-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

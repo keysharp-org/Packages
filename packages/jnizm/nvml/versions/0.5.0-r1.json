@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "nvml",
+  "owner": "jnizm",
+  "version": "0.5.0",
+  "revision": 1,
+  "published": "2021-10-04T00:00:00+00:00",
+  "entry": "src/src/Class_NVML.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/NVIDIA_NVML",
+    "commit": "a602f8e8ab665b9fd8c48ab0015d03d9afebcd9c"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "3b6008f643b890d6a1aac531236e34874e5407c0aedab273f7d8e50a98ee2c5e",
+      "size": 3355,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/nvml/0.5.0-r1/nvml-0.5.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

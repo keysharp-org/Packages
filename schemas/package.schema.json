@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://packages.keysharp.org/schemas/package.schema.json",
+  "title": "Package record",
+  "description": "packages/<owner>/<name>/package.json — the package-level record, and the only file in a package directory that may be edited after publication.",
+  "type": "object",
+  "required": ["schema", "name", "owner", "description", "versioning"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": 1 },
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+      "maxLength": 64,
+      "description": "Lowercase; must match the directory name."
+    },
+    "owner": {
+      "type": "string",
+      "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+      "maxLength": 64
+    },
+    "displayName": { "type": "string", "maxLength": 64 },
+    "description": { "type": "string", "minLength": 1, "maxLength": 300 },
+    "license": {
+      "type": "string",
+      "description": "An SPDX identifier, or NOASSERTION when the source states no licence. Never guess one."
+    },
+    "homepage": { "type": "string", "format": "uri" },
+    "categories": { "type": "array", "items": { "type": "string" } },
+    "versioning": {
+      "enum": ["upstream", "registry"],
+      "description": "upstream: the author publishes versions. registry: 0.x versions are synthesized because the source has none."
+    },
+    "yanked": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^.+-r[1-9][0-9]*$" },
+      "description": "Releases withdrawn from new resolution. An existing lockfile still installs them; yanking is not deletion."
+    }
+  }
+}

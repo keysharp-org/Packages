@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "tooltipex",
+  "owner": "nperovic",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2024-02-01T00:00:00+00:00",
+  "entry": "src/ToolTipEx (for v2.0+).ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "nperovic/ToolTipEx",
+    "commit": "69fb40d8f183b66f4ead6eea1c081ad531c524f2"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2660162665945b0f60c46b49415fe9d7ea806601fa1218abde22c3ce41dc1a42",
+      "size": 1856,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/nperovic/tooltipex/0.2.0-r1/tooltipex-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

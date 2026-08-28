@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "wincloseex",
+  "owner": "flipeador",
+  "displayName": "WinCloseEx",
+  "description": "Close a window with different methods",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=126579",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "socket",
+  "owner": "thqby",
+  "displayName": "Socket",
+  "description": "Simple implementation of a socket Server and Client.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

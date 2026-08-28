@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "winclip",
+  "owner": "thearkive",
+  "displayName": "WinClip",
+  "description": "Manipulate clipboard contents",
+  "license": "MIT",
+  "homepage": "https://github.com/TheArkive/WinClip_ahk2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

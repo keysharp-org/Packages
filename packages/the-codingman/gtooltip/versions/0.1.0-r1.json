@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "gtooltip",
+  "owner": "the-codingman",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-08-09T00:00:00+00:00",
+  "entry": "src/gTooltip.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "The-CoDingman/gToolTip.ahk",
+    "commit": "3ff12e0317fd06c3d1bacc963b932f7da9ce2e77"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "df1278fa49421f863a5067579b54c857fbb29fec8652e44a1969ae772cb0b1b3",
+      "size": 1624,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/the-codingman/gtooltip/0.1.0-r1/gtooltip-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "isprocesselevated",
+  "owner": "jnizm",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2023-01-16T00:00:00+00:00",
+  "entry": "src/src/ProcessThreadModule/IsProcessElevated.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "5b59da82f0f20c72cd4e5a2de0e8deeea7c91f09"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "9fe3568401e812fa917ebcef5e56f3d4d2880a06b49a6101594817c4878d2ca6",
+      "size": 1123,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/isprocesselevated/0.1.0-r1/isprocesselevated-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

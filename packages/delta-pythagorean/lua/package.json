@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "lua",
+  "owner": "delta-pythagorean",
+  "displayName": "Lua",
+  "description": "Extend your AHK script with Lua",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?t=122655",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

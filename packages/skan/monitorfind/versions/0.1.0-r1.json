@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "monitorfind",
+  "owner": "skan",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/SKAN/MonitorFind.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "730448a7c2d0f34dd3e1bf58c6b034cd8a6469d7",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=133259"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "0ecc5457ac8ec4f1fd821b410eb3b09108a6f3d71637ce293fa33326ca1471ae",
+      "size": 3191,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/monitorfind/0.1.0-r1/monitorfind-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

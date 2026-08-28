@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "ntl",
+  "owner": "thqby",
+  "displayName": "NTL",
+  "description": "NTL is a high-performance, portable C++ library providing data structures and algorithms for manipulating signed, arbitrary length integers, and for vectors, matrices, and polynomials over the integers and over finite fields.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

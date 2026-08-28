@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "hotkeychain",
+  "owner": "prasad383",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-02-10T00:00:00+00:00",
+  "entry": "src/v2/prasad383/HotKeyChain.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "392762654624744c0444d9ce12717f3932269bb8",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135125"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "130df8cab2901cfbe193f9d40552e5671b613d6d95dba01bd8778eddb82b43a7",
+      "size": 2914,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/prasad383/hotkeychain/0.1.0-r1/hotkeychain-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

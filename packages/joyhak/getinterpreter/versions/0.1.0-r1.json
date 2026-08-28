@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "getinterpreter",
+  "owner": "joyhak",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-24T00:00:00+00:00",
+  "entry": "src/Utilities/GetInterpreter/GetInterpreter.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/AhkLib",
+    "commit": "2e202b1e12f9270dd0bdf870820c0b13f8570036"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "7ebb088219bbb78b528eff934dbb44185bfe0f946a01384d8db58bb9f1a68eac",
+      "size": 1925,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/getinterpreter/0.1.0-r1/getinterpreter-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

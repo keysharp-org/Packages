@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "comobjdll",
+  "owner": "thqby",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/ComObjDll.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "8906ff9ac0854993a8ce23cfea611f8e7b0d67cb"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "0cfeddf5e15ab868ae5e1a60725032f65577c5f175dbbf37238393b27f0a5cd4",
+      "size": 1957,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/comobjdll/0.1.0-r1/comobjdll-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

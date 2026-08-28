@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "vd",
+  "owner": "mrdoge",
+  "displayName": "VD",
+  "description": "Control and move windows between virtual desktops. Warning: this library uses an undocumented Windows API, which has a real chance of breaking in the future. In such a case the library will need to be updated to accommodate.",
+  "license": "MIT",
+  "homepage": "https://github.com/FuPeiJiang/VD.ahk",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

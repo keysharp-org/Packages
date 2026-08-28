@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "markdowntobbcode",
+  "owner": "joyhak",
+  "version": "2.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Lib/convert.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/MarkdownToBBCode",
+    "commit": "0797aa454493fbfb39d8735498830de4eca0eeda",
+    "path": "2.0"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "f0aff119ceaa0c47355c2b345b94eac60b4e2a07ebc8615798111f1f6bd4763e",
+      "size": 4442,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/markdowntobbcode/2.0.0-r1/markdowntobbcode-2.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

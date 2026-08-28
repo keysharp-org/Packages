@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "wincloseex",
+  "owner": "flipeador",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-10-01T00:00:00+00:00",
+  "entry": "src/v2/Ruevil2/ADOSQL.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "d6fb4fe996e617016d3dcceeabfd9133e061a7fe",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=126579"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2e1e045d571ce1c3eb8cc3117926e70d68166c7bcae75ae0b5d59a0df34fc9ab",
+      "size": 2865,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/flipeador/wincloseex/0.1.0-r1/wincloseex-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

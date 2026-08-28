@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "getfilepeheader",
+  "owner": "jnizm",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2021-05-11T00:00:00+00:00",
+  "entry": "src/src/FileObject/GetFilePEHeader.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "675ce1b87090be3ec5522f9358723c94657b7ef4"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "5101b3752789ab548eb6325d892aec4546f11cad27973d3d2d7f5ce9d02904bd",
+      "size": 1029,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/getfilepeheader/0.1.0-r1/getfilepeheader-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

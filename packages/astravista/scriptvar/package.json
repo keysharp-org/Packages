@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "scriptvar",
+  "owner": "astravista",
+  "displayName": "ScriptVar",
+  "description": "Deep clone an object, convert a user class object to a string packet, convert a compiled packet back to object",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=127205",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

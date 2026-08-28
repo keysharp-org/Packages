@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "ocr",
+  "owner": "descolada",
+  "version": "2.0.0-alpha.5",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Lib/OCR.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/OCR",
+    "commit": "f06d01802ff0707ef9c4666e699c9d0024b17eac",
+    "path": "v2.0-alpha.5",
+    "url": "https://github.com/Descolada/OCR"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "4334d865eb8a0dbc388a5483046870b57ea4c8bcee8f7fc7594ddcf2dfb160a6",
+      "size": 26335,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/ocr/2.0.0-alpha.5-r1/ocr-2.0.0-alpha.5-r1-any.kspkg"
+      ]
+    }
+  }
+}

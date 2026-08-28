@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "language-indicator",
+  "owner": "yakunins",
+  "version": "0.77.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/language-indicator.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "yakunins/language-indicator",
+    "commit": "fd484995fcc537ffec9ae5ff3c2d1308f46b2d1a",
+    "path": "v0.77"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "16a6ee87ad60ee335792fb66acd58bed08ba29899f612f2ca903059d0f4f0af1",
+      "size": 4483,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/yakunins/language-indicator/0.77.0-r1/language-indicator-0.77.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

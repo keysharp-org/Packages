@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "scriptvar",
+  "owner": "astravista",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-10-01T00:00:00+00:00",
+  "entry": "src/v2/AstraVista/ScriptVar.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "38e37c53b62de5a0593bb8e31bd9a677c52b901c",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=127205"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "6093e0abbe019dd6b991681f9ea45a6f5d2b80fa3acb7cd6d4101bec2152edfb",
+      "size": 3666,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/astravista/scriptvar/0.1.0-r1/scriptvar-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

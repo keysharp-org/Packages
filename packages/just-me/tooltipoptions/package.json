@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "tooltipoptions",
+  "owner": "just-me",
+  "displayName": "ToolTipOptions",
+  "description": "Can set font, color and title options for subsequent calls to the ToolTip command",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=113308",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

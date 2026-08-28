@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "media",
+  "owner": "descolada",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-01-22T00:00:00+00:00",
+  "entry": "src/Lib/Media.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/AHK-v2-libraries",
+    "commit": "0567166e872027dd9b6e5c11e243cc3d99cd02dd",
+    "url": "https://github.com/Descolada/AHK-v2-libraries"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "14164dad6e66a7057c8af64cf5fadcc8085e5a631530a1f1fb4bd8788b62638a",
+      "size": 5842,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/media/0.1.0-r1/media-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

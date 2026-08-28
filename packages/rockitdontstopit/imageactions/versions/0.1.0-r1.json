@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "imageactions",
+  "owner": "rockitdontstopit",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-02-10T00:00:00+00:00",
+  "entry": "src/v2/rockitdontstopit/ImageActions.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {
+    "feiyue/findtext": "*"
+  },
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "5e622618a431a9d1ceb93b21b782fba9a1b89027",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135206"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "6b2aef4241fd3d8cd72372bab8eb81448a25a0d7db068108f6196397fd5463bf",
+      "size": 2155,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/rockitdontstopit/imageactions/0.1.0-r1/imageactions-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

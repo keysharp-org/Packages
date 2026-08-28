@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "togglesound",
+  "owner": "skan",
+  "displayName": "ToggleSound",
+  "description": "Toggle between audio devices using their names or IDs",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131731",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

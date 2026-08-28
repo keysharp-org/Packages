@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "directorywatcher",
+  "owner": "thqby",
+  "displayName": "DirectoryWatcher",
+  "description": "Call the notification function when the specified directory changes",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

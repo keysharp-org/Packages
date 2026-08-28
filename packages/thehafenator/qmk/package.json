@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "qmk",
+  "owner": "thehafenator",
+  "displayName": "QMK",
+  "description": "Brings QMK-like functionality to any keyboard on Windows.",
+  "license": "",
+  "homepage": "https://github.com/thehafenator/QMK.ahk",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

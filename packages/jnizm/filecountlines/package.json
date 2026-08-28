@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "filecountlines",
+  "owner": "jnizm",
+  "displayName": "FileCountLines",
+  "description": "Count the number of lines in a file",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

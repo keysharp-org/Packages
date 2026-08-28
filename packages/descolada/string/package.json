@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "string",
+  "owner": "descolada",
+  "displayName": "String",
+  "description": "Adds useful methods to strings",
+  "license": "MIT",
+  "homepage": "https://github.com/Descolada/AHK-v2-libraries",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

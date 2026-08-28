@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "socket",
+  "owner": "thqby",
+  "version": "0.7.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/Socket.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "201a1f56fc974c646c31929e593f834a8fafcd74"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "e73057fc6e244ef154f7de13847aa160d68dc34a38a07508b5b782cca1933247",
+      "size": 4896,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/socket/0.7.0-r1/socket-0.7.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

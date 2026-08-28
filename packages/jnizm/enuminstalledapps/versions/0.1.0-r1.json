@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "enuminstalledapps",
+  "owner": "jnizm",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2021-04-23T00:00:00+00:00",
+  "entry": "src/src/ComObject/EnumInstalledApps.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "a48baacbbdd927a203b7259bdf4aac282a0b6e7b"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "0e572a319553a6974376acdc4edadc3bf167598ceb75959a5d41b7b34a5aa4e0",
+      "size": 1189,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/enuminstalledapps/0.1.0-r1/enuminstalledapps-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

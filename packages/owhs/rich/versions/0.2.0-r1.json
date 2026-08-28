@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "rich",
+  "owner": "owhs",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2026-05-21T00:00:00+00:00",
+  "entry": "src/lib/CodeBox.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "owhs/RichIDE",
+    "commit": "2ac9a10856da3c9cb346d2646b584af385d68177"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "38f75a1b84c0970c98c09f86d64c9e790d927ee267eb49ffcb93a682f9ee9dbc",
+      "size": 13467,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/rich/0.2.0-r1/rich-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

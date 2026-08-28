@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "mouse",
+  "owner": "joyhak",
+  "displayName": "Mouse",
+  "description": "Set/Get/Increment mouse movement and scrolling speed",
+  "license": "MIT",
+  "homepage": "https://github.com/JoyHak/AhkLib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

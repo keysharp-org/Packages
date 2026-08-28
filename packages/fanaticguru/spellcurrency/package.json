@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "spellcurrency",
+  "owner": "fanaticguru",
+  "displayName": "SpellCurrency",
+  "description": "A function to convert a number to currency words",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=133138",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

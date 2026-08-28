@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "name": "build",
+  "owner": "joyhak",
+  "displayName": "Build",
+  "description": "Builds AHK script, it's dependencies into (self-extracting) archive.",
+  "license": "MIT",
+  "homepage": "https://github.com/JoyHak/AhkLib",
+  "categories": [
+    "compile",
+    "archive",
+    "sfx",
+    "exe"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

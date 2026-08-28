@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "inheritance",
+  "owner": "cebolla",
+  "version": "1.11.1",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/inheritance/Inheritance.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Nich-Cebolla/AutoHotkey-LibV2",
+    "commit": "18731d7c4658e1fcac32c99fd2eeb133a0144467",
+    "path": "v1.11.1"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2f9ce891e50dcdfc77696c47a0bb9c8ea6b1eea26c49aa875acdc4c09eacd3c3",
+      "size": 29584,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/inheritance/1.11.1-r1/inheritance-1.11.1-r1-any.kspkg"
+      ]
+    }
+  }
+}

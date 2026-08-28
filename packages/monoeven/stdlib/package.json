@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "stdlib",
+  "owner": "monoeven",
+  "displayName": "stdlib",
+  "description": "Python-inspired standard library",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?style=2&f=83&t=140822",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

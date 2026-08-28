@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "mouse",
+  "owner": "joyhak",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-24T00:00:00+00:00",
+  "entry": "src/Utilities/Mouse.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/AhkLib",
+    "commit": "66db89459752dabb81b0daad346f56870006cfdf"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "e0362a35df9bb611f7b1aa0ea39a15b9e07c37f65cfa13d795dfd3d9295d1aa2",
+      "size": 1381,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/mouse/0.1.0-r1/mouse-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

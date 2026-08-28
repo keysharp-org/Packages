@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://packages.keysharp.org/schemas/catalog.schema.json",
+  "title": "Published catalog",
+  "description": "catalog.json — generated. A browsing view: one row per package with its newest release, for a GUI or web page that does not need the resolver's data. Clients that resolve use index.json.gz instead.",
+  "type": "object",
+  "required": ["schema", "generated", "packages"],
+  "properties": {
+    "schema": { "const": 1 },
+    "generated": { "type": "string", "format": "date-time" },
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "owner", "description", "version"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "owner": { "type": "string" },
+          "displayName": { "type": "string" },
+          "description": { "type": "string" },
+          "version": { "type": "string" },
+          "license": { "type": "string" },
+          "homepage": { "type": "string" },
+          "categories": { "type": "array", "items": { "type": "string" } },
+          "engines": { "type": "array", "items": { "type": "string" } },
+          "platforms": { "type": "array", "items": { "type": "string" } },
+          "capabilities": { "type": "array", "items": { "type": "string" } },
+          "published": { "type": "string", "format": "date-time" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "downloadasync",
+  "owner": "thqby",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/DownloadAsync.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {
+    "thqby/winhttprequest": "*"
+  },
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "48d58189cfea9ccae5285d5b58f986891f5e0977"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "4001f373c2a4685a810d7e9e7ebaa831cc9c7ec2256206c695402e1f1104b4da",
+      "size": 1340,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/downloadasync/0.4.0-r1/downloadasync-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

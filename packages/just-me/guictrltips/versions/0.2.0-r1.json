@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "guictrltips",
+  "owner": "just-me",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2025-03-24T00:00:00+00:00",
+  "entry": "src/GuiCtrlTips.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "AHK-just-me/AHKv2_GuiCtrlTips",
+    "commit": "0366e8616ef15eda55b2bbc345820ee195eefee2",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=116218"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "d11df76e1beabcc0ac155521ea37b7c4c19c651fedd11a0564fa8708db0a1a1b",
+      "size": 2998,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/guictrltips/0.2.0-r1/guictrltips-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Who reviews what.
+#
+# Ownership is path-scoped rather than repository-scoped, which is the point of keeping metadata and
+# source-hosted packages in one repository: a package's maintainer reviews their own directory
+# without gaining rights over the registry's machinery.
+
+# The registry's own machinery: schemas, CI, and the rules everything else is validated against.
+/schemas/           @Descolada
+/.github/           @Descolada
+/README.md          @Descolada
+/CONTRIBUTING.md    @Descolada
+/CODEOWNERS         @Descolada
+
+# Packages maintained by the project itself, including ports of scripts with no upstream repository.
+/packages/keysharp/ @Descolada
+
+# Per-owner lines go below, added when an author claims their imported packages. Until then the
+# organisation holds them: everything under packages/ falls back to this.
+/packages/          @Descolada

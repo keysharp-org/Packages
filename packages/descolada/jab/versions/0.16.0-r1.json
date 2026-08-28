@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "jab",
+  "owner": "descolada",
+  "version": "0.16.0",
+  "revision": 1,
+  "published": "2024-10-19T00:00:00+00:00",
+  "entry": "src/Lib/JAB.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/AHK-v2-libraries",
+    "commit": "6380a2cca8461ec39a0af0d8d4824d6e724c764b",
+    "url": "https://github.com/Descolada/AHK-v2-libraries"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "8ac5dacaebb1d10495f33c3151a4cd9341f16c5bc8c052d38c87acc009b0d2ea",
+      "size": 22564,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/jab/0.16.0-r1/jab-0.16.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

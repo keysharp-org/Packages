@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "timer",
+  "owner": "cebolla",
+  "version": "1.11.1",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Timer.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Nich-Cebolla/AutoHotkey-LibV2",
+    "commit": "18731d7c4658e1fcac32c99fd2eeb133a0144467",
+    "path": "v1.11.1",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138178"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2efef4af34ec321c8f08af43efd6fcb47508f9efc03a750210fe0d2f005db0ff",
+      "size": 3109,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/timer/1.11.1-r1/timer-1.11.1-r1-any.kspkg"
+      ]
+    }
+  }
+}

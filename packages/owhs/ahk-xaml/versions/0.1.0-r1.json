@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "ahk-xaml",
+  "owner": "owhs",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-13T00:00:00+00:00",
+  "entry": "src/lib/AXML.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "owhs/ahk-xaml",
+    "commit": "d6c8d20c4ecea3fdc0540cc930eba0e3002dffa0",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=140580"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "9acd63c0a3dd9b85302f934defc72a9fea9049f64ffcbaa36eab4aaf3895e9be",
+      "size": 152605,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/ahk-xaml/0.1.0-r1/ahk-xaml-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

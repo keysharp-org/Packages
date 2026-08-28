@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "loadscript",
+  "owner": "thqby",
+  "version": "0.5.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/LoadScript.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "e903a906fe7be5204e8c0d6f5ee89b8233b23922"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "a6a4966023e64cf9f28c6dd4221911fba83c59ffb12ada373e091a88b0cc46a3",
+      "size": 2007,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/loadscript/0.5.0-r1/loadscript-0.5.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

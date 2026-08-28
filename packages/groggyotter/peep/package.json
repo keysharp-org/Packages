@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "peep",
+  "owner": "groggyotter",
+  "displayName": "Peep",
+  "description": "Easily get information from nested objects.",
+  "license": "MIT",
+  "homepage": "https://github.com/GroggyOtter/PeepAHK",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

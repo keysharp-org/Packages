@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "keyboard",
+  "owner": "joyhak",
+  "displayName": "Keyboard",
+  "description": "Set/Get/Toggle keyboard layout (language)",
+  "license": "MIT",
+  "homepage": "https://github.com/JoyHak/AhkLib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

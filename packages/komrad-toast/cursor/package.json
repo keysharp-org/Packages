@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "cursor",
+  "owner": "komrad-toast",
+  "displayName": "Cursor",
+  "description": "Setting cursors, loading cursors from file (.bmp / .ico / .cur / .ani), programmatically creating custom cursors, turning on trails and shadows, setting the cursor bounding rectangle, and more can be accomplished with this class",
+  "license": "MIT",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135044",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

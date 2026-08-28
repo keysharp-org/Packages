@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "winclipapi",
+  "owner": "thearkive",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2021-05-29T00:00:00+00:00",
+  "entry": "src/WinClipAPI.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "TheArkive/WinClip_ahk2",
+    "commit": "c62876726beaa817e67ad52fe5e1fabbf78165a3"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "c171291ed2a3c457ed4957a5beeb965c1fc316d4cbde56b617e5c550915b17f1",
+      "size": 3261,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thearkive/winclipapi/0.1.0-r1/winclipapi-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "map",
+  "owner": "descolada",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2023-09-05T00:00:00+00:00",
+  "entry": "src/Lib/Map.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/AHK-v2-libraries",
+    "commit": "f1f28c6737218341b1644021a87df50b43078e8a",
+    "url": "https://github.com/Descolada/AHK-v2-libraries"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "f573a751d76f9660f812620aefb484695ee27aa0cb61d7f7cc85518230b4c832",
+      "size": 1669,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/map/0.1.0-r1/map-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "timer",
+  "owner": "cebolla",
+  "displayName": "Timer",
+  "description": "A reusable timer object with history functionality.",
+  "license": "MIT",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138178",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "webview2",
+  "owner": "thqby",
+  "version": "0.22.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/WebView2/WebView2.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "e7c57ecd4d585b0210e67a6fce697fcd689476d9"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2b23fa13d553304ef9ba0ad10e04ef057fd2101acf6115f37721b65c1b37c605",
+      "size": 28610,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/webview2/0.22.0-r1/webview2-0.22.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

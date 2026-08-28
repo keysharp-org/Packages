@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "adosql",
+  "owner": "ruevil2",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-10-01T00:00:00+00:00",
+  "entry": "src/v2/Ruevil2/ADOSQL.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "d6fb4fe996e617016d3dcceeabfd9133e061a7fe",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=125462"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "d0bfd27d84b216791fd275d9890d55ff6ac544af60162ceb0dc9341d1a501da1",
+      "size": 2856,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/ruevil2/adosql/0.1.0-r1/adosql-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "string",
+  "owner": "descolada",
+  "version": "0.27.0",
+  "revision": 1,
+  "published": "2023-09-05T00:00:00+00:00",
+  "entry": "src/Lib/String.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/AHK-v2-libraries",
+    "commit": "b59b8c8e9a77f8f539f75d18a4c1567c71b24323",
+    "url": "https://github.com/Descolada/AHK-v2-libraries"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "d8cd2df01d0726696103ee008a539116b1e608637b4dc3db429e6a8fd08108a9",
+      "size": 6752,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/string/0.27.0-r1/string-0.27.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "filereadline",
+  "owner": "descolada",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/Descolada/FileReadLine.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "7826ab422f55b04a36f3504891d161af51462f7e",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=117999"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2f80b586db96d783120a3adc238bc6336492259b80226ab4196f2b7bb2fc6089",
+      "size": 714,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/filereadline/0.3.0-r1/filereadline-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

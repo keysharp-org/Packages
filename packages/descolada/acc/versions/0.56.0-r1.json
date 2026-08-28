@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "acc",
+  "owner": "descolada",
+  "version": "0.56.0",
+  "revision": 1,
+  "published": "2024-11-12T00:00:00+00:00",
+  "entry": "src/Lib/Acc.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/Acc-v2",
+    "commit": "6993f26e5b83bdffa145faf4eea4387ae3b0015f",
+    "url": "https://github.com/Descolada/Acc-v2"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "814811d906d7cdcd740e87ee5c505858e96fc5e1f0279671d6ada342594d4448",
+      "size": 24215,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/acc/0.56.0-r1/acc-0.56.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

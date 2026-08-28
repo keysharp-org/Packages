@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "imageactions",
+  "owner": "rockitdontstopit",
+  "displayName": "ImageActions",
+  "description": "A helper class for FindText, simplifying FindText image searches and clicking",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135206",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

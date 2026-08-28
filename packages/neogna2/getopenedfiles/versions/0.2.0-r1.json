@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "getopenedfiles",
+  "owner": "neogna2",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2024-10-01T00:00:00+00:00",
+  "entry": "src/v2/neogna2/GetOpenedFiles.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "65b00ac361a7dddcae020af0b6e541b088f11306",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=110405"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "fcf845246384308af2f0ffa4674a8effc57334d4708932758df351b0e06beb75",
+      "size": 1763,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/neogna2/getopenedfiles/0.2.0-r1/getopenedfiles-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

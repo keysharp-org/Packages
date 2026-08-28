@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "detours",
+  "owner": "thqby",
+  "displayName": "Detours",
+  "description": "Detours is a software package for monitoring and instrumenting API calls on Windows.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

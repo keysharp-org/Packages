@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "dnsquery",
+  "owner": "jnizm",
+  "displayName": "DNSQuery",
+  "description": "Retrieves the Resource Record (RR) depends on DNS Record Type",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

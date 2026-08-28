@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "yunit",
+  "owner": "uberi",
+  "version": "0.20.0",
+  "revision": 1,
+  "published": "2019-11-20T00:00:00+00:00",
+  "entry": "src/Yunit.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Uberi/Yunit",
+    "commit": "2bee53cab97184418acf9b4bd813ec694125aa75",
+    "url": "https://github.com/Uberi/Yunit/tree/v2"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "f6777e498ecd804718be2f3830d2e0e9fd6bff6b223bb494d45d31c0788d0f55",
+      "size": 1223,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/uberi/yunit/0.20.0-r1/yunit-0.20.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

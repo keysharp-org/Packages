@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "alchemy",
+  "owner": "0w0demonic",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2025-08-18T00:00:00+00:00",
+  "entry": "src/ApiClient.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {
+    "0w0demonic/aquahotkey": "*"
+  },
+  "source": {
+    "kind": "git",
+    "repository": "0w0Demonic/Alchemy",
+    "commit": "fc26bd18eba6492bf03638b3a7a76735bf7668f3"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "60333634de160292243c034251c32279d67f88e5157e449a1c29ccfe2e616a98",
+      "size": 29011,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/0w0demonic/alchemy/0.4.0-r1/alchemy-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

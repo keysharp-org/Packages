@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "runcmd",
+  "owner": "skan",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-10-15T00:00:00+00:00",
+  "entry": "src/v2/SKAN/RunCMD.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "9a8392d8d975927eef6bdfed669fefadfdb1e4ea",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=133668"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "eb1d6ab9d23049a518b2399726bb98dfaac5843db838032b843d3aad858d97d7",
+      "size": 1698,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/runcmd/0.1.0-r1/runcmd-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

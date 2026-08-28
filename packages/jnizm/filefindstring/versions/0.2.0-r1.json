@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "filefindstring",
+  "owner": "jnizm",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2021-10-13T00:00:00+00:00",
+  "entry": "src/src/FileObject/FileFindString.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "07459394ab07c4832d53cfc098c92b8afe45ff7d"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "dfe936477223c71c954db4d31e4b26be8b7f8f358e97a8bc54a692082d130977",
+      "size": 841,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/filefindstring/0.2.0-r1/filefindstring-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

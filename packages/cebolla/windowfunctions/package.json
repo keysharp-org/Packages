@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "windowfunctions",
+  "owner": "cebolla",
+  "displayName": "WindowFunctions",
+  "description": "Some Win32 window function (EnumChildWindows, GetDpi etc) wrappers for AutoHotkey.",
+  "license": "MIT",
+  "homepage": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "uia-browser",
+  "owner": "descolada",
+  "displayName": "UIA_Browser",
+  "description": "An addon for Descolada/UIA library to simplify automating browsers via UIA",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/Descolada/UIA-v2",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "name": "interceptiontapholdmanager",
+  "owner": "evilc",
+  "version": "2.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/AHK v2/Lib/InterceptionTapHold.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {
+    "evilc/tapholdmanager": "*"
+  },
+  "source": {
+    "kind": "git",
+    "repository": "evilC/TapHoldManager",
+    "commit": "7a65441b9f90d83d927940da1122c9938537b7fb",
+    "path": "v2.0",
+    "url": "https://github.com/evilC/TapHoldManager"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "6cca837f943df62db46506243e871753518eb4b286a2109f4dfeacb7e53532d0",
+      "size": 1097,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/evilc/interceptiontapholdmanager/2.0.0-r1/interceptiontapholdmanager-2.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

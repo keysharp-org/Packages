@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "base64",
+  "owner": "thqby",
+  "displayName": "Base64",
+  "description": "Encode a buffer to a base64 string, or decode a base64 string.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

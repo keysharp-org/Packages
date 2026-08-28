@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "wincapture",
+  "owner": "thqby",
+  "displayName": "wincapture",
+  "description": "wincapture contains 3 types of windows capture, as well as waiting for screen changes, bitmap grayscale, binarization, colors search and picture search.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

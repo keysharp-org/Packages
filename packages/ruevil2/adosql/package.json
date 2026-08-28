@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "adosql",
+  "owner": "ruevil2",
+  "displayName": "ADOSQL",
+  "description": "Wraps the utility of ADODB to connect to a database, submit a query, and read the resulting recordset",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=125462",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

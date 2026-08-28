@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "graphemesplit",
+  "owner": "ntepa",
+  "displayName": "GraphemeSplit",
+  "description": "Splits a string into graphemes",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=113294",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

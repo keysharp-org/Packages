@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "xml",
+  "owner": "docterry",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-07-29T00:00:00+00:00",
+  "entry": "src/v2/docterry/XML.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "6290d76e97779591233246648817a674f4f57c87",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138365"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "5b5683c10b31fc79c32862023b714e11fd2a6b2a350d849a1acb905353cb6d3a",
+      "size": 2629,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/docterry/xml/0.1.0-r1/xml-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

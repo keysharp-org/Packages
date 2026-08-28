@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "websocket",
+  "owner": "thqby",
+  "version": "0.7.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/WebSocket.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "24bc3b40b64cde1034cb53468be9eafd74a4a1fb"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "d41b9001fad4bb78e519afa97cf66c56a03a1a8442adc3fb1891c657b1d57f0a",
+      "size": 5281,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/websocket/0.7.0-r1/websocket-0.7.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "comobjdll",
+  "owner": "thqby",
+  "displayName": "ComObjDll",
+  "description": "Create a COM object from an unregistered DLL",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

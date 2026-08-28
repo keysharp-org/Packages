@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "guiresizer",
+  "owner": "fanaticguru",
+  "displayName": "GuiResizer",
+  "description": "A class to simplify adjusting GUI controls to GUI resizing",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?t=113921",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

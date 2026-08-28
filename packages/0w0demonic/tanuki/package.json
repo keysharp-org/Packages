@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "name": "tanuki",
+  "owner": "0w0demonic",
+  "displayName": "Tanuki",
+  "description": "Win32-powered GUI library that directly extends the built-in Gui type and its controls.",
+  "license": "MIT",
+  "homepage": "https://github.com/0w0Demonic/Tanuki",
+  "categories": [
+    "gui",
+    "extension",
+    "control",
+    "type",
+    "source",
+    "win32",
+    "winapi"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

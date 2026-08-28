@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "filecountlines",
+  "owner": "jnizm",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2021-04-23T00:00:00+00:00",
+  "entry": "src/src/FileObject/FileCountLines.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "1e47ef7e3130271467bae43fa83f9df62a26a219"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "0a0cbe2ecbe4ca6f1c42954164df6a7dbea87e27e433c2057e11d6924433c450",
+      "size": 751,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/filecountlines/0.1.0-r1/filecountlines-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

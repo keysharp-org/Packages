@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "name": "findtext",
+  "owner": "keysharp",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-08-28T12:44:07+00:00",
+  "entry": "src/FindText.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.17"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [
+    "ScreenCapture",
+    "InputInjection"
+  ],
+  "dependencies": {},
+  "source": {
+    "kind": "ports",
+    "repository": "keysharp-org/Packages",
+    "path": "packages/keysharp/findtext",
+    "upstream": {
+      "kind": "forum",
+      "path": "FindText.ahk v10.2",
+      "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=116471"
+    }
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "e2db6a4087f3d044cb6b4375f7262778a5d16171bbbc7f1609550b39be1ca679",
+      "size": 41996,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/keysharp/findtext/0.1.0-r1/findtext-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

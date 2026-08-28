@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "winevent",
+  "owner": "descolada",
+  "version": "0.32.0",
+  "revision": 1,
+  "published": "2025-04-13T00:00:00+00:00",
+  "entry": "src/Lib/WinEvent.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/AHK-v2-libraries",
+    "commit": "1676968557ae242736ecb85b1fe121a97e985179",
+    "url": "https://github.com/Descolada/AHK-v2-libraries"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "ff765b05370836edb5ddc3761f86826644da4fd564bc51485e6234c1fdfce8d3",
+      "size": 7237,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/winevent/0.32.0-r1/winevent-0.32.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

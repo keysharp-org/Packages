@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "glyphs",
+  "owner": "hellbent",
+  "displayName": "Glyphs",
+  "description": "Render multi-color text in AHK GUIs with support for gradients, shadows, and advanced formatting",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135966",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

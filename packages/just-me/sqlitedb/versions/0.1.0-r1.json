@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "sqlitedb",
+  "owner": "just-me",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/just me/SQLiteDB.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "730448a7c2d0f34dd3e1bf58c6b034cd8a6469d7",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=95389"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2c375e9c7c87dd1f499a2cef0834dc49f448ff359bd22e7f76a14933c32eea3b",
+      "size": 9848,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/sqlitedb/0.1.0-r1/sqlitedb-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

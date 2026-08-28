@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "name": "changelogsorter",
+  "owner": "joyhak",
+  "displayName": "ChangeLogSorter",
+  "description": "Merges change logs into one file in chronological order.",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/JoyHak/ChangeLogSorter",
+  "categories": [
+    "changelog",
+    "date",
+    "time",
+    "sort",
+    "ahk2exe"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

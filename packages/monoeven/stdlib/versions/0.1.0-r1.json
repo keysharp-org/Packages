@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "stdlib",
+  "owner": "monoeven",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-07-03T00:00:00+00:00",
+  "entry": "src/stdlib/abc.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "MonoEven/stdlib-ahk",
+    "commit": "7aedecba29e87c06eeb52bc6067610a2f4abb556",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?style=2&f=83&t=140822"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "507afb6bd166f83bba490ab1a735ae73ac74df0d4e15637f1ef168ffbbdb5b0c",
+      "size": 563056,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/monoeven/stdlib/0.1.0-r1/stdlib-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

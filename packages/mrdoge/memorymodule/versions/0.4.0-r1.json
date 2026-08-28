@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "memorymodule",
+  "owner": "mrdoge",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2025-02-10T00:00:00+00:00",
+  "entry": "src/v2/MrDoge/MemoryModule.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "1ae1452502a1b9f188333dd0db06fbcd03a7dd1f",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=128846"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "c34f13ffe5efcbb6df5073be1353f4a6850203b911c6682113ba401db1d9bcbb",
+      "size": 4157,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/mrdoge/memorymodule/0.4.0-r1/memorymodule-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

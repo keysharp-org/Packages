@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "graphemesplit",
+  "owner": "ntepa",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/v2/ntepa/GraphemeSplit.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "3ffe6b6706bae70b6603de26f61d29b522c71bf5",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=113294"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "519d8e71bb4d169d8bd1620741b6dbc67c2314b0439f73bb1b8b734c79b85f5d",
+      "size": 15959,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/ntepa/graphemesplit/0.1.0-r1/graphemesplit-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

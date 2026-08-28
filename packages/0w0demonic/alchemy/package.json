@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "name": "alchemy",
+  "owner": "0w0demonic",
+  "displayName": "Alchemy",
+  "description": "Toolkit for OOP and data manipulation: map chains, class methods and properties privatizers, API client generators, self-generating enum classes, cascading objects and classes and more.",
+  "license": "MIT",
+  "homepage": "https://github.com/0w0Demonic/Alchemy",
+  "categories": [
+    "playground",
+    "api",
+    "class",
+    "private",
+    "MapChain",
+    "Reflector",
+    "Alchemist"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

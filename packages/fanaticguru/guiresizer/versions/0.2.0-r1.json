@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "guiresizer",
+  "owner": "fanaticguru",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2024-11-01T00:00:00+00:00",
+  "entry": "src/v2/FanaticGuru/GuiResizer.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "1cf13e92bf178c4fcf332ac4bac8b8625f913db9",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?t=113921"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "36ad1f19a48666d45df76dca47df69bb05294c994556916cb15f23eb32c71500",
+      "size": 3766,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/fanaticguru/guiresizer/0.2.0-r1/guiresizer-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

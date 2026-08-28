@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "adash",
+  "owner": "chunjee",
+  "version": "0.5.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/adash.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "adash-ahk/adash.ahk",
+    "commit": "191236b59401fd23b339ab2744137d0a215f96c0",
+    "path": "v0.5.0",
+    "url": "https://adash.app"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "d27f50803227ef209cf8175d8837e459a42ce83ff6e73fd4145ab4b55d728854",
+      "size": 8138,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/chunjee/adash/0.5.0-r1/adash-0.5.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

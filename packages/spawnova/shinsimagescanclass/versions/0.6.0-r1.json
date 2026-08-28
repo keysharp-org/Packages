@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "shinsimagescanclass",
+  "owner": "spawnova",
+  "version": "0.6.0",
+  "revision": 1,
+  "published": "2024-01-25T00:00:00+00:00",
+  "entry": "src/AHK V2/ShinsImageScanClass.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Spawnova/ShinsImageScanClass",
+    "commit": "d83e5930f8a5f4892a1fc661ac4c3e53b49755c4"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "50c671d7fae928af9851074558a48451a6c13078956a09fde708fb23e6295051",
+      "size": 37487,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/spawnova/shinsimagescanclass/0.6.0-r1/shinsimagescanclass-0.6.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

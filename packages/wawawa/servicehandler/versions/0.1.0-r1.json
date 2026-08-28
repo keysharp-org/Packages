@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "servicehandler",
+  "owner": "wawawa",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-23T00:00:00+00:00",
+  "entry": "src/v2/wawawa/ServiceHandler.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "7b818cb4fa81f3ef2582a0d7c5c9ec913abfbf0b",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?p=614435"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "dac872b32e7af086870baaccee1caa5f5ea49ca474aa4d07caaa2f3ebfb19d42",
+      "size": 1878,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/wawawa/servicehandler/0.1.0-r1/servicehandler-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "regexmatchall",
+  "owner": "joyhak",
+  "displayName": "RegExMatchAll",
+  "description": "Iterate through all string occurences by regex, replace chunks of text",
+  "license": "MIT",
+  "homepage": "https://github.com/JoyHak/AhkLib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

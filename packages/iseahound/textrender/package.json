@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "textrender",
+  "owner": "iseahound",
+  "displayName": "TextRender",
+  "description": "Draw images and text on the screen, configure its background color, text outline, and drop shadow, make the text clickable and more",
+  "license": "MIT",
+  "homepage": "https://github.com/iseahound/TextRender",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

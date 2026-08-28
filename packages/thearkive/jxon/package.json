@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "jxon",
+  "owner": "thearkive",
+  "displayName": "JXON",
+  "description": "JSON serializer for AHK v2",
+  "license": "MIT",
+  "homepage": "https://github.com/TheArkive/JXON_ahk2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

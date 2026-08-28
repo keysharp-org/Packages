@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "isprocesselevated",
+  "owner": "jnizm",
+  "displayName": "IsProcessElevated",
+  "description": "Retrieves whether a process has elevated privileges",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "getadaptersinfo",
+  "owner": "jnizm",
+  "displayName": "GetAdaptersInfo",
+  "description": "Gets network adapter information for the local computer",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "name": "aquahotkey",
+  "owner": "0w0demonic",
+  "displayName": "AquaHotkey",
+  "description": "Class prototyping library for AutoHotkey v2. Extends AHK, provides stdlib.",
+  "license": "MIT",
+  "homepage": "https://github.com/0w0Demonic/AquaHotkey",
+  "categories": [
+    "autohotkey",
+    "prototyping",
+    "class",
+    "object",
+    "oop",
+    "type",
+    "extension"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

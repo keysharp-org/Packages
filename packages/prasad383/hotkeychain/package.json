@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "hotkeychain",
+  "owner": "prasad383",
+  "displayName": "HotKeyChain",
+  "description": "This class creates an interactive hotkey system with a GUI menu, supporting nested hotkeys and customizable appearance",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135125",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

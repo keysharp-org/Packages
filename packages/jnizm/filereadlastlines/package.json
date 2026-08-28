@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "filereadlastlines",
+  "owner": "jnizm",
+  "displayName": "FileReadLastLines",
+  "description": "Read last x lines of a text file",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

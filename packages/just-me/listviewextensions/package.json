@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "listviewextensions",
+  "owner": "just-me",
+  "displayName": "ListViewExtensions",
+  "description": "Additional functions for GUI ListView controls",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=95019",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

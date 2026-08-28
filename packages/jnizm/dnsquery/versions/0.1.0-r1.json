@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "dnsquery",
+  "owner": "jnizm",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2023-01-18T00:00:00+00:00",
+  "entry": "src/src/Network/DNSQuery.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "1477d8fffa843a4c05684910845203985b459f7a"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "d7e77034b14ce7183b976a5848c0fb9aab567ebdaa9d14288404acbe30066c7c",
+      "size": 1614,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/dnsquery/0.1.0-r1/dnsquery-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

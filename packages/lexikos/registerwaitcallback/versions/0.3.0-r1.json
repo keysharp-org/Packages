@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "registerwaitcallback",
+  "owner": "lexikos",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/lexikos/RegisterWaitCallback.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "fd3011975aaeb45103bf78d555700b136a25da96",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=110691"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "6f2e52e1e9f3deebb8106528b0544c6319919202f9f3ea7411d380d274beae88",
+      "size": 2057,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/registerwaitcallback/0.3.0-r1/registerwaitcallback-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

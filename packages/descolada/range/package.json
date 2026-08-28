@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "range",
+  "owner": "descolada",
+  "displayName": "Range",
+  "description": "Iterate in range [min, max]. Loops backwards or generates sequence of numbers",
+  "license": "MIT",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=107759",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "array",
+  "owner": "cebolla",
+  "version": "0.8.0",
+  "revision": 1,
+  "published": "2025-03-07T00:00:00+00:00",
+  "entry": "src/Array.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Nich-Cebolla/AutoHotkey-Array",
+    "commit": "7bb8c25dd37240c1e2a52c55b6ce0ce43f520fd8"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "45b45ed003b4c9186f0be17e30def079877665de83ace59676eb4b9f6b447158",
+      "size": 6520,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/array/0.8.0-r1/array-0.8.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "name": "launcher",
+  "owner": "joyhak",
+  "displayName": "Launcher",
+  "description": "Launch saved scripts and applications, manage auto-startup scripts. Supports both CLI & GUI.",
+  "license": "MIT",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=140805",
+  "categories": [
+    "cli",
+    "gui",
+    "terminal",
+    "autorun",
+    "manager",
+    "scripts"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

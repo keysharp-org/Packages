@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "crypt",
+  "owner": "thqby",
+  "displayName": "Crypt",
+  "description": "Cryptograhic functions for MD5, SHA, and AES hashes",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

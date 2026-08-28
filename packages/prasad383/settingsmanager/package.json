@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "settingsmanager",
+  "owner": "prasad383",
+  "displayName": "SettingsManager",
+  "description": "A simple class to manage settings for any script using ini files.",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135324",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

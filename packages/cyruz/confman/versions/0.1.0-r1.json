@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "confman",
+  "owner": "cyruz",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-10-01T00:00:00+00:00",
+  "entry": "src/v2/cyruz/ConfMan.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "e8f79d428cb3df1ef10dc3a02fa0080e04e74a3f",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=112809"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "065f263d30a7ffa01f1ce6bb443d8d8fd188030c187292f7d2931908d65251f1",
+      "size": 6440,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/cyruz/confman/0.1.0-r1/confman-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

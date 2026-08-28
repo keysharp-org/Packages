@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "expect",
+  "owner": "davet1",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-10-01T00:00:00+00:00",
+  "entry": "src/v2/DaveT1/Expect.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "7c3dff4cec191b076da742f7309802d2e7ea3dc4",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=130093"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "8866388a6ba16a085dc8f51ff4b9abaae409804618f4f1d4c864fbf3e7f5b724",
+      "size": 6407,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/davet1/expect/0.1.0-r1/expect-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

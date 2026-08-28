@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "customdialog",
+  "owner": "owhs",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-12-19T00:00:00+00:00",
+  "entry": "src/customDialog.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "owhs/customDialog-AHK",
+    "commit": "c6633219937c1a56f8f084eb58cfb25a2dfbb9e3"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "eb0b3714dadc3249a5db66a872083a196b999b0cf496f15c4e551b7b149e4dc6",
+      "size": 10216,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/owhs/customdialog/0.1.0-r1/customdialog-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

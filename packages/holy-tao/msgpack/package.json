@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "name": "msgpack",
+  "owner": "holy-tao",
+  "displayName": "MsgPack",
+  "description": "An efficient binary serialization format. ",
+  "license": "MIT",
+  "homepage": "https://github.com/holy-tao/MsgPack",
+  "categories": [
+    "serialization",
+    "data",
+    "dump",
+    "messagepack"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

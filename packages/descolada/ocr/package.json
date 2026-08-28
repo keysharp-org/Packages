@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "name": "ocr",
+  "owner": "descolada",
+  "displayName": "OCR",
+  "description": "OCR library using Windows' built-in UWP OCR capabilities",
+  "license": "MIT",
+  "homepage": "https://github.com/Descolada/OCR",
+  "categories": [
+    "OCR",
+    "optical character recognition",
+    "image search"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

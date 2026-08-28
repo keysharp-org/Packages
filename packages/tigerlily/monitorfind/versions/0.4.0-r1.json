@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "monitorfind",
+  "owner": "tigerlily",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/Tigerlily/MonitorFind.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "9608613ad0c496ea200c2989cf47c65ad715288e",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=79220"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "c7674f60461b50b0baef4607a238c13879e02f272648fda911a119f137f8ce7b",
+      "size": 6298,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/tigerlily/monitorfind/0.4.0-r1/monitorfind-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

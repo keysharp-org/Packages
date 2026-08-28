@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "getinterpreter",
+  "owner": "joyhak",
+  "displayName": "GetInterpreter",
+  "description": "Returns path to the required AutoHotkey interpreter (with version) for specific script",
+  "license": "MIT",
+  "homepage": "https://github.com/JoyHak/AhkLib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "runastask",
+  "owner": "skan",
+  "displayName": "RunAsTask",
+  "description": "Auto-elevates script without UAC prompt",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=119710",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

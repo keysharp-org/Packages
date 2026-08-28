@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "resolvehostname",
+  "owner": "jnizm",
+  "displayName": "ResolveHostname",
+  "description": "Gets the IP Address from a Hostname (Resolve Hostname to IP Address) like nslookup",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

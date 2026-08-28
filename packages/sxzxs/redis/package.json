@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "redis",
+  "owner": "sxzxs",
+  "displayName": "redis",
+  "description": "Redis wrapper for AutoHotkey, provides a set of functions to interact with Redis",
+  "license": "MIT",
+  "homepage": "https://github.com/sxzxs/redis",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

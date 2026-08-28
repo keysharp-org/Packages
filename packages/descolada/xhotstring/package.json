@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "name": "xhotstring",
+  "owner": "descolada",
+  "displayName": "XHotstring",
+  "description": "Implements regular expression hotstrings",
+  "license": "MIT",
+  "homepage": "https://github.com/Descolada/AHK-v2-libraries",
+  "categories": [
+    "RegEx",
+    "hotstrings"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "clisak",
+  "owner": "thearkive",
+  "version": "0.20.0",
+  "revision": 1,
+  "published": "2021-07-25T00:00:00+00:00",
+  "entry": "src/AHK2/TheArkive_CliSAK.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "TheArkive/CLSAK_AHK",
+    "commit": "aaa59cef298782086cf1ef84b4c535f56d39f26b"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "d1ea1eafd03d9bcc20b4c40cdaecf30a5bf4d49464f0a5eb773ff80ccbd22601",
+      "size": 16958,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thearkive/clisak/0.20.0-r1/clisak-0.20.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

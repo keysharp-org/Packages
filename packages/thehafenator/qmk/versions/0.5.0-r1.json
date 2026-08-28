@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "qmk",
+  "owner": "thehafenator",
+  "version": "0.5.0",
+  "revision": 1,
+  "published": "2025-10-28T00:00:00+00:00",
+  "entry": "src/QMKClass.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thehafenator/QMK.ahk",
+    "commit": "69aa79d78d6b6f1c70984bbf74c260cd5c13f1bf"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "b5da36b7252caca5668292394566b5abf8ffd15f82998a690280b5a2579e16c2",
+      "size": 13568,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thehafenator/qmk/0.5.0-r1/qmk-0.5.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

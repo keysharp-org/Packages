@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "confman",
+  "owner": "cyruz",
+  "displayName": "ConfMan",
+  "description": "Ini files management class, implementing an object central storage and an interface dealing with the underlined classes",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=112809",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "xinput",
+  "owner": "lexikos",
+  "displayName": "XInput",
+  "description": "Wraps a few key functions of XInput: get XBox controller information (read L/R triggers), set level of vibration",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=106254",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "wisegui",
+  "owner": "skan",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/SKAN/WiseGui.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "b3e19a7a34bf88870043ef1ead16c128f6b99ab5",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=94044"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "cfa67f8a416d55e9426200a5438f212f8b17f5022b7680214d943cd11567396e",
+      "size": 6621,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/wisegui/0.3.0-r1/wisegui-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

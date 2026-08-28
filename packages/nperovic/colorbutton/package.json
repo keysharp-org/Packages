@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "colorbutton",
+  "owner": "nperovic",
+  "displayName": "ColorButton",
+  "description": "An extended method for changing a button's background color",
+  "license": "MIT",
+  "homepage": "https://github.com/nperovic/ColorButton.ahk",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

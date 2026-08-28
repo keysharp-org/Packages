@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "guienhancerkit",
+  "owner": "nperovic",
+  "version": "1.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/GuiEnhancerKit.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "nperovic/GuiEnhancerKit",
+    "commit": "728ebaa56c2bbbb95c1ffaf9f8357944d5ce6db3",
+    "path": "v1.0.0"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "1495a8eb8e26a53b47de288671f39ce2dd1bbe6aee1fc44543b59d5b547ea785",
+      "size": 9793,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/nperovic/guienhancerkit/1.0.0-r1/guienhancerkit-1.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

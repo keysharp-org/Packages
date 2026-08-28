@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "listbuffer",
+  "owner": "skan",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2024-11-01T00:00:00+00:00",
+  "entry": "src/v2/SKAN/ListBuffer.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "db4f36ae2df82c7207cd95d786ea3fd386df7098",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=101121"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "91fc989f2519cb38a6b9e6594a65b1030674be33406adfe88cbda36ca170f161",
+      "size": 16153,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/listbuffer/0.4.0-r1/listbuffer-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

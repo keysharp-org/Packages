@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "ocr",
+  "owner": "keysharp",
+  "displayName": "OCR",
+  "description": "Recognizes text in an image and returns lines and words with their positions. Engine-agnostic, Tesseract by default.",
+  "license": "MIT",
+  "homepage": "https://github.com/Descolada/OCR",
+  "categories": ["imaging", "accessibility"],
+  "versioning": "registry",
+  "yanked": []
+}

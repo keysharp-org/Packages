@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "yaml",
+  "owner": "thqby",
+  "displayName": "YAML",
+  "description": "Converts a AutoHotkey Object Notation (YAML/JSON) string into an object.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

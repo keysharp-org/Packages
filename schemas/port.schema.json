@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://packages.keysharp.org/schemas/port.schema.json",
+  "title": "Source-hosted package",
+  "description": "packages/<owner>/<name>/port.json — present only for packages whose maintained source lives in this repository. It carries what packing needs; the package-level record stays in package.json.",
+  "type": "object",
+  "required": ["schema", "version", "entry", "engines", "platforms"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": 1 },
+    "version": {
+      "type": "string",
+      "description": "SemVer of the current source. Changing any file under src/ requires changing this, and the matching versions/<version>-r1.json must ship in the same pull request."
+    },
+    "entry": { "type": "string", "description": "Repository-relative, e.g. src/FindText.ks." },
+    "engines": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "keysharp": { "type": "string" },
+        "autohotkey": { "type": "string" }
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "enum": ["any", "win-x64", "win-arm64", "linux-x64", "linux-arm64", "osx-x64", "osx-arm64"] }
+    },
+    "capabilities": { "type": "array", "items": { "type": "string" } },
+    "dependencies": { "type": "object", "additionalProperties": { "type": "string" } },
+    "upstream": {
+      "type": "object",
+      "description": "The revision this port was cut from, so a maintainer can diff against it later.",
+      "additionalProperties": false,
+      "properties": {
+        "kind": { "enum": ["ports", "git", "scripthub", "forum"] },
+        "repository": { "type": "string" },
+        "commit": { "type": "string" },
+        "path": { "type": "string" },
+        "url": { "type": "string" }
+      }
+    }
+  }
+}

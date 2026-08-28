@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "array2buffer",
+  "owner": "xroot",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-02-10T00:00:00+00:00",
+  "entry": "src/v2/xroot/Array2Buffer.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "46cc346afbbb2f83058f31c4324f971d4e9b9e71",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135564"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2626edca07bfe423105dd51763845c07a839cf9d8b2badd632700ff2e87392da",
+      "size": 1289,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/xroot/array2buffer/0.1.0-r1/array2buffer-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

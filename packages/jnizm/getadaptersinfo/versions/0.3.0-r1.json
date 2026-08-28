@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "getadaptersinfo",
+  "owner": "jnizm",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2021-10-13T00:00:00+00:00",
+  "entry": "src/src/Network/GetAdaptersInfo.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "07459394ab07c4832d53cfc098c92b8afe45ff7d"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "ec4901e2dca93e6b0b0ee4c37d0623934092028cbd2472f185e219c80d10a8fc",
+      "size": 1498,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/getadaptersinfo/0.3.0-r1/getadaptersinfo-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

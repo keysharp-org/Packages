@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "getopenedfiles",
+  "owner": "neogna2",
+  "displayName": "GetOpenedFiles",
+  "description": "Gets an array of files currently in use by a process",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=110405",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

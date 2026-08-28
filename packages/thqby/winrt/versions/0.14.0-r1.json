@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "winrt",
+  "owner": "thqby",
+  "version": "0.14.0",
+  "revision": 1,
+  "published": "2025-09-30T00:00:00+00:00",
+  "entry": "src/winrt.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/winrt.ahk",
+    "commit": "cf8293b94171496747bd50bdd55d7c2925883c09"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "211bc9752c8c334693e4f7894f4e97b32e6ed658cb7a34cac129ee89cbd4cbfc",
+      "size": 3131,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/winrt/0.14.0-r1/winrt-0.14.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

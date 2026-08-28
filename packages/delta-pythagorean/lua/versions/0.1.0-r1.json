@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "lua",
+  "owner": "delta-pythagorean",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-11-01T00:00:00+00:00",
+  "entry": "src/v2/Delta Pythagorean/Lua.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "136ca4bc5a7ec8a4bdfcbacebb8bc195658d1e93",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?t=122655"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "9dc4b42a8635d306b79b3d3d71995969ed7433f5360f81fff60931ebc368242a",
+      "size": 4326,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/delta-pythagorean/lua/0.1.0-r1/lua-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

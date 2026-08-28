@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "ntl",
+  "owner": "thqby",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-05-20T00:00:00+00:00",
+  "entry": "src/NTLCalc.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "06aed7a1c42f754dfcb67962d055311a480d0848"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "c382168ed27d8caf749e280aaa7e58b964734b2185ffc8b8677998db1ac966e2",
+      "size": 1646,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/ntl/0.1.0-r1/ntl-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

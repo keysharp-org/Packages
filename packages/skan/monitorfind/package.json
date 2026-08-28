@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "monitorfind",
+  "owner": "skan",
+  "displayName": "MonitorFind",
+  "description": "Enumerates a list (database) of plugged-in monitors",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=133259",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

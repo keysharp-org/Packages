@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "runastask",
+  "owner": "skan",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/SKAN/RunAsTask.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "730448a7c2d0f34dd3e1bf58c6b034cd8a6469d7",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=119710"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "7c78f56154e23e32643e476e1a427884284ab7b974f0eb998cec7e34f7757026",
+      "size": 2193,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/runastask/0.1.0-r1/runastask-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "tkinter",
+  "owner": "monoeven",
+  "version": "0.96.0",
+  "revision": 1,
+  "published": "2026-06-05T00:00:00+00:00",
+  "entry": "src/stdlib/examples/tkinter.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "MonoEven/stdlib-ahk",
+    "commit": "687fbe24cd8fae88357a475a8b2454d2cb136feb",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?t=140771&p=619179#p619179"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "af0ee7b13d07d4fc7c8a3696b1ba937d9e7a12516d0cdd6d20364270a646b9ca",
+      "size": 79137,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/monoeven/tkinter/0.96.0-r1/tkinter-0.96.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

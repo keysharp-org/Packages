@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "filefindstring",
+  "owner": "jnizm",
+  "displayName": "FileFindString",
+  "description": "Finds a specific word / string in a text file",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

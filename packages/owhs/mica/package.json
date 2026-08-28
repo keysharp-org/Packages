@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "mica",
+  "owner": "owhs",
+  "displayName": "Mica",
+  "description": "This class creates Mica & Frosted GUIs",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?p=617944",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

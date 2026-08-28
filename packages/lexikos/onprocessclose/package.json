@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "onprocessclose",
+  "owner": "lexikos",
+  "displayName": "OnProcessClose",
+  "description": "Monitor for process close event efficiently",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=110691",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

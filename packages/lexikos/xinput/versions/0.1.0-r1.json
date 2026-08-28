@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "xinput",
+  "owner": "lexikos",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-11-01T00:00:00+00:00",
+  "entry": "src/v2/lexikos/XInput.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "2164be191ef11884b5d1568702ab43a4ada0218d",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=106254"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "98b0f16fdb7d1f6b09bacf4ea11577eea4a84e50adfd9e1c6d6184b0b091e77f",
+      "size": 2514,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/xinput/0.1.0-r1/xinput-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

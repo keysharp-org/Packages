@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "histogram2",
+  "owner": "cebolla",
+  "displayName": "Histogram2",
+  "description": "Generates a histogram from an array of numbers.",
+  "license": "MIT",
+  "homepage": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

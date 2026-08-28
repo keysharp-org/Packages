@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "shinsoverlayclass",
+  "owner": "spawnova",
+  "version": "0.24.0",
+  "revision": 1,
+  "published": "2025-02-13T00:00:00+00:00",
+  "entry": "src/AHK V2/ShinsOverlayClass.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Spawnova/ShinsOverlayClass",
+    "commit": "30f5c2cd48cbf85128a9f7cb32d04c7835adc7b1"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "591d8eaf1c2f395df0cbc7f2d55353bd3478110eb0a09d9c49d8d8bccaed8327",
+      "size": 9667,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/spawnova/shinsoverlayclass/0.24.0-r1/shinsoverlayclass-0.24.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

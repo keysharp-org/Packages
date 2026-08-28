@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "xml",
+  "owner": "docterry",
+  "displayName": "XML",
+  "description": "Build and parse XML.",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138365",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

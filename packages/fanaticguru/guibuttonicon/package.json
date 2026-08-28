@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "guibuttonicon",
+  "owner": "fanaticguru",
+  "displayName": "GuiButtonIcon",
+  "description": "A function that allows an icon to be assigned to a Gui Button using the button's hwnd to identify the button",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=115871",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

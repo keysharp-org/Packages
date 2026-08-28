@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "misc",
+  "owner": "joyhak",
+  "displayName": "Misc",
+  "description": "Miscallaneous useful functions such as GetControlsHwnd, FindControls, IsFocused, Restart, etc.",
+  "license": "MIT",
+  "homepage": "https://github.com/JoyHak/AhkLib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

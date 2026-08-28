@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "build",
+  "owner": "joyhak",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-24T00:00:00+00:00",
+  "entry": "src/Scripts/Build.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/AhkLib",
+    "commit": "1dfabe100d9acee634ef768069198a166e192a2b"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "1d196c3f57dc21336c61c5bf85ce38af6816ccbd4701462779052cc19876f5ef",
+      "size": 4239,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/build/0.1.0-r1/build-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

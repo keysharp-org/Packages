@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "remotelistview",
+  "owner": "the-codingman",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-09-16T00:00:00+00:00",
+  "entry": "src/RemoteListView.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "The-CoDingman/RemoteListView.ahk",
+    "commit": "49b749d059150db4eac97b2df8c3721f06548606"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "4c63b2b30fdfd91f200ac21a0e7611bf442c9defe2a3d82d900fb8ba0ecb16e3",
+      "size": 3276,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/the-codingman/remotelistview/0.1.0-r1/remotelistview-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

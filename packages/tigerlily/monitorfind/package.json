@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "monitorfind",
+  "owner": "tigerlily",
+  "displayName": "MonitorFind",
+  "description": "Wrapper for monitor configuration WinAPI functions, get and set monitor properties (brightness etc)",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=79220",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

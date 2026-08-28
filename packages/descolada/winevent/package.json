@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "winevent",
+  "owner": "descolada",
+  "displayName": "WinEvent",
+  "description": "Can be used to monitor for window events such as close, open, minimize etc",
+  "license": "MIT",
+  "homepage": "https://github.com/Descolada/AHK-v2-libraries",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

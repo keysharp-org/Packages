@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "ahkwin32projection",
+  "owner": "holy-tao",
+  "version": "9.0.0-alpha",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Win32FixedArray.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "holy-tao/AhkWin32Projection",
+    "commit": "7d862c21fae14d78173d30481b1484af31236b15",
+    "path": "v9.0.0-alpha"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "0bda0f9ec6200038e74b18807b670e1788fbbd853bcd1e38a299c06d60533e88",
+      "size": 17114,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/holy-tao/ahkwin32projection/9.0.0-alpha-r1/ahkwin32projection-9.0.0-alpha-r1-any.kspkg"
+      ]
+    }
+  }
+}

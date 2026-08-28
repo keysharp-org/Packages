@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "jarteplus",
+  "owner": "burque505",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-02-10T00:00:00+00:00",
+  "entry": "src/v2/burque505/JartePlus.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "86201f052008e5b3188a69ccd42385f631633bdf",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135720"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "716a0b80d964c3a20a25ea3ec329f0eedafd1503438550b6022f898072b17ece",
+      "size": 2211,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/burque505/jarteplus/0.1.0-r1/jarteplus-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

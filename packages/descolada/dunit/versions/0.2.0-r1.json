@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "dunit",
+  "owner": "descolada",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2024-10-11T00:00:00+00:00",
+  "entry": "src/Lib/DUnit.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/AHK-v2-libraries",
+    "commit": "70a7732693da6db6c0a7ba37bc0c57d332167841",
+    "url": "https://github.com/Descolada/AHK-v2-libraries"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "9b4faf81bdf0d4f058b320598a1ab7b861a47a97c3de26045b325b0800282e74",
+      "size": 6205,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/dunit/0.2.0-r1/dunit-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

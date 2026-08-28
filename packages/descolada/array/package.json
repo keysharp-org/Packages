@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "array",
+  "owner": "descolada",
+  "displayName": "Array",
+  "description": "Adds useful methods to arrays",
+  "license": "MIT",
+  "homepage": "https://github.com/Descolada/AHK-v2-libraries",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

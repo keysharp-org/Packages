@@ -1,0 +1,101 @@
+name: Validate
+
+# Every rule a submission must satisfy before it can be merged. The same checks run locally via
+# `kpm validate`, so a contributor sees this answer before pushing.
+on:
+  pull_request:
+  workflow_dispatch:
+
+env:
+  KPM_REPOSITORY: keysharp-org/KPM
+  KEYSHARP_REPOSITORY: Descolada/Keysharp
+
+jobs:
+  manifests:
+    name: Manifests and artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The immutability check diffs against the base, so the whole history is needed.
+          fetch-depth: 0
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build kpm
+        run: |
+          git clone --depth 1 https://github.com/${KPM_REPOSITORY}.git "$RUNNER_TEMP/kpm"
+          dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Cli/KPM.Cli.csproj" -c Release -o "$RUNNER_TEMP/kpm-bin"
+          echo "$RUNNER_TEMP/kpm-bin" >> "$GITHUB_PATH"
+
+      # A published release is immutable: its manifest may be added, never edited or deleted. Without
+      # this, a merged pull request could silently change what an existing lockfile resolves to.
+      - name: Published releases are immutable
+        run: |
+          base="origin/${{ github.base_ref || 'main' }}"
+          changed=$(git diff --name-status "$base"...HEAD -- 'packages/*/*/versions/*.json' \
+                    | grep -E '^(M|D|R)' || true)
+          if [ -n "$changed" ]; then
+            echo "::error::a published release manifest was modified or deleted:"
+            echo "$changed"
+            echo "Correct a mistake by publishing a new revision, never by editing a release."
+            exit 1
+          fi
+
+      - name: Validate the registry
+        run: kpm validate .
+
+      - name: Schema check
+        run: |
+          pip install --quiet check-jsonschema
+          check-jsonschema --schemafile schemas/package.schema.json packages/*/*/package.json
+          check-jsonschema --schemafile schemas/version.schema.json packages/*/*/versions/*.json
+          # Only source-hosted packages have a port.json, so this glob may legitimately match nothing.
+          if compgen -G "packages/*/*/port.json" > /dev/null; then
+            check-jsonschema --schemafile schemas/port.schema.json packages/*/*/port.json
+          fi
+
+  engines:
+    name: ${{ matrix.engine }} on ${{ matrix.os }}
+    needs: manifests
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - engine: keysharp
+            os: ubuntu-latest
+          - engine: keysharp
+            os: windows-latest
+          - engine: keysharp
+            os: macos-latest
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build kpm
+        shell: bash
+        run: |
+          git clone --depth 1 https://github.com/${KPM_REPOSITORY}.git "$RUNNER_TEMP/kpm"
+          dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Cli/KPM.Cli.csproj" -c Release -o "$RUNNER_TEMP/kpm-bin"
+          echo "$RUNNER_TEMP/kpm-bin" >> "$GITHUB_PATH"
+
+      - name: Install ${{ matrix.engine }}
+        id: engine
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/install-engine.sh "${{ matrix.engine }}" "$RUNNER_TEMP/engine"
+
+      # A package claiming an engine must compile under it. The claim is earned here rather than
+      # taken on trust: most of the imported corpus is AutoHotkey code never checked against Keysharp.
+      - name: Compile-check every changed package
+        shell: bash
+        run: .github/scripts/validate-engines.sh "${{ matrix.engine }}" "${{ steps.engine.outputs.command }}"

@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "neutron",
+  "owner": "g33kdude",
+  "version": "1.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Neutron.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "G33kDude/Neutron.ahk",
+    "commit": "d14cb9928e7404a462cc42c96a588dea08265259",
+    "path": "v1.0.0",
+    "url": "https://github.com/G33kDude/Neutron.ahk"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "286d6ef21babdc69170218a0609e06019ac2cccbb350f4c52b91f2f0181669f0",
+      "size": 10013,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/g33kdude/neutron/1.0.0-r1/neutron-1.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

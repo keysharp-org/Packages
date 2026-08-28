@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "jsongo",
+  "owner": "groggyotter",
+  "version": "0.8.0",
+  "revision": 1,
+  "published": "2025-02-26T00:00:00+00:00",
+  "entry": "src/src/jsongo.v2.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "GroggyOtter/jsongo_AHKv2",
+    "commit": "d9e89ea571cdcac9b201b0aac31a29722dcaedda"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "9f7ca85d843877395d479b0e8ebdf303b9f3a507685415ee70da69a1e7c0a4fa",
+      "size": 6073,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/groggyotter/jsongo/0.8.0-r1/jsongo-0.8.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

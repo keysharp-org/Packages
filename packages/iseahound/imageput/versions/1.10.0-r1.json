@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "imageput",
+  "owner": "iseahound",
+  "version": "1.10.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/ImagePut.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "iseahound/ImagePut",
+    "commit": "5696cf89a2d50b561144c184ae77c822b2085621",
+    "path": "v1.10",
+    "url": "https://github.com/iseahound/ImagePut"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "5ac3760bf086bc3bf363a5ca5b1efff64ee6e0b9657b635ca36dc8638fe738aa",
+      "size": 36908,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/iseahound/imageput/1.10.0-r1/imageput-1.10.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

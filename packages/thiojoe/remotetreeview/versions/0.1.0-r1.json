@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "remotetreeview",
+  "owner": "thiojoe",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2022-09-10T00:00:00+00:00",
+  "entry": "src/RemoteTreeView.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "ThioJoe/AHK-RemoteTreeView-V2",
+    "commit": "6c6c7f23ec68e8c2edad12256bdd6e6621647693"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "1182b6850d7272ba2d497dca646216d4f9632368703fafadb1c2287b445e991f",
+      "size": 9373,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thiojoe/remotetreeview/0.1.0-r1/remotetreeview-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

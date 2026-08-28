@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "jxon",
+  "owner": "thearkive",
+  "version": "0.7.0",
+  "revision": 1,
+  "published": "2022-12-03T00:00:00+00:00",
+  "entry": "src/_JXON.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "TheArkive/JXON_ahk2",
+    "commit": "825cce4813f31074553c738086b47170ba71a230"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "50916d643dd0fe2147ed28621e9efd675108f9da2e9cce30be26cee6ad694163",
+      "size": 3113,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thearkive/jxon/0.7.0-r1/jxon-0.7.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

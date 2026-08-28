@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "reverselookup",
+  "owner": "jnizm",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2021-04-30T00:00:00+00:00",
+  "entry": "src/src/Network/ReverseLookup.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "06721e9dbbc2a886c6c67d24fac0f5e3e2d25ec6"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "6c8169ba8f72ae488b7e694f1743c2e4774f2e292c8e0e67de93b8cf36492e99",
+      "size": 989,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/reverselookup/0.1.0-r1/reverselookup-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

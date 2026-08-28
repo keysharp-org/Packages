@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "guibuttonicon",
+  "owner": "fanaticguru",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-02-10T00:00:00+00:00",
+  "entry": "src/v2/FanaticGuru/GuiButtonIcon.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "044f86561508666de85cecaedee6cf69a551b238",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=115871"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "1c5ef11240e98dfc0af95e627fd6ab8e87ab6563394838c4f55d17d39da7faab",
+      "size": 1493,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/fanaticguru/guibuttonicon/0.1.0-r1/guibuttonicon-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "onprocessclose",
+  "owner": "lexikos",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/lexikos/OnProcessClose.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "730448a7c2d0f34dd3e1bf58c6b034cd8a6469d7",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=110691"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "4a0f6b1f6660ebf41d7bec906415c6478bbd0278433780e5ffd5115c96bbd334",
+      "size": 2945,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/onprocessclose/0.1.0-r1/onprocessclose-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

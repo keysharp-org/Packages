@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "json",
+  "owner": "thqby",
+  "displayName": "JSON",
+  "description": "A basic JSON library",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

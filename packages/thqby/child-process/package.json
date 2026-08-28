@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "child-process",
+  "owner": "thqby",
+  "displayName": "child_process",
+  "description": "Create a child process, and read stdout/stderr asynchronously, supporting multiple stdin inputs",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

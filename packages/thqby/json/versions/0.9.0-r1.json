@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "json",
+  "owner": "thqby",
+  "version": "0.9.0",
+  "revision": 1,
+  "published": "2025-12-22T00:00:00+00:00",
+  "entry": "src/JSON.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "af633c778cabc294f90678d303f1a1c44b50bcc3"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2d6a7fb21abe97acacf8d0dda819631d952a40e37d1cde508c756707205212ab",
+      "size": 3108,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/json/0.9.0-r1/json-0.9.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

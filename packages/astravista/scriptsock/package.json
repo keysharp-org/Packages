@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "name": "scriptsock",
+  "owner": "astravista",
+  "displayName": "ScriptSock",
+  "description": "Communicate easily between scripts",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=126320",
+  "categories": [
+    "IPC",
+    "inter-process",
+    "communication"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

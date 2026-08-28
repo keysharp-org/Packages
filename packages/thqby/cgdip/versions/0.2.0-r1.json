@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "cgdip",
+  "owner": "thqby",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/CGdip.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "bd80eb9e52ccc967ae24862a07f07461c85d232b"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "184d1bef1ddfa5a29eb96970fd13847e9f8c1e074a6703f891301a26351fc36d",
+      "size": 11760,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/cgdip/0.2.0-r1/cgdip-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

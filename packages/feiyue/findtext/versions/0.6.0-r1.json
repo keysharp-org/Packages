@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "findtext",
+  "owner": "feiyue",
+  "version": "0.6.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/feiyue/FindText.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "efe73363fdb1f4f52a26acee329404b333d513c9",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=116471"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "6d28301f9cae2fc6886f4e402a683055b43cba01f3ffbcb85c2cb991369be4e3",
+      "size": 41710,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/feiyue/findtext/0.6.0-r1/findtext-0.6.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

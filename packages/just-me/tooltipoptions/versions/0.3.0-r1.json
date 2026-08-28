@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "tooltipoptions",
+  "owner": "just-me",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/just me/ToolTipOptions.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "2ded3c9d138dcf99e8f53a34b4ea2edfdd24a5a8",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=113308"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "3c38d8ab2d62ddf595f8e09f6107f25d916ed690c5e7bbe3642fb30fd0f149c8",
+      "size": 3364,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/tooltipoptions/0.3.0-r1/tooltipoptions-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

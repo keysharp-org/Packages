@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "uia",
+  "owner": "descolada",
+  "version": "1.1.1",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Lib/UIA.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/UIA-v2",
+    "commit": "563792964d05e95799b5ca1b08e3342747391685",
+    "path": "v1.1.1",
+    "url": "https://github.com/Descolada/UIA-v2"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "44475be8b9acbbe6432dadaa9400f60b44f667354a59cf1085be668a48228edd",
+      "size": 84702,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/uia/1.1.1-r1/uia-1.1.1-r1-any.kspkg"
+      ]
+    }
+  }
+}

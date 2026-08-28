@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "everyhangul",
+  "owner": "devpnal",
+  "version": "2.2.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/EveryHangul.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "devPnal/every-hangul-v2",
+    "commit": "9d01cb973d2221e0eb5d0f7e70c18fdb23ad7d01",
+    "path": "v2.2"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "3f557d2cbf8c6167c200136ea220c495ac8504d83efa1c7758c32feff5e6b97a",
+      "size": 8046,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/devpnal/everyhangul/2.2.0-r1/everyhangul-2.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

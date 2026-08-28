@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "watchfolder",
+  "owner": "just-me",
+  "displayName": "WatchFolder",
+  "description": "Notifies about changes within folders, a rewrite of HotKeyIt's WatchDirectory()",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=95659",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

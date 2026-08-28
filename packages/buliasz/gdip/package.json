@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "gdip",
+  "owner": "buliasz",
+  "displayName": "Gdip",
+  "description": "GDI+ library (Gdip_All.ahk) for graphics manipulation",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/buliasz/AHKv2-Gdip",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

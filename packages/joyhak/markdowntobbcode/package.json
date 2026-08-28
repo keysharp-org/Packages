@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "name": "markdowntobbcode",
+  "owner": "joyhak",
+  "displayName": "MarkdownToBBCode",
+  "description": "Convert text from Markdown to BBCode markup language (used by forum).",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/JoyHak/MarkdownToBBCode",
+  "categories": [
+    "html",
+    "markdown",
+    "bbcode",
+    "post",
+    "convert",
+    "forum"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

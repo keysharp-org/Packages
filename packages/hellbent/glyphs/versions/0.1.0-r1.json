@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "glyphs",
+  "owner": "hellbent",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-07-02T00:00:00+00:00",
+  "entry": "src/v2/Hellbent/Glyphs.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "2399abcfc68c39bdec2b314969cfd1f1082cecbd",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135966"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "b53fe2d43eb706fd0820d148ad03c2d264968a3c1ebbd2cb048335dbc4ab4fb2",
+      "size": 7540,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/hellbent/glyphs/0.1.0-r1/glyphs-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

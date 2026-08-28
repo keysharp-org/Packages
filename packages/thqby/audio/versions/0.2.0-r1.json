@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "audio",
+  "owner": "thqby",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/Audio.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "91573ee233aa12725f7476c41be0afcf736b9d91"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "f71805152fcd2de81312e4e7eb0172c864692728d4a4518d25ab2c2b7dd9719a",
+      "size": 5625,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/audio/0.2.0-r1/audio-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

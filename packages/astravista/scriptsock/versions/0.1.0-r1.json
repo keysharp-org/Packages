@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "scriptsock",
+  "owner": "astravista",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-11-01T00:00:00+00:00",
+  "entry": "src/v2/AstraVista/ScriptSock.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "8de46449e703dffe5535c5ec03020315f5d5e203",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=126320"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "922e5c269c3caf8c37c93205b632b8ff6f71b37de7066bc58065bd70b6898a94",
+      "size": 5264,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/astravista/scriptsock/0.1.0-r1/scriptsock-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

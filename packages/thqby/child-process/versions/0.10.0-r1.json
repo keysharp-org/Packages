@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "child-process",
+  "owner": "thqby",
+  "version": "0.10.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/child_process.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "9e55d6753dd7a02a17e44eaaa0daabc521ca7548"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "b460e890e6619752cce07944ab941a7d99cc5f9328304aa3a4fb1ae20c35982e",
+      "size": 3805,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/child-process/0.10.0-r1/child-process-0.10.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

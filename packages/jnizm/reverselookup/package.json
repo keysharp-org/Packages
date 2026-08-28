@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "reverselookup",
+  "owner": "jnizm",
+  "displayName": "ReverseLookup",
+  "description": "Gets the Hostname by the IP Address (Reverse Lookup) like nslookup",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

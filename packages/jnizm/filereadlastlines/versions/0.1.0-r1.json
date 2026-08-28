@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "filereadlastlines",
+  "owner": "jnizm",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2021-04-23T00:00:00+00:00",
+  "entry": "src/src/FileObject/FileReadLastLines.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "5060b5f0620593003f1d2cd61e17c268650b32a6"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "ca8710ddbbbe764f83c035a88c06e9ce75016b347e7e6ebcb2e4fdbfaa7a1fb5",
+      "size": 862,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/filereadlastlines/0.1.0-r1/filereadlastlines-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

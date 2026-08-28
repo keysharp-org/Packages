@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "hash",
+  "owner": "jnizm",
+  "version": "0.9.2",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/src/HashCalc.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/HashCalc",
+    "commit": "bfa65a44435c33d84b96e31ea2f1b44a22e91906",
+    "path": "v0.9.2"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "bbfb230f8bf62c47b7dfbdb10428540a92f0dd805c248088504a99deae53f054",
+      "size": 4716,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/hash/0.9.2-r1/hash-0.9.2-r1-any.kspkg"
+      ]
+    }
+  }
+}

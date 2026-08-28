@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "guienhancerkit",
+  "owner": "nperovic",
+  "displayName": "GuiEnhancerKit",
+  "description": "Provides a set of extended methods and properties to enhance your AutoHotkey Gui development experience",
+  "license": "MIT",
+  "homepage": "https://github.com/nperovic/GuiEnhancerKit",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

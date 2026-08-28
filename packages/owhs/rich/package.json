@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "rich",
+  "owner": "owhs",
+  "displayName": "Rich",
+  "description": "Advanced, modular, event-driven Rich Text Editor control",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/owhs/RichIDE",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

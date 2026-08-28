@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "name": "getcontrolshwnd",
+  "owner": "joyhak",
+  "displayName": "GetControlsHwnd",
+  "description": "Search for all controls that matches specified win32 / custom class name",
+  "license": "MIT",
+  "homepage": "https://github.com/JoyHak/AhkLib",
+  "categories": [
+    "win32",
+    "hwnd",
+    "gui",
+    "classnn"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

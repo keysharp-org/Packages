@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "radify",
+  "owner": "xmcqcx",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2025-08-06T00:00:00+00:00",
+  "entry": "src/Radify Menus.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "XMCQCX/RadifyClass-RadifySkinEditor",
+    "commit": "24c21541fb0cd7aa6431de6127ac470582061b4a",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138484"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "c0dd4be0630c4e6885dbb148dcd7350d68a569671402bc655deac5043f8adcfe",
+      "size": 97092,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/xmcqcx/radify/0.3.0-r1/radify-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

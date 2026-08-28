@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "nvml",
+  "owner": "jnizm",
+  "displayName": "NVML",
+  "description": "Wrapper for NVIDIA NVML: retrieve info about NVIDIA graphics cards",
+  "license": "MIT, NVML",
+  "homepage": "https://github.com/jNizM/NVIDIA_NVML",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

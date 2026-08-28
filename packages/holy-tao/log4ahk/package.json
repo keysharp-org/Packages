@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "name": "log4ahk",
+  "owner": "holy-tao",
+  "displayName": "log4ahk",
+  "description": "A lightweight, highly configurable logging module for AutoHotkey based off Java's Log4J.",
+  "license": "MIT",
+  "homepage": "https://github.com/holy-tao/log4ahk",
+  "categories": [
+    "log",
+    "trace",
+    "debug",
+    "filter",
+    "append"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

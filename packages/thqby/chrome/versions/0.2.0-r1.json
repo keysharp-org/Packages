@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "chrome",
+  "owner": "thqby",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/Chrome.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {
+    "thqby/websocket": "*"
+  },
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "2bd34b7c67bbc2b5c7a7440cb920781ef49d3127"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "1a53718ddc6ab868db296455988f150a553252537ddd4253dcc45b48a2c421d1",
+      "size": 3998,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/chrome/0.2.0-r1/chrome-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

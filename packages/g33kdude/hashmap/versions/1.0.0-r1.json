@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "hashmap",
+  "owner": "g33kdude",
+  "version": "1.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Dist/HashMap.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "G33kDude/HashMap.ahk",
+    "commit": "a4469d81e114ed1512a31b89df84bd5818774ee4",
+    "path": "1.0.0",
+    "url": "https://github.com/G33kDude/HashMap.ahk"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "74c190376238a4c6a496fedfa046a12001e72dce749d189c36707227916a2bb0",
+      "size": 16051,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/g33kdude/hashmap/1.0.0-r1/hashmap-1.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

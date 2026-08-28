@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "radify",
+  "owner": "xmcqcx",
+  "displayName": "Radify",
+  "description": "Radial menu GDI+ framework with powerful customization.",
+  "license": "MIT",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138484",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

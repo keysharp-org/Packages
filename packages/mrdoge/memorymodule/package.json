@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "memorymodule",
+  "owner": "mrdoge",
+  "displayName": "MemoryModule",
+  "description": "Include a .dll into a compiled .exe and then load the .dll and use it without having to extract the .dll",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=128846",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

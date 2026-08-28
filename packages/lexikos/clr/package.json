@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "clr",
+  "owner": "lexikos",
+  "displayName": "CLR",
+  "description": "Load the Common Language Runtime into the script's process, load .NET assemblies, instantiate objects and call instance methods or properties, compile C# or VB code on the fly or to file",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/Lexikos/CLR.ahk",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "objregisteractive",
+  "owner": "lexikos",
+  "displayName": "ObjRegisterActive",
+  "description": "Registers an object as the active object for a given class ID.",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6148",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

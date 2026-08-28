@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "redis",
+  "owner": "sxzxs",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2025-01-30T00:00:00+00:00",
+  "entry": "src/lib/redisclient.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "sxzxs/redis",
+    "commit": "149efed292c70c80713d1ebebfaefc69797190e5"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "82b9e579de327452cc2d557b27b0d8bce8bc8decd2fbe5383bff6fa6e6ab1c48",
+      "size": 3513,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/sxzxs/redis/0.2.0-r1/redis-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

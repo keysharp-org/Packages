@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "tkinter",
+  "owner": "monoeven",
+  "displayName": "tkinter",
+  "description": "Create desktop windows and GUIs with Tk and ttk widgets",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?t=140771&p=619179#p619179",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

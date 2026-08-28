@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "vector",
+  "owner": "hellbent",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/Hellbent/Vector.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "5e28ac22a2e981a6cc9b69cb622508d1fe65cd06",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=132770"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "e189a5490199aed981ab84c5efaaf33ce908087b7bd952dde2413e7af19b0a21",
+      "size": 3589,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/hellbent/vector/0.3.0-r1/vector-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

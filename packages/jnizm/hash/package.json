@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "hash",
+  "owner": "jnizm",
+  "displayName": "Hash",
+  "description": "Calculate hash (MD2, MD4, MD5, SHA-1, SHA-256, SHA-384, SHA-512, HMAC, PBKDF2) from string, hex or file",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/HashCalc",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

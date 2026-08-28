@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "jarteplus",
+  "owner": "burque505",
+  "displayName": "JartePlus",
+  "description": "A library to automate Jarte Plus",
+  "license": "MIT",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135720",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

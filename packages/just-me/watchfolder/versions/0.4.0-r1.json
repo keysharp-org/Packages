@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "watchfolder",
+  "owner": "just-me",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/just me/WatchFolder.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "95069f9ea438afa25ec114de5d4e66e1dbad5f71",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=95659"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "7dc72830c89361a5d71c6d57a2cd774313b6d3aa462de75101fa8a5320f13615",
+      "size": 3874,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/watchfolder/0.4.0-r1/watchfolder-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

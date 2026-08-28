@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "name": "ahkwin32projection",
+  "owner": "holy-tao",
+  "displayName": "AhkWin32Projection",
+  "description": "Win32 API bindings for 64-bit AutoHotkey V2",
+  "license": "MIT",
+  "homepage": "https://github.com/holy-tao/AhkWin32Projection",
+  "categories": [
+    "Win32",
+    "WinApi",
+    "msdn",
+    "DllCall",
+    "struct"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

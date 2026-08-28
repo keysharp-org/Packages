@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "interceptiontapholdmanager",
+  "owner": "evilc",
+  "displayName": "InterceptionTapHoldManager",
+  "description": "A patch for TapHoldManager that allows it to be used with the Interception driver. See main description under evilC/TapHoldManager",
+  "license": "MIT",
+  "homepage": "https://github.com/evilC/TapHoldManager",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "yunit",
+  "owner": "uberi",
+  "displayName": "Yunit",
+  "description": "Super simple unit testing framework",
+  "license": "AGPL-3.0",
+  "homepage": "https://github.com/Uberi/Yunit/tree/v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

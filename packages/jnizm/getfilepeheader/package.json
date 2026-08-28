@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "getfilepeheader",
+  "owner": "jnizm",
+  "displayName": "GetFilePEHeader",
+  "description": "Get the PE File Header information (Machine Type)",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

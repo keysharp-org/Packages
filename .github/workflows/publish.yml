@@ -1,0 +1,103 @@
+name: Publish
+
+# On merge: give every new release an immutable artifact on this repository, then rebuild and
+# deploy the index clients download.
+#
+# Everything here runs with this repository's own GITHUB_TOKEN. That is deliberate: because packing
+# is deterministic, CI can rebuild a source-hosted package's artifact from the merged tree instead
+# of accepting one built elsewhere, so no cross-repository credential exists anywhere in the flow.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packages/**'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  # Releases and the index must not be written by two runs at once.
+  group: publish
+  cancel-in-progress: false
+
+env:
+  KPM_REPOSITORY: keysharp-org/KPM
+
+jobs:
+  release:
+    name: Release new artifacts
+    runs-on: ubuntu-latest
+    outputs:
+      published: ${{ steps.release.outputs.published }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build kpm
+        run: |
+          git clone --depth 1 https://github.com/${KPM_REPOSITORY}.git "$RUNNER_TEMP/kpm"
+          dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Cli/KPM.Cli.csproj" -c Release -o "$RUNNER_TEMP/kpm-bin"
+          echo "$RUNNER_TEMP/kpm-bin" >> "$GITHUB_PATH"
+
+      - name: Create releases for anything unpublished
+        id: release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/publish-releases.sh
+
+      - name: Record the registry's own artifact URLs
+        if: steps.release.outputs.published != '0'
+        run: |
+          git config user.name  "kpm-bot"
+          git config user.email "kpm-bot@users.noreply.github.com"
+          git add packages
+          git diff --cached --quiet || git commit -m "Record release URLs for newly published artifacts"
+          git push
+
+  index:
+    name: Build and deploy the index
+    needs: release
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The release job may have pushed the recorded URLs; publish the index built from those.
+          ref: main
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build kpm
+        run: |
+          git clone --depth 1 https://github.com/${KPM_REPOSITORY}.git "$RUNNER_TEMP/kpm"
+          dotnet publish "$RUNNER_TEMP/kpm/src/KPM.Cli/KPM.Cli.csproj" -c Release -o "$RUNNER_TEMP/kpm-bin"
+          echo "$RUNNER_TEMP/kpm-bin" >> "$GITHUB_PATH"
+
+      - name: Build index.json.gz and catalog.json
+        run: |
+          kpm index . --out dist
+          cp -r schemas dist/schemas
+          # The custom domain is what makes this registry movable off GitHub later; without it,
+          # every published lockfile would pin github.io URLs.
+          if [ -f CNAME ]; then cp CNAME dist/CNAME; fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4

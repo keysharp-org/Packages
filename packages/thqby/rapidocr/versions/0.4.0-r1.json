@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "rapidocr",
+  "owner": "thqby",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/RapidOcr/RapidOcr.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "5a2113b6358d9250c63af2162e56321c9c7329e0"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "7ad93cc7eb4e0e111e96087b7123309d62d341a8fe46f6708a5154aa715befac",
+      "size": 2748,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/rapidocr/0.4.0-r1/rapidocr-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

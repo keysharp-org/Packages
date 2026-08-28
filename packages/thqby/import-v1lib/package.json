@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "import-v1lib",
+  "owner": "thqby",
+  "displayName": "import_v1lib",
+  "description": "Import AHK v1 library to v2: call v1 functions and classes, read and modify global variables.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

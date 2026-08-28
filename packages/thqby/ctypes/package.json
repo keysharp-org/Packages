@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "ctypes",
+  "owner": "thqby",
+  "displayName": "ctypes",
+  "description": "Create struct, union, array and pointer bindings, and use it like an AHK object",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

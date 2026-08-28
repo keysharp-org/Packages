@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "winclipapi",
+  "owner": "thearkive",
+  "displayName": "WinClipAPI",
+  "description": "Base class for the WinClip library",
+  "license": "MIT",
+  "homepage": "https://github.com/TheArkive/WinClip_ahk2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

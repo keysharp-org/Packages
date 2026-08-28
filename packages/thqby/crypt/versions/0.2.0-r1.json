@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "crypt",
+  "owner": "thqby",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/Crypt.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "1f2c9afcb97e9a6e06f6fcd30045da12a55c328a"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "8116a659fbbfe2face9f560a2030c4df4f1167f6ac7a0fca70666cc703db3c38",
+      "size": 1377,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/crypt/0.2.0-r1/crypt-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

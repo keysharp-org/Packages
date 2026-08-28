@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "cjson",
+  "owner": "g33kdude",
+  "version": "0.4.1",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Dist/JSON.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "G33kDude/cJson.ahk",
+    "commit": "18f5a3958af0acc74bc495fcffa21f8947059bfc",
+    "path": "0.4.1",
+    "url": "https://github.com/G33kDude/cJson.ahk"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "0870424256c57b2ff1b6d339acbc1ae77a4fb4cd8d335ba3e695607607d51ae0",
+      "size": 11346,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/g33kdude/cjson/0.4.1-r1/cjson-0.4.1-r1-any.kspkg"
+      ]
+    }
+  }
+}

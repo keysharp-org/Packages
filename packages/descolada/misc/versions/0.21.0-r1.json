@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "misc",
+  "owner": "descolada",
+  "version": "0.21.0",
+  "revision": 1,
+  "published": "2024-11-11T00:00:00+00:00",
+  "entry": "src/Lib/Misc.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/AHK-v2-libraries",
+    "commit": "59a6ba7483b42cb9ebc0907a86c46102b7d4d29e",
+    "url": "https://github.com/Descolada/AHK-v2-libraries"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "9f68bed023dad85737e98854a783274365fa3fed991d60d00a7dd34c88c5487e",
+      "size": 10628,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/misc/0.21.0-r1/misc-0.21.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

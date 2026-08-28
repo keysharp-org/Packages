@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "acc",
+  "owner": "descolada",
+  "displayName": "Acc",
+  "description": "Acc library for AHK v2 (note: use of UIA is preferred over Acc)",
+  "license": "MIT",
+  "homepage": "https://github.com/Descolada/Acc-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

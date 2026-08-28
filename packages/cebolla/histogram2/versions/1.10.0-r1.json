@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "histogram2",
+  "owner": "cebolla",
+  "version": "1.10.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Histogram2.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Nich-Cebolla/AutoHotkey-LibV2",
+    "commit": "931b8b957867ef5fb7aad43e0beaba397145dfb3",
+    "path": "v1.10.0"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "96ebfc91ddf9f8d1019a0db301e88060bce62f7dbde9d2211376a5f401d95615",
+      "size": 1411,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/histogram2/1.10.0-r1/histogram2-1.10.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

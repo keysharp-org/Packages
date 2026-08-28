@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "clr",
+  "owner": "lexikos",
+  "version": "2.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/CLR.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Lexikos/CLR.ahk",
+    "commit": "2966f3f07dfb96da9a2ace3ca4d9716f6d957d99",
+    "path": "v2.0"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "1d1f9c307f155b31d35387cacc3f2051a684397c881f3df4ce98070340fb7999",
+      "size": 2331,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/clr/2.0.0-r1/clr-2.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

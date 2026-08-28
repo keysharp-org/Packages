@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "xhotstring",
+  "owner": "descolada",
+  "version": "0.5.0",
+  "revision": 1,
+  "published": "2025-02-12T00:00:00+00:00",
+  "entry": "src/Lib/XHotstring.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/AHK-v2-libraries",
+    "commit": "3408a671b54b90f0b9b7546e7c53004f137e769a",
+    "url": "https://github.com/Descolada/AHK-v2-libraries"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "efd28e734c7511f22bbf8dc9714e4746ca38e4795e4f7f5ddaca595af8b96cbf",
+      "size": 6380,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/xhotstring/0.5.0-r1/xhotstring-0.5.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

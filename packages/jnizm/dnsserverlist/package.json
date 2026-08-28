@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "dnsserverlist",
+  "owner": "jnizm",
+  "displayName": "DnsServerList",
+  "description": "Gets a list of DNS servers for the local computer",
+  "license": "MIT",
+  "homepage": "https://github.com/jNizM/ahk-scripts-v2",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

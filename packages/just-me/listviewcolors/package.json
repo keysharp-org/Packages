@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "listviewcolors",
+  "owner": "just-me",
+  "displayName": "ListViewColors",
+  "description": "Colorize any ListView rows, invidial cells and selection (supports non-GUI control).",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?style=2&t=93922",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

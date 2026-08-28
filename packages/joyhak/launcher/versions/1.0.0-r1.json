@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "launcher",
+  "owner": "joyhak",
+  "version": "1.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/launcher.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/Launcher",
+    "commit": "16fe1fc398e87688443730b14d9744a896200a0a",
+    "path": "1.0.0",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=140805"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "2989c5dafa0f4609b8fbb15c9765f59680cff6e2d099d5f6c26407333d8c3562",
+      "size": 12715,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/launcher/1.0.0-r1/launcher-1.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

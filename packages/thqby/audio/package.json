@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "audio",
+  "owner": "thqby",
+  "displayName": "Audio",
+  "description": "Core Audio APIs",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

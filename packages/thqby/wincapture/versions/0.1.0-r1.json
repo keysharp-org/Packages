@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "wincapture",
+  "owner": "thqby",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/wincapture/wincapture.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "8906ff9ac0854993a8ce23cfea611f8e7b0d67cb"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "e9ecb56c95851ff91e8f19d1d6f8b319135d3b7f0162accb16e9fa7e5cc1c72a",
+      "size": 9136,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/wincapture/0.1.0-r1/wincapture-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

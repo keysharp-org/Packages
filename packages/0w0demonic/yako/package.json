@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "name": "yako",
+  "owner": "0w0demonic",
+  "displayName": "Yako",
+  "description": "Overwrite window procedures of external applications via DLL injection.",
+  "license": "MIT",
+  "homepage": "https://github.com/0w0Demonic/AquaHotkey",
+  "categories": [
+    "injection",
+    "dll",
+    "hijack",
+    "onmessage",
+    "sendmessage",
+    "ipc"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

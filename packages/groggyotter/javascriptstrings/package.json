@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "javascriptstrings",
+  "owner": "groggyotter",
+  "displayName": "JavaScriptStrings",
+  "description": "Adds JavaScript-style string functionality to AHK v2 strings.",
+  "license": "MIT",
+  "homepage": "https://github.com/GroggyOtter/AHK-JavaScript-Strings",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

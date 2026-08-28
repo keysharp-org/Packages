@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "archive",
+  "owner": "thqby",
+  "displayName": "archive",
+  "description": "Read and write archives in many formats.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

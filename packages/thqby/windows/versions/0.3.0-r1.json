@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "windows",
+  "owner": "thqby",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2022-06-12T00:00:00+00:00",
+  "entry": "src/windows.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/winrt.ahk",
+    "commit": "981dbd037c6b379382f1a92c240528b94c76cfba"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "e2ace451feea93fcce8baf720882401de62a68e85d26e07ca98a279007ec5ccf",
+      "size": 1937,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/windows/0.3.0-r1/windows-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

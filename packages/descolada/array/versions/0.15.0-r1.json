@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "array",
+  "owner": "descolada",
+  "version": "0.15.0",
+  "revision": 1,
+  "published": "2025-04-10T00:00:00+00:00",
+  "entry": "src/Lib/Array.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Descolada/AHK-v2-libraries",
+    "commit": "39ac84451226615e93b063a817c36fb81a998d51",
+    "url": "https://github.com/Descolada/AHK-v2-libraries"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "eef2be4c52e9b9b2ac7de4fb5081b7445e4b156fdc763fd7462d042a0866c1b6",
+      "size": 4248,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/descolada/array/0.15.0-r1/array-0.15.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

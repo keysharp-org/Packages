@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "name": "adash",
+  "owner": "chunjee",
+  "displayName": "adash",
+  "description": "A modern utility library for AutoHotkey",
+  "license": "MIT",
+  "homepage": "https://adash.app",
+  "categories": [
+    "autohotkey",
+    "ahk",
+    "utility",
+    "lodash"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

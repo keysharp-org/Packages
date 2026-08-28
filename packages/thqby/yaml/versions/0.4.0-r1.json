@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "yaml",
+  "owner": "thqby",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/YAML.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "2052d29e0d4a9fd5bf5848aa97280e912fe3a4c8"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "de3662ad99bdb4dbd69550aa5a45ab65972da139e84c63240b3fd62b4fa697d0",
+      "size": 7810,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/yaml/0.4.0-r1/yaml-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

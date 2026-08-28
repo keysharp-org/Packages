@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "inbuf",
+  "owner": "skan",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/SKAN/InBuf.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "704efc70f5cce2a642af124f5a90e10fb78b9811",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=132507"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "328f6ba0fcff2ac067ffe770f06802ad986680dea5d0ed655ecbb918c3bb4447",
+      "size": 2898,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/inbuf/0.3.0-r1/inbuf-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

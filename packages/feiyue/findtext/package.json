@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "name": "findtext",
+  "owner": "feiyue",
+  "displayName": "FindText",
+  "description": "A high-performance image search library, which can use images in text form",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=116471",
+  "categories": [
+    "image"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

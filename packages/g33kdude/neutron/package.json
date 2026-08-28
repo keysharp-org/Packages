@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "neutron",
+  "owner": "g33kdude",
+  "displayName": "Neutron",
+  "description": "Neutron provides a powerful set of tools for build HTML-based user interfaces with AutoHotkey. It leverages the Trident engine, known for its use in Internet Explorer, because of its deep integration with the Microsoft Windows operating system and its wide availability across systems.",
+  "license": "MIT",
+  "homepage": "https://github.com/G33kDude/Neutron.ahk",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

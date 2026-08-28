@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "tooltipex",
+  "owner": "nperovic",
+  "displayName": "ToolTipEx",
+  "description": "Creates a pop-up tooltip that follows the mouse movement, can be switched between dark and light themes, and be clicked and dragged",
+  "license": "MIT",
+  "homepage": "https://github.com/nperovic/ToolTipEx",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

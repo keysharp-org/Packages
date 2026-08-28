@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "midi",
+  "owner": "emliberace",
+  "displayName": "MIDI",
+  "description": "The MIDIv2 library grants MIDI functionality to AutoHotKey v2. Send and receive MIDI in your AHK scripts with ease.",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/emliberace/MIDIv2.ahk",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

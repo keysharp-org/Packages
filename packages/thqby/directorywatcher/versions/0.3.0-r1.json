@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "directorywatcher",
+  "owner": "thqby",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/DirectoryWatcher.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "93fd4d87b2cc255244a622253604436c8ac9452e"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "4f73d2a9a19072499596ec3f809dfa73efa5f390c590c2a16a2d346b26712733",
+      "size": 1876,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/directorywatcher/0.3.0-r1/directorywatcher-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

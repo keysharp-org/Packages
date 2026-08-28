@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "shinsimagescanclass",
+  "owner": "spawnova",
+  "displayName": "ShinsImageScanClass",
+  "description": "Search for images and pixels extremely fast and also with background window support",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/Spawnova/ShinsImageScanClass",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

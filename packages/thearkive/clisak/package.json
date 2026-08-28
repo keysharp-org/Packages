@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "clisak",
+  "owner": "thearkive",
+  "displayName": "CliSAK",
+  "description": "CLI class: easy one-time and streaming output that collects stdOut and stdErr, and allows writing to stdIn",
+  "license": "MIT",
+  "homepage": "https://github.com/TheArkive/CLSAK_AHK",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

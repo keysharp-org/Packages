@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "listbuffer",
+  "owner": "skan",
+  "displayName": "ListBuffer",
+  "description": "UI as a function to view/search binary content, up to few MB's",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=101121",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

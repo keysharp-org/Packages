@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "ahk-v2-autoupdater",
+  "owner": "groggyotter",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2023-07-09T00:00:00+00:00",
+  "entry": "src/src/AHK_v2_Auto_Updater.v2.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "GroggyOtter/AHK_v2_Auto_Updater",
+    "commit": "f22899327a14cf4d6b9c4ae11fa4c64d2e3b5ce1"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "8b33723bf1643380ac62bb99c255deb6ce0f6b2eaa96ede80fd6f9524b8fed2f",
+      "size": 1240,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/groggyotter/ahk-v2-autoupdater/0.1.0-r1/ahk-v2-autoupdater-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

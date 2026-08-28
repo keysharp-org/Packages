@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "wisegui",
+  "owner": "skan",
+  "displayName": "WiseGui",
+  "description": "Create highly customizable notifications",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=94044",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

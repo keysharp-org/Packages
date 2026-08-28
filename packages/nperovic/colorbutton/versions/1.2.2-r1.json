@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "colorbutton",
+  "owner": "nperovic",
+  "version": "1.2.2",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/ColorButton.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "nperovic/ColorButton.ahk",
+    "commit": "fee663d5781e08631a81aa17db4141b93609d50e",
+    "path": "v1.2.2"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "9e87e3686a92b6e5f508fbf36ce8ae7fc50d8cf45d7d16b66e86092c6d94429b",
+      "size": 4813,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/nperovic/colorbutton/1.2.2-r1/colorbutton-1.2.2-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "peep",
+  "owner": "groggyotter",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2023-06-28T00:00:00+00:00",
+  "entry": "src/script/Peep.v2.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "GroggyOtter/PeepAHK",
+    "commit": "7840157a7c9af77f5f54641f7f9820019bc9cca9"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "722dfc66e0b350cbd77352d525421ee85ec4f7c7c518eb858433e0cd2b5094ca",
+      "size": 4965,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/groggyotter/peep/0.1.0-r1/peep-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

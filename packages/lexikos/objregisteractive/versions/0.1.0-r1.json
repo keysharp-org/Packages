@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "objregisteractive",
+  "owner": "lexikos",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-11-01T00:00:00+00:00",
+  "entry": "src/v2/lexikos/ObjRegisterActive.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "37c1eef378892f478a78d0e894ca2ed7767d60ea",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6148"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "acf8b9aa2dc7da28187f299ecc81ad00a08a608a59358fa1109b48070e53b7aa",
+      "size": 1166,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/lexikos/objregisteractive/0.1.0-r1/objregisteractive-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

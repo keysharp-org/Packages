@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "name": "ahk-xaml",
+  "owner": "owhs",
+  "displayName": "ahk-xaml",
+  "description": "WPF framework for creating modern-looking GUIs and windows",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=140580",
+  "categories": [
+    "wpf",
+    "mica",
+    "gui",
+    "window"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}

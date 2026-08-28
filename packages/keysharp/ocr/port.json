@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "version": "0.1.0",
+  "entry": "src/OCR.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.17"
+  },
+  "platforms": ["any"],
+  "capabilities": [],
+  "dependencies": {},
+  "upstream": {
+    "kind": "git",
+    "repository": "Descolada/OCR",
+    "url": "https://github.com/Descolada/OCR"
+  }
+}

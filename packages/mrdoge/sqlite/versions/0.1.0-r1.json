@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "sqlite",
+  "owner": "mrdoge",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-10-25T00:00:00+00:00",
+  "entry": "src/v2/MrDoge/sqlite.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "6c70a10c414dbb3f4fc31df2374600004bb885b2"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "b6c08c1e52dde4fd98f56157d0aa351abaa572f5e5dee64c6172061386f7405f",
+      "size": 3691,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/mrdoge/sqlite/0.1.0-r1/sqlite-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

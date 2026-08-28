@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "changelogsorter",
+  "owner": "joyhak",
+  "version": "1.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/Lib/SortByDate.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/ChangeLogSorter",
+    "commit": "a015f861b146924b8a2122acf96795c8d37823d4",
+    "path": "1.0"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "add06f3d517a1efee7d20bbad24c9de015aedead513450d1253133f5c6d70e2d",
+      "size": 1329,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/changelogsorter/1.0.0-r1/changelogsorter-1.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

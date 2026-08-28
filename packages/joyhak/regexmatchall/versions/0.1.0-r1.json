@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "regexmatchall",
+  "owner": "joyhak",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-24T00:00:00+00:00",
+  "entry": "src/Utilities/RegExMatchAll.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/AhkLib",
+    "commit": "e9779a013aa72735a620c8df939cda11b4dd86fb"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "b66a21e972ad1d38bb3f34f4a3fd20ae87d46de2330b96dfb781ac8c98625483",
+      "size": 878,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/regexmatchall/0.1.0-r1/regexmatchall-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

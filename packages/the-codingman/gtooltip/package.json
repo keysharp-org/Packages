@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "gtooltip",
+  "owner": "the-codingman",
+  "displayName": "gToolTip",
+  "description": "Class for creating ToolTips that can be clicked, dragged, and customized by font and color",
+  "license": "MIT",
+  "homepage": "https://github.com/The-CoDingman/gToolTip.ahk",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

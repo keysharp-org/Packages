@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "dllmanager",
+  "owner": "komrad-toast",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-02-10T00:00:00+00:00",
+  "entry": "src/v2/Komrad Toast/DLLManager.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "dbd8f87fdda97e53cb86124c53d2230b8e88d5cd",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=134661"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "be0380228b912120f4cf14d2406c288d3b05adad53675742eaa48e7c3d2eae15",
+      "size": 1036,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/komrad-toast/dllmanager/0.1.0-r1/dllmanager-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "rapidocr",
+  "owner": "thqby",
+  "displayName": "RapidOcr",
+  "description": "A cross platform OCR Library based on PaddleOCR & OnnxRuntime",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

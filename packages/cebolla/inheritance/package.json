@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "inheritance",
+  "owner": "cebolla",
+  "displayName": "Inheritance",
+  "description": "Inheritance is a library containing functions to aid working with AHK's object inheritance model: GetPropsInfo, ClassFactory, GetBaseObjects, and GetPropDesc.",
+  "license": "MIT",
+  "homepage": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "runcmd",
+  "owner": "skan",
+  "displayName": "RunCMD",
+  "description": "Run a program in windowless mode and capture its output",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=133668",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

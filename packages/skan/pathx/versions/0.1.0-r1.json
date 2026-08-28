@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "pathx",
+  "owner": "skan",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/SKAN/PathX.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "730448a7c2d0f34dd3e1bf58c6b034cd8a6469d7",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=120582"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "38e75d3064eaab5fcbc81b43f58f2520be9bde48f76d13f72c530c9f091fd8d5",
+      "size": 1040,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/pathx/0.1.0-r1/pathx-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

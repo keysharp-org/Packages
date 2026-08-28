@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "sqlitedb",
+  "owner": "just-me",
+  "displayName": "SQLiteDB",
+  "description": "Class definitions as wrappers for SQLite3.dll to work with SQLite DBs",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=95389",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

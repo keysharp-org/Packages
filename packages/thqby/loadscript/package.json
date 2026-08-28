@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "loadscript",
+  "owner": "thqby",
+  "displayName": "LoadScript",
+  "description": "Loads a script file or script code as a subprocess and returns an object that can be used to call functions or get/set global variables.",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

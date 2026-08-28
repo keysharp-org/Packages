@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "windowfunctions",
+  "owner": "cebolla",
+  "version": "1.9.1",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/WIn32WindowFunctions.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "Nich-Cebolla/AutoHotkey-LibV2",
+    "commit": "f230b6d0dd0158282b33396c3c45a0265b006c75",
+    "path": "v1.9.1"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "d26f96b337b7345729a5a5402b2dee7bff87611721b463ac11e37f30358328f2",
+      "size": 3792,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/cebolla/windowfunctions/1.9.1-r1/windowfunctions-1.9.1-r1-any.kspkg"
+      ]
+    }
+  }
+}

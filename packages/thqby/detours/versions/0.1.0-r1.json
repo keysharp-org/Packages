@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "detours",
+  "owner": "thqby",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-05-20T00:00:00+00:00",
+  "entry": "src/Detours.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "06aed7a1c42f754dfcb67962d055311a480d0848"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "36085677731ee264dc92530d32579030ae47aec6b3e867346d75cebbce8daf7a",
+      "size": 2734,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/detours/0.1.0-r1/detours-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "winclip",
+  "owner": "thearkive",
+  "version": "0.4.0",
+  "revision": 1,
+  "published": "2024-07-15T00:00:00+00:00",
+  "entry": "src/WinClip.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {
+    "thearkive/winclipapi": "*"
+  },
+  "source": {
+    "kind": "git",
+    "repository": "TheArkive/WinClip_ahk2",
+    "commit": "95af3f4a8601febb03c80e41f3c30c0fd668a3a5"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "1fefb296e533f504aac421ba4c858c0c02d22e5cec69b8d2a766b0bc44e561e1",
+      "size": 7823,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thearkive/winclip/0.4.0-r1/winclip-0.4.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

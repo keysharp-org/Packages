@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "guictrltips",
+  "owner": "just-me",
+  "displayName": "GuiCtrlTips",
+  "description": "Add tooltips to your Gui.Controls",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=116218",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

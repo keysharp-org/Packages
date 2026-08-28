@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "imageput",
+  "owner": "iseahound",
+  "displayName": "ImagePut",
+  "description": "A core library for images in AutoHotkey",
+  "license": "MIT",
+  "homepage": "https://github.com/iseahound/ImagePut",
+  "categories": [],
+  "versioning": "upstream",
+  "yanked": []
+}

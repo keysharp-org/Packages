@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "customdialog",
+  "owner": "owhs",
+  "displayName": "CustomDialog",
+  "description": "Create a highly customizable dialog box",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/owhs/customDialog-AHK",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "cursor",
+  "owner": "komrad-toast",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2025-02-10T00:00:00+00:00",
+  "entry": "src/v2/Komrad Toast/Cursor.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "669b77563914399f32ca32f16c56954062a17cbc",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=135044"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "6962c6ba0cf9a72d8ee0e3b1876ec61f89c0e27c8cfed39d5d73ab3349a30b07",
+      "size": 5853,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/komrad-toast/cursor/0.1.0-r1/cursor-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

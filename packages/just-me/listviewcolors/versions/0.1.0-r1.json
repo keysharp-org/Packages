@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "listviewcolors",
+  "owner": "just-me",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-01-29T00:00:00+00:00",
+  "entry": "src/Sources/Class_LV_Colors.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "AHK-just-me/AHK2_LV_Colors",
+    "commit": "9b37285f4327e00893c08c0d6a1a7078c3382522",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?style=2&t=93922"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "0322b246ae26fd2840661522f8d49c126f6ab794f6a90e920690008629390a74",
+      "size": 4021,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/just-me/listviewcolors/0.1.0-r1/listviewcolors-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

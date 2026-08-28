@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "misc",
+  "owner": "descolada",
+  "displayName": "Misc",
+  "description": "Miscallaneous useful functions such as RegExMatchAll, Highlight, WinGetInfo, GetCaretPos, ConvertWinPos, etc.",
+  "license": "MIT",
+  "homepage": "https://github.com/Descolada/AHK-v2-libraries",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

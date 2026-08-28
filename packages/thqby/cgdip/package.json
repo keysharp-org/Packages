@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "cgdip",
+  "owner": "thqby",
+  "displayName": "CGdip",
+  "description": "Gdip implemented as a class instead of seperate functions",
+  "license": "MIT",
+  "homepage": "https://github.com/thqby/ahk2_lib",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

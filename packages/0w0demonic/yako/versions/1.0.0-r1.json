@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "yako",
+  "owner": "0w0demonic",
+  "version": "1.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/src/Yako.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "0w0Demonic/AquaHotkey",
+    "commit": "8e651994ed54117bfe5c830c25611bde6bf6f74b",
+    "path": "v1.0.0"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "79844e1fad3b29e11099ce7939d1aa844d878f3b7561d3e9b3696e729fe67503",
+      "size": 1502,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/0w0demonic/yako/1.0.0-r1/yako-1.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

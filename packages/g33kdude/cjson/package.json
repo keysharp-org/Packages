@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "name": "cjson",
+  "owner": "g33kdude",
+  "displayName": "cJson",
+  "description": "A high-performance JSON parsing library",
+  "license": "MIT",
+  "homepage": "https://github.com/G33kDude/cJson.ahk",
+  "categories": [
+    "JSON",
+    "parser"
+  ],
+  "versioning": "upstream",
+  "yanked": []
+}

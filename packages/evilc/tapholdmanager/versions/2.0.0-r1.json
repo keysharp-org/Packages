@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "tapholdmanager",
+  "owner": "evilc",
+  "version": "2.0.0",
+  "revision": 1,
+  "published": "2026-08-28T00:00:00+00:00",
+  "entry": "src/AHK v2/Lib/TapHoldManager.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "evilC/TapHoldManager",
+    "commit": "7a65441b9f90d83d927940da1122c9938537b7fb",
+    "path": "v2.0",
+    "url": "https://github.com/evilC/TapHoldManager"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "43861c454a6109a1edf890b5c55acce9ab381155166a0646518a2496af4d684d",
+      "size": 2360,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/evilc/tapholdmanager/2.0.0-r1/tapholdmanager-2.0.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

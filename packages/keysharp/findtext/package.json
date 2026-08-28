@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "findtext",
+  "owner": "keysharp",
+  "displayName": "FindText",
+  "description": "Find text or images on screen by pattern matching. Cross-platform port of FeiYue's FindText.",
+  "license": "NOASSERTION",
+  "homepage": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=116471",
+  "categories": ["imaging", "automation"],
+  "versioning": "registry",
+  "yanked": []
+}

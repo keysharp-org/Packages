@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "togglesound",
+  "owner": "skan",
+  "version": "0.3.0",
+  "revision": 1,
+  "published": "2024-09-30T00:00:00+00:00",
+  "entry": "src/v2/SKAN/ToggleSound.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "c45c19fa9ad0c83ad88a0c25bcda760e60df41f9",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131731"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "78a0d639fb7dce20df86bdacd63dc6b53c8889325ff1f949aaa018cbd6b082bd",
+      "size": 2228,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/skan/togglesound/0.3.0-r1/togglesound-0.3.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

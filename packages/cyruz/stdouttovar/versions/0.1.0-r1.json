@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "stdouttovar",
+  "owner": "cyruz",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2024-10-01T00:00:00+00:00",
+  "entry": "src/v2/cyruz/StdoutToVar.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "scripthub",
+    "repository": "ahkscript/ScriptHub",
+    "commit": "5daefde18474b1cbcd4a157c9be2e3e43af7ef9f",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?f=83&t=109148"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "aeaa3719456207b68c5e8d9f17b9386779ed37c86b64744913c19be708575e8a",
+      "size": 2022,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/cyruz/stdouttovar/0.1.0-r1/stdouttovar-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

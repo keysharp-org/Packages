@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "keyboard",
+  "owner": "joyhak",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-06-24T00:00:00+00:00",
+  "entry": "src/Utilities/KeyboardLayout.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "JoyHak/AhkLib",
+    "commit": "e9779a013aa72735a620c8df939cda11b4dd86fb"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "cf1ed94f7d07d174b22c760fc1a3212d69f83ef22ec87163c898385c9117cd80",
+      "size": 1863,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/joyhak/keyboard/0.1.0-r1/keyboard-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://packages.keysharp.org/schemas/index.schema.json",
+  "title": "Registry index",
+  "description": "index.json.gz — generated. The whole registry in one document: every package record with every release manifest. This is the only thing clients download to resolve, so this repository's layout stays an implementation detail and can change without breaking installed clients.",
+  "type": "object",
+  "required": ["schema", "generated", "packages"],
+  "properties": {
+    "schema": { "const": 1 },
+    "generated": { "type": "string", "format": "date-time" },
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["package", "versions"],
+        "properties": {
+          "package": { "$ref": "https://packages.keysharp.org/schemas/package.schema.json" },
+          "versions": {
+            "type": "array",
+            "items": { "$ref": "https://packages.keysharp.org/schemas/version.schema.json" }
+          }
+        }
+      }
+    }
+  }
+}

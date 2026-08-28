@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "gdip",
+  "owner": "buliasz",
+  "version": "0.76.0",
+  "revision": 1,
+  "published": "2024-06-07T00:00:00+00:00",
+  "entry": "src/Gdip_All.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "buliasz/AHKv2-Gdip",
+    "commit": "d532f15174d1da47575d16e212ab0fab543afc2c"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "dbcb5552ea9767d7a5cb2d1bc972655312d1eb27a59efe648465e6082a5f389f",
+      "size": 25212,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/buliasz/gdip/0.76.0-r1/gdip-0.76.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

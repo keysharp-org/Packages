@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "dnsserverlist",
+  "owner": "jnizm",
+  "version": "0.2.0",
+  "revision": 1,
+  "published": "2023-01-17T00:00:00+00:00",
+  "entry": "src/src/Network/DnsServerList.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "jNizM/ahk-scripts-v2",
+    "commit": "e5dd426cd037c361685f6ac1a5c3e4a4a2c76f69"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "038498e51c7030287aa803da98fbed92a992d37c537af0517b4c1653c7b0332a",
+      "size": 982,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/jnizm/dnsserverlist/0.2.0-r1/dnsserverlist-0.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

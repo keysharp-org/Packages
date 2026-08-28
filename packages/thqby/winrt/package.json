@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "winrt",
+  "owner": "thqby",
+  "displayName": "winrt",
+  "description": "Provides an AutoHotkey v2 \"language projection\" for the Windows Runtime (WinRT). In other words, it hides the details of interop between AutoHotkey and WinRT, allowing WinRT objects to be used like native AutoHotkey objects.",
+  "license": "Unlicense",
+  "homepage": "https://github.com/thqby/winrt.ahk",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

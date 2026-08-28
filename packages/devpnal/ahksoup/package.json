@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "ahksoup",
+  "owner": "devpnal",
+  "displayName": "AhkSoup",
+  "description": "HTML Parsing library for Autohotkey (v2)",
+  "license": "MIT",
+  "homepage": "https://github.com/devPnal/ahksoup",
+  "categories": [],
+  "versioning": "registry",
+  "yanked": []
+}

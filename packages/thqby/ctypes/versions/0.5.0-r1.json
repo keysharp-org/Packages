@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "ctypes",
+  "owner": "thqby",
+  "version": "0.5.0",
+  "revision": 1,
+  "published": "2025-11-12T00:00:00+00:00",
+  "entry": "src/ctypes.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "thqby/ahk2_lib",
+    "commit": "bfda04498cb324334060c5745a10eec42a141a09"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "bb4daeb5ac4ed51bb09836d5b520f9810b275633cb4611dbe5125f7af904155c",
+      "size": 7379,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/thqby/ctypes/0.5.0-r1/ctypes-0.5.0-r1-any.kspkg"
+      ]
+    }
+  }
+}
