@@ -19,6 +19,16 @@
       "pattern": "^[A-Za-z0-9]([A-Za-z0-9._-]*[A-Za-z0-9])?$",
       "maxLength": 64
     },
+    "authors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Who wrote the code, when that is not the owner. The owner is the namespace that maintains the package here, which for a port is only its packager — so a port must credit the original author."
+    },
+    "derivedFrom": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9._-]+/[A-Za-z0-9._-]+$",
+      "description": "The registry id this package is a port or fork of, e.g. feiyue/FindText. Keeps a derived package from reading as an original and makes the pair discoverable in both directions."
+    },
     "displayName": { "type": "string", "maxLength": 64 },
     "description": { "type": "string", "minLength": 1, "maxLength": 300 },
     "license": {
