@@ -17,7 +17,10 @@ keysharp)
 	case "$RUNNER_OS" in
 	Linux) asset_pattern='*linux-x64.tar.gz' ;;
 	Windows) asset_pattern='*win-x64.zip' ;;
-	macOS) asset_pattern='*osx-arm64.pkg' ;;
+	# The .pkg is not used: its postinstall scripts fail on a clean runner ("An error occurred while
+	# running scripts from the package"), and a validation harness should not depend on an installer
+	# succeeding anyway. The disk image just carries the app, so it is mounted and copied.
+	macOS) asset_pattern='*osx-arm64.dmg' ;;
 	*) echo "::error::unsupported runner $RUNNER_OS"; exit 1 ;;
 	esac
 
@@ -28,9 +31,13 @@ keysharp)
 	case "$asset" in
 	*.zip) unzip -q -o "$asset" -d "$destination" ;;
 	*.tar.gz | *.tgz) tar -xzf "$asset" -C "$destination" ;;
-	# macOS publishes no portable archive, so the package is installed rather than unpacked. A
-	# runner is disposable and has passwordless sudo, which is the one place that is reasonable.
-	*.pkg) sudo installer -pkg "$asset" -target / ;;
+	*.dmg)
+		mount=$(mktemp -d)
+		hdiutil attach "$asset" -nobrowse -readonly -mountpoint "$mount" >/dev/null
+		# Copied out before detaching, so nothing later depends on the image staying mounted.
+		cp -R "$mount"/* "$destination"/ 2>/dev/null || true
+		hdiutil detach "$mount" >/dev/null || true
+		;;
 	*) echo "::error::unrecognized asset $asset"; exit 1 ;;
 	esac
 
@@ -43,7 +50,9 @@ keysharp)
 	done
 
 	# shellcheck disable=SC2086 # deliberately word-split: $search is a list of directories
-	binary=$(find $search -maxdepth 4 -type f \
+	# Deep enough for an .app bundle (Keysharp.app/Contents/MacOS/Keysharp is already four levels)
+	# without walking an entire /Applications on a runner that has one.
+	binary=$(find $search -maxdepth 6 -type f \
 		\( -name 'Keysharp' -o -name 'Keysharp.exe' -o -name 'keysharp' \) 2>/dev/null | head -1 || true)
 	if [ -z "$binary" ]; then
 		echo "::error::no Keysharp binary after installing $asset (searched: $search)"
