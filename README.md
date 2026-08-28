@@ -135,13 +135,38 @@ A package that needs such a step declares it, and `kpm` prints it after installi
 
 ```json
 "setup": {
-  "message": "Requires the Interception driver, installed separately with administrator rights.",
+  "message": "Installs the Interception driver. Note that a driver capturing input can disable key combinations such as Ctrl+Alt+Delete.",
   "url": "https://github.com/evilC/AutoHotInterception#installation",
-  "script": "src/install-interception.exe"
+  "script": "native/install-interception.exe",
+  "arguments": ["/install"],
+  "elevate": true,
+  "reboot": true,
+  "platforms": ["win"]
 }
 ```
 
-`script` names something *you* may choose to run. `kpm` only ever tells you where it is.
+Because that binary ships **inside** the package — hash-verified like everything else — the step is
+one command rather than a download, an extraction and a guess at arguments:
+
+```
+$ kpm setup
+evilC/AutoHotInterception: Installs the Interception driver. Note that a driver
+capturing input can disable key combinations such as Ctrl+Alt+Delete.
+  https://github.com/evilC/AutoHotInterception#installation
+  will run: native\install-interception.exe /install
+  as administrator
+  a restart is needed afterwards
+  run it now? [y/N]
+```
+
+**`kpm setup` is the only command that runs anything from a package**, and it shows the exact
+program and arguments first. `install`, `add` and `update` never do, so nothing executes because a
+build resolved a dependency — the property that makes install hooks so dangerous elsewhere is that
+they run without anyone deciding to run them. Here a person typed a command whose only purpose is
+to run this, saw what it was, and said yes.
+
+The script path is treated as untrusted input: it must resolve inside the package that declared it,
+so a manifest cannot point `kpm` at an arbitrary executable.
 
 ## Licensing and takedowns
 

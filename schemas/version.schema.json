@@ -78,15 +78,27 @@
   "$defs": {
     "setupNote": {
       "type": "object",
-      "description": "A manual step the user must perform — installing a driver, obtaining a tool. Inert data: kpm prints it after installing and never executes anything from a package. Install-time hooks are deliberately not supported.",
+      "description": "A step the user must perform after installing — a driver install, a one-time registration. Printed by install; performed only by `kpm setup`, which shows the exact command and asks first. install/add/update never run anything from a package, so nothing executes merely because a build resolved a dependency.",
       "required": ["message"],
       "additionalProperties": false,
       "properties": {
-        "message": { "type": "string", "description": "What the user has to do, in plain language." },
-        "url": { "type": "string", "description": "Where the instructions live." },
+        "message": { "type": "string", "description": "What the step does and why, in plain language. Say so if it is risky." },
+        "url": { "type": "string", "description": "Where the full instructions live." },
         "script": {
           "type": "string",
-          "description": "An archive-relative path the user MAY choose to run themselves. kpm only reports where it is."
+          "description": "Archive-relative path to something the package ships for this step, e.g. native/install-driver.exe. Must resolve inside the package: the path is untrusted input and cannot point elsewhere on the disk. Ship the binary in the package rather than downloading it at setup time, so it is hash-verified like everything else."
+        },
+        "arguments": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Arguments passed exactly as written. No shell, no expansion."
+        },
+        "elevate": { "type": "boolean", "description": "The step needs administrator rights; the user is told before confirming." },
+        "reboot": { "type": "boolean", "description": "The step only takes effect after a restart." },
+        "platforms": {
+          "type": "array",
+          "items": { "enum": ["any", "win", "linux", "osx", "win-x64", "win-arm64", "linux-x64", "linux-arm64", "osx-x64", "osx-arm64"] },
+          "description": "Platforms the step applies to; omitted means all of them."
         }
       }
     },

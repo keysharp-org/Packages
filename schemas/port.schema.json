@@ -34,18 +34,8 @@
     "capabilities": { "type": "array", "items": { "type": "string" } },
     "dependencies": { "type": "object", "additionalProperties": { "type": "string" } },
     "setup": {
-      "type": "object",
-      "description": "A manual step the user must perform — installing a driver, obtaining a tool. Inert data: kpm prints it after installing and never executes anything from a package. Install-time hooks are deliberately not supported.",
-      "required": ["message"],
-      "additionalProperties": false,
-      "properties": {
-        "message": { "type": "string", "description": "What the user has to do, in plain language." },
-        "url": { "type": "string", "description": "Where the instructions live." },
-        "script": {
-          "type": "string",
-          "description": "An archive-relative path the user MAY choose to run themselves. kpm only reports where it is."
-        }
-      }
+      "$ref": "https://packages.keysharp.org/schemas/version.schema.json#/$defs/setupNote",
+      "description": "A step the user must perform after installing. Printed by install; performed only by `kpm setup`, which shows the exact command and asks first. Carried through to every release manifest built from this port."
     },
     "upstream": {
       "type": "object",
