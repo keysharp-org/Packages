@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://packages.keysharp.org/schemas/package.schema.json",
+  "$id": "https://keysharp-org.github.io/Packages/schemas/package.schema.json",
   "title": "Package record",
   "description": "packages/<owner>/<name>/package.json — the package-level record, and the only file in a package directory that may be edited after publication.",
   "type": "object",

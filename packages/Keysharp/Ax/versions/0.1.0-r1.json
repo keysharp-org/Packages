@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "name": "Ax",
+  "owner": "Keysharp",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-08-28T19:40:30+00:00",
+  "entry": "src/Ax.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.17"
+  },
+  "platforms": [
+    "osx"
+  ],
+  "capabilities": [
+    "AccessibilityAutomation",
+    "InputMonitoring"
+  ],
+  "dependencies": {},
+  "setup": {
+    "message": "Needs Accessibility and Input Monitoring trust granted to the running application in System Settings > Privacy & Security. Sandboxed or privileged applications may still expose incomplete trees.",
+    "url": "https://github.com/Descolada/Keysharp",
+    "platforms": [
+      "osx"
+    ]
+  },
+  "source": {
+    "kind": "ports",
+    "repository": "keysharp-org/Packages",
+    "path": "packages/Keysharp/Ax"
+  },
+  "artifacts": {
+    "osx": {
+      "sha256": "afba021f09f0ef7bb1c90a4c2b7d8db13dafc1cfad821c25eeffca0c0934219e",
+      "size": 25395,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Keysharp/Ax/0.1.0-r1/Ax-0.1.0-r1-osx.kspkg"
+      ]
+    }
+  }
+}

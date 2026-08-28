@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "version": "0.1.0",
+  "entry": "src/AtSpi.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.17"
+  },
+  "platforms": ["linux"],
+  "capabilities": ["AccessibilityAutomation", "InputMonitoring"],
+  "dependencies": {},
+  "setup": {
+    "message": "Needs AT-SPI accessibility enabled in the desktop environment, and libatspi, libglib-2.0 and libgobject on the system. Enabling accessibility may require logging out and back in.",
+    "url": "https://github.com/Descolada/Keysharp",
+    "platforms": ["linux"]
+  }
+}

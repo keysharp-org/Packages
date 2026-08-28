@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "version": "0.1.0",
+  "entry": "src/Ax.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.17"
+  },
+  "platforms": ["osx"],
+  "capabilities": ["AccessibilityAutomation", "InputMonitoring"],
+  "dependencies": {},
+  "setup": {
+    "message": "Needs Accessibility and Input Monitoring trust granted to the running application in System Settings > Privacy & Security. Sandboxed or privileged applications may still expose incomplete trees.",
+    "url": "https://github.com/Descolada/Keysharp",
+    "platforms": ["osx"]
+  }
+}

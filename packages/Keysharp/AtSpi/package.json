@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "AtSpi",
+  "owner": "Keysharp",
+  "displayName": "AtSpi",
+  "description": "Inspect and automate Linux accessibility trees through AT-SPI, the way UIA and Acc are used on Windows. Includes an interactive viewer.",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/Descolada/Keysharp",
+  "categories": ["accessibility", "automation"],
+  "versioning": "registry",
+  "yanked": []
+}

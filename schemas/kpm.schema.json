@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://packages.keysharp.org/schemas/kpm.schema.json",
+  "$id": "https://keysharp-org.github.io/Packages/schemas/kpm.schema.json",
   "title": "Project manifest",
   "description": "kpm.json — a consumer's dependencies, as ranges a human wrote. The exact releases a resolve settled on go in kpm.lock.json.",
   "type": "object",

@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "name": "AtSpi",
+  "owner": "Keysharp",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-08-28T19:40:30+00:00",
+  "entry": "src/AtSpi.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.17"
+  },
+  "platforms": [
+    "linux"
+  ],
+  "capabilities": [
+    "AccessibilityAutomation",
+    "InputMonitoring"
+  ],
+  "dependencies": {},
+  "setup": {
+    "message": "Needs AT-SPI accessibility enabled in the desktop environment, and libatspi, libglib-2.0 and libgobject on the system. Enabling accessibility may require logging out and back in.",
+    "url": "https://github.com/Descolada/Keysharp",
+    "platforms": [
+      "linux"
+    ]
+  },
+  "source": {
+    "kind": "ports",
+    "repository": "keysharp-org/Packages",
+    "path": "packages/Keysharp/AtSpi"
+  },
+  "artifacts": {
+    "linux": {
+      "sha256": "c7f0a426ada65af51982a8a77f8c00c3a12cba53f429e552b503265329b63344",
+      "size": 23110,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Keysharp/AtSpi/0.1.0-r1/AtSpi-0.1.0-r1-linux.kspkg"
+      ]
+    }
+  }
+}

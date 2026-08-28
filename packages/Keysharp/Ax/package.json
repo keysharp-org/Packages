@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "Ax",
+  "owner": "Keysharp",
+  "displayName": "Ax",
+  "description": "Inspect and automate macOS accessibility trees through the AXUIElement API, the counterpart to Acc on Windows and AtSpi on Linux. Includes an interactive viewer.",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/Descolada/Keysharp",
+  "categories": ["accessibility", "automation"],
+  "versioning": "registry",
+  "yanked": []
+}

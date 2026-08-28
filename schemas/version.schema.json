@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://packages.keysharp.org/schemas/version.schema.json",
+  "$id": "https://keysharp-org.github.io/Packages/schemas/version.schema.json",
   "title": "Release manifest",
   "description": "packages/<owner>/<name>/versions/<version>-r<revision>.json — one immutable release. Once merged this file is never edited or deleted; a mistake is corrected by publishing a new revision.",
   "type": "object",
