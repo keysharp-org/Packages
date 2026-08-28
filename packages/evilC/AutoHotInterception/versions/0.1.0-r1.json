@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "name": "AutoHotInterception",
+  "owner": "evilC",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-08-25T00:00:00+00:00",
+  "entry": "src/AHK v2/Lib/AutoHotInterception.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "setup": {
+    "message": "Upstream defines install-time commands (postdownload, preinstall, preremove) that this registry does not run. If this package needs a driver, a tool, or a setup step, follow its own instructions.",
+    "url": "https://github.com/evilC/AutoHotInterception"
+  },
+  "source": {
+    "kind": "git",
+    "repository": "evilC/AutoHotInterception",
+    "commit": "311f7362f09af492345b95cf9b771cc79bf85bbb",
+    "url": "https://github.com/evilC/AutoHotInterception"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "e452c5ac33b901e7efb8243b5b1edfb36045d313675e05cf1eeaa86f3df36693",
+      "size": 4476,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/evilC/AutoHotInterception/0.1.0-r1/AutoHotInterception-0.1.0-r1-any.kspkg"
+      ]
+    }
+  }
+}

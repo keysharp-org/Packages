@@ -16,6 +16,9 @@
   "dependencies": {
     "thqby/WinHttpRequest": "*"
   },
+  "setup": {
+    "message": "Upstream defines install-time commands (postdownload) that this registry does not run. If this package needs a driver, a tool, or a setup step, follow its own instructions."
+  },
   "source": {
     "kind": "git",
     "repository": "thqby/ahk2_lib",

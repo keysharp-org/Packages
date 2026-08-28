@@ -14,6 +14,10 @@
   ],
   "capabilities": [],
   "dependencies": {},
+  "setup": {
+    "message": "Upstream defines install-time commands (postdownload) that this registry does not run. If this package needs a driver, a tool, or a setup step, follow its own instructions.",
+    "url": "https://github.com/Uberi/Yunit/tree/v2"
+  },
   "source": {
     "kind": "git",
     "repository": "Uberi/Yunit",

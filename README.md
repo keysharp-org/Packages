@@ -113,6 +113,36 @@ makes a package Keysharp-only. See
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Installing never runs package code
+
+`kpm` downloads, verifies and extracts files. It does not execute anything from a package, at
+install time or any other time — no preinstall, no postinstall, no build step.
+
+That is a deliberate refusal, not a missing feature. Install-time hooks are the most exploited
+position in a software supply chain, and this registry serves a large bot-imported corpus whose CI
+checks that code *compiles*, not what it does. One package in the source index illustrates the
+exposure: its post-install step downloads a zip, elevates to administrator, installs a kernel
+driver, and runs PowerShell with the execution policy bypassed. Nothing should do that because you
+typed `kpm add`.
+
+Almost nothing is lost. Most hooks in the source index were packaging fixups — rewriting a file's
+encoding, generating an aggregator `#include` — which a *built* package does not need, because the
+author does them once before packing and the artifact carries the result. Fetching binaries is
+replaced by shipping them in `native/`. What genuinely remains is a step requiring administrator
+rights, and that needs your explicit approval regardless, so automating up to it would buy nothing.
+
+A package that needs such a step declares it, and `kpm` prints it after installing:
+
+```json
+"setup": {
+  "message": "Requires the Interception driver, installed separately with administrator rights.",
+  "url": "https://github.com/evilC/AutoHotInterception#installation",
+  "script": "src/install-interception.exe"
+}
+```
+
+`script` names something *you* may choose to run. `kpm` only ever tells you where it is.
+
 ## Licensing and takedowns
 
 Each package records its own licence. `NOASSERTION` means the source states no licence — common for

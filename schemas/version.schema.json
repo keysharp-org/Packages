@@ -49,6 +49,7 @@
       "additionalProperties": { "type": "string" },
       "description": "owner/name to an npm-style SemVer range (^1.4.0). Deliberately a different grammar from engines."
     },
+    "setup": { "$ref": "#/$defs/setupNote" },
     "source": { "$ref": "#/$defs/sourceRef" },
     "artifacts": {
       "type": "object",
@@ -75,6 +76,20 @@
     }
   },
   "$defs": {
+    "setupNote": {
+      "type": "object",
+      "description": "A manual step the user must perform — installing a driver, obtaining a tool. Inert data: kpm prints it after installing and never executes anything from a package. Install-time hooks are deliberately not supported.",
+      "required": ["message"],
+      "additionalProperties": false,
+      "properties": {
+        "message": { "type": "string", "description": "What the user has to do, in plain language." },
+        "url": { "type": "string", "description": "Where the instructions live." },
+        "script": {
+          "type": "string",
+          "description": "An archive-relative path the user MAY choose to run themselves. kpm only reports where it is."
+        }
+      }
+    },
     "sourceRef": {
       "type": "object",
       "description": "Provenance: where this release's content came from. Not a download location.",
