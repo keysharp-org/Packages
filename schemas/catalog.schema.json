@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://packages.keysharp.org/schemas/catalog.schema.json",
+  "$id": "https://keysharp-org.github.io/Packages/schemas/catalog.schema.json",
   "title": "Published catalog",
   "description": "catalog.json — generated. A browsing view: one row per package with its newest release, for a GUI or web page that does not need the resolver's data. Clients that resolve use index.json.gz instead.",
   "type": "object",

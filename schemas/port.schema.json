@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://packages.keysharp.org/schemas/port.schema.json",
+  "$id": "https://keysharp-org.github.io/Packages/schemas/port.schema.json",
   "title": "Source-hosted package",
   "description": "packages/<owner>/<name>/port.json — present only for packages whose maintained source lives in this repository. It carries what packing needs; the package-level record stays in package.json.",
   "type": "object",
@@ -34,8 +34,30 @@
     "capabilities": { "type": "array", "items": { "type": "string" } },
     "dependencies": { "type": "object", "additionalProperties": { "type": "string" } },
     "setup": {
-      "$ref": "https://packages.keysharp.org/schemas/version.schema.json#/$defs/setupNote",
-      "description": "A step the user must perform after installing. Printed by install; performed only by `kpm setup`, which shows the exact command and asks first. Carried through to every release manifest built from this port."
+      "type": "object",
+      "description": "A step the user must perform after installing. Printed by install; performed only by `kpm setup`, which shows the exact command and asks first. Carried through to every release manifest built from this port, whose schema defines the same shape — spelled out here rather than referenced across files, because a cross-file $ref makes validation fetch over the network.",
+      "required": ["message"],
+      "additionalProperties": false,
+      "properties": {
+        "message": { "type": "string", "description": "What the step does and why, in plain language. Say so if it is risky." },
+        "url": { "type": "string", "description": "Where the full instructions live." },
+        "script": {
+          "type": "string",
+          "description": "Archive-relative path to something the package ships for this step. Must resolve inside the package: the path is untrusted input and cannot point elsewhere on the disk."
+        },
+        "arguments": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Arguments passed exactly as written. No shell, no expansion."
+        },
+        "elevate": { "type": "boolean", "description": "The step needs administrator rights; the user is told before confirming." },
+        "reboot": { "type": "boolean", "description": "The step only takes effect after a restart." },
+        "platforms": {
+          "type": "array",
+          "items": { "enum": ["any", "win", "linux", "osx", "win-x64", "win-arm64", "linux-x64", "linux-arm64", "osx-x64", "osx-arm64"] },
+          "description": "Platforms the step applies to; omitted means all of them."
+        }
+      }
     },
     "upstream": {
       "type": "object",

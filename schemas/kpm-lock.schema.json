@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://packages.keysharp.org/schemas/kpm-lock.schema.json",
+  "$id": "https://keysharp-org.github.io/Packages/schemas/kpm-lock.schema.json",
   "title": "Project lockfile",
   "description": "kpm.lock.json — the exact releases a resolve settled on. 'kpm install' restores this and nothing else, which is what makes a rebuild reproducible and offline-capable.",
   "type": "object",
