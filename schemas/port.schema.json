@@ -28,8 +28,8 @@
     "platforms": {
       "type": "array",
       "minItems": 1,
-      "description": "One artifact is built per entry. A platform/<rid>/ directory must have its rid listed here, or that code would never be shipped.",
-      "items": { "enum": ["any", "win-x64", "win-arm64", "linux-x64", "linux-arm64", "osx-x64", "osx-arm64"] }
+      "description": "One artifact is built per entry, and a platform/<rid>/ directory must have its rid listed here or nothing in it would ever ship. A machine resolves the most specific artifact available, falling back architecture -> operating system -> any (linux-arm64, then linux, then any). Prefer the OS tier (win, linux, osx) for scripts, which vary by OS and not by architecture; use the architecture ids for native payloads, which do. Do not use 'any' as a stand-in for one platform: a machine whose OS you did not list will resolve it.",
+      "items": { "enum": ["any", "win", "linux", "osx", "win-x64", "win-arm64", "linux-x64", "linux-arm64", "osx-x64", "osx-arm64"] }
     },
     "capabilities": { "type": "array", "items": { "type": "string" } },
     "dependencies": { "type": "object", "additionalProperties": { "type": "string" } },

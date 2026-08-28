@@ -76,11 +76,31 @@ build:
 ```
 packages/Descolada/OCR/
 ├── src/
-│   └── OCR.ahk                     shared API — #include "Engine.ahk"
+│   └── OCR.ahk                 shared API — #include "Engine.ahk"
 └── platform/
-    ├── any/src/Engine.ahk          Windows engine; also what AutoHotkey resolves
-    └── linux-x64/src/Engine.ahk    Tesseract engine
+    ├── win/src/Engine.ahk      Windows engine; also what AutoHotkey resolves
+    └── linux/src/Engine.ahk    Tesseract engine
 ```
+
+```json
+"platforms": ["win", "linux"]
+```
+
+### Which platform ids to use
+
+A machine takes the most specific artifact a package ships, falling back
+**architecture → operating system → `any`**: a `linux-arm64` machine tries `linux-arm64`, then
+`linux`, then `any`.
+
+Scripts almost always vary by operating system and not by architecture, so **name the OS tier**
+(`win`, `linux`, `osx`) as above — one `linux` build serves both `linux-x64` and `linux-arm64`.
+Reserve the architecture ids (`linux-x64`, `win-arm64`, …) for native payloads, which genuinely
+differ per architecture.
+
+**Do not use `any` as a stand-in for one platform.** It is the last resort for every machine, so an
+`any` build that is really the Windows one gets handed to a macOS user. `any` means "runs
+anywhere"; if a package has no portable implementation, list the platforms it does support and let
+machines outside that list fail to resolve, which is the honest answer.
 
 Note that `src`, `native` and `platform` are reserved only at the *top* of a package directory,
 never inside `src/`. A package is free to have its own `src/Native/` or `src/platform/` — and one

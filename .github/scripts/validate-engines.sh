@@ -21,6 +21,9 @@ if [ -z "$packages" ]; then
 	exit 0
 fi
 
+# The runner's actual machine. Which artifact it gets is the registry's decision, not this
+# script's: `kpm probe` resolves it through the same architecture -> OS -> any fallback an install
+# uses, and fails if the package ships nothing this machine can take.
 case "$RUNNER_OS" in
 Linux) platform="linux-x64" ;;
 Windows) platform="win-x64" ;;
@@ -58,17 +61,14 @@ else:
 		continue
 	fi
 
-	# A package that ships no build for this runner's platform has nothing to check here.
-	if ! python3 -c "
-import json,sys
-platforms = json.load(open('$package/port.json'))['platforms']
-sys.exit(0 if ('any' in platforms or '$platform' in platforms) else 1)"; then
-		echo "· $package has no build for $platform, skipping"
+	# A package that ships no build this runner can take has nothing to check here. Asking kpm keeps
+	# the fallback rule in one place instead of reimplementing it in shell.
+	probe_dir="$RUNNER_TEMP/probe/$(echo "$package" | tr '/' '-')"
+
+	if ! probe=$(kpm probe "$package" --out "$probe_dir" --registry . --engine "$engine" --platform "$platform"); then
+		echo "· $package ships no build for $platform, skipping"
 		continue
 	fi
-
-	probe_dir="$RUNNER_TEMP/probe/$(echo "$package" | tr '/' '-')"
-	probe=$(kpm probe "$package" --out "$probe_dir" --registry . --engine "$engine")
 	echo "▸ $package"
 
 	case "$engine" in
