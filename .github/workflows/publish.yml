@@ -19,6 +19,11 @@ on:
         type: boolean
         default: false
 
+# contents: write is for creating releases, not for pushing commits — nothing here writes to the
+# branch. A manifest names this registry's own artifact URL when it is written, because the release
+# tag and asset name are fully determined, so nothing has to come back afterwards and edit one in.
+# That is what lets a published manifest be genuinely immutable and the branch require pull requests
+# with no exception for CI.
 permissions:
   contents: write
   pages: write
@@ -62,15 +67,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: .github/scripts/publish-releases.sh
-
-      - name: Record the registry's own artifact URLs
-        if: steps.release.outputs.published != '0'
-        run: |
-          git config user.name  "kpm-bot"
-          git config user.email "kpm-bot@users.noreply.github.com"
-          git add packages
-          git diff --cached --quiet || git commit -m "Record release URLs for newly published artifacts"
-          git push
 
   index:
     name: Build and deploy the index

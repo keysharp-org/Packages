@@ -46,7 +46,9 @@ print(m['owner'], m['name'], m['version'], m['revision'])
 
 Published automatically from \`$package_dir\`. This release is immutable: a correction is published as a new revision."
 
-	python3 .github/scripts/record_urls.py "$manifest" "$GITHUB_REPOSITORY" "$tag" "$staging"
+	# Nothing is written back to the manifest: it already names this URL, because the tag and asset
+	# name are fully determined by the release. That is what keeps a published manifest immutable
+	# and lets the branch require pull requests without an exception for CI.
 	published=$((published + 1))
 done
 

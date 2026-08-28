@@ -11,26 +11,51 @@ mkdir -p "$destination"
 
 case "$engine" in
 keysharp)
+	# Each release carries both an installer and, on two of three platforms, a portable archive.
+	# The patterns are exact because a wildcard matches both and picking whichever the API listed
+	# first is how this first tried to unzip an .msi.
 	case "$RUNNER_OS" in
-	Linux) asset_pattern='*linux-x64*' ;;
-	Windows) asset_pattern='*win-x64*' ;;
-	macOS) asset_pattern='*osx-arm64*' ;;
+	Linux) asset_pattern='*linux-x64.tar.gz' ;;
+	Windows) asset_pattern='*win-x64.zip' ;;
+	# The .pkg is not used: its postinstall scripts fail on a clean runner ("An error occurred while
+	# running scripts from the package"), and a validation harness should not depend on an installer
+	# succeeding anyway. The disk image just carries the app, so it is mounted and copied.
+	macOS) asset_pattern='*osx-arm64.dmg' ;;
 	*) echo "::error::unsupported runner $RUNNER_OS"; exit 1 ;;
 	esac
 
 	gh release download --repo "${KEYSHARP_REPOSITORY:-Descolada/Keysharp}" \
 		--pattern "$asset_pattern" --dir "$destination" --clobber
 
-	archive=$(find "$destination" -maxdepth 1 -type f | head -1)
-	case "$archive" in
-	*.zip) unzip -q -o "$archive" -d "$destination" ;;
-	*.tar.gz | *.tgz) tar -xzf "$archive" -C "$destination" ;;
-	*) echo "::error::unrecognized archive $archive"; exit 1 ;;
+	asset=$(find "$destination" -maxdepth 1 -type f | head -1)
+	case "$asset" in
+	*.zip) unzip -q -o "$asset" -d "$destination" ;;
+	*.tar.gz | *.tgz) tar -xzf "$asset" -C "$destination" ;;
+	*.dmg)
+		mount=$(mktemp -d)
+		hdiutil attach "$asset" -nobrowse -readonly -mountpoint "$mount" >/dev/null
+		# Copied out before detaching, so nothing later depends on the image staying mounted.
+		cp -R "$mount"/* "$destination"/ 2>/dev/null || true
+		hdiutil detach "$mount" >/dev/null || true
+		;;
+	*) echo "::error::unrecognized asset $asset"; exit 1 ;;
 	esac
 
-	binary=$(find "$destination" -type f \( -name 'Keysharp' -o -name 'Keysharp.exe' \) | head -1)
+	# Only search directories that exist. This script runs under `set -e -o pipefail`, so naming a
+	# missing path makes find exit non-zero and takes the whole step with it — redirecting stderr
+	# hides the message but not the status, which is how adding the macOS locations broke Linux.
+	search="$destination"
+	for extra in /usr/local/bin /Applications; do
+		[ -d "$extra" ] && search="$search $extra"
+	done
+
+	# shellcheck disable=SC2086 # deliberately word-split: $search is a list of directories
+	# Deep enough for an .app bundle (Keysharp.app/Contents/MacOS/Keysharp is already four levels)
+	# without walking an entire /Applications on a runner that has one.
+	binary=$(find $search -maxdepth 6 -type f \
+		\( -name 'Keysharp' -o -name 'Keysharp.exe' -o -name 'keysharp' \) 2>/dev/null | head -1 || true)
 	if [ -z "$binary" ]; then
-		echo "::error::no Keysharp binary in the downloaded release"
+		echo "::error::no Keysharp binary after installing $asset (searched: $search)"
 		exit 1
 	fi
 	chmod +x "$binary" || true
