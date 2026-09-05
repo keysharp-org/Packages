@@ -11,6 +11,10 @@ for line in result.Lines
     OutputDebug(line.Text)
 ```
 
+Lines and words expose `X`, `Y`, `Width`, `Height`, and `BoundingRect`. Version 0.2.0
+corrects the width and height getters to use those documented names; callers using `w` or `h`
+should use `Width` or `Height`.
+
 ## Pluggable engines
 
 OCR does no recognition itself and no screen capture: the image comes from Keysharp's cross-platform
