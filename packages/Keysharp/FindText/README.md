@@ -23,8 +23,10 @@ against real screens. Two things changed:
   a transcription of exactly that C, so Roslyn compiles it into the script's assembly;
 - screen capture and pixel access went through GDI, and now go through Keysharp's `Image` class.
 
-The interaction layer — the GUI state machine, `Lang()`, `GetRange()`, `ObjView()`, the Ocr/Sort
-helpers — is unchanged.
+The GUI uses Keysharp's `Highlight` overlay for range borders, platform-appropriate temporary
+paths, and a monospace pattern preview off Windows. It requests input monitoring, input injection,
+and screen capture permissions when initialized. The Test action runs the managed matcher in the
+current process. These interaction fixes ship in version 0.2.0.
 
 Because it uses `#CSharp`, this is a Keysharp package and does not run on AutoHotkey.
 
