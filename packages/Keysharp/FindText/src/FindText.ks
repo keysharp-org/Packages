@@ -42,7 +42,7 @@ FindText(args*)
 Class FindTextClass
 {  ;// Class Begin
 
-#import Ks { Font, Image, Highlight, Overlay, Clipboard }
+#import Ks { Font, Image, Highlight, Overlay, Clipboard, RequestCapabilities }
 
 #CSharp
 using KBuffer = Keysharp.Builtins.Buffer;
@@ -671,8 +671,7 @@ PicFind(ini, j, dir, sx, sy, sw, sh)
   , err1:=this.Floor(j[4] ? j[5] : ini.err1)
   , err0:=this.Floor(j[4] ? j[6] : ini.err0)
   , mode:=j[7], color:=j[8], n:=j[9]
-  ; PORTED: the only change is DllCall(MyFunc.Ptr, ...) -> FindTextClass.PicFind(...). Same arguments, same
-  ; order, same meanings; the static MyFunc / MCode() that built the machine code are gone.
+  ; The managed matcher takes the same arguments as the upstream machine-code matcher.
   ok:=(!ini.bits.Scan0 || mode<1 || mode>5) ? 0
     : FindTextClass.PicFind(mode, color, n, dir
     , ini.bits.Scan0, ini.bits.Stride
@@ -1567,35 +1566,26 @@ MouseTip(x:="", y:="", w:=10, h:=10, d:=3)
 
 ; Shows a range of the borders, similar to the ToolTip
 
+; Highlight supplies a click-through border that the desktop backend can position.
 RangeTip(x:="", y:="", w:="", h:="", color:="Red", d:=3, num:=1)
 {
   ListLines (lls:=A_ListLines)?0:0
   static tab:=Map()
-  (!tab.Has(num) && tab[num]:=[0,0,0,0]), Range:=tab[num]
   if (x="")
   {
-    if (Range[1])
-    Loop 4
-      Range[A_Index].Destroy(), Range[A_Index]:=""
+    if tab.Has(num)
+      tab[num].Destroy(), tab.Delete(num)
     ListLines lls
     return
   }
-  if !(Range[1])
-  {
-    Loop 4
-      Range[A_Index]:=Gui("+AlwaysOnTop -Caption +ToolWindow -DPIScale +E0x08000000")
-  }
   x:=this.Floor(x), y:=this.Floor(y), w:=this.Floor(w), h:=this.Floor(h), d:=this.Floor(d)
-  Loop 4
-  {
-    i:=A_Index
-    , x1:=(i=2 ? x+w : x-d)
-    , y1:=(i=3 ? y+h : y-d)
-    , w1:=(i=1 || i=3 ? w+2*d : d)
-    , h1:=(i=2 || i=4 ? h+2*d : d)
-    Range[i].BackColor:=color
-    Range[i].Show("NA x" x1 " y" y1 " w" w1 " h" h1)
-  }
+  if !tab.Has(num)
+    tab[num]:=Highlight(x, y, w, h, color, d)
+  hl:=tab[num]
+  ; Apply style changes before moving the visible overlay.
+  (hl.Color!=color) && hl.Color:=color
+  (hl.Thickness!=d) && hl.Thickness:=d
+  hl.Show(x, y, w, h)
   ListLines lls
 }
 
@@ -2322,6 +2312,20 @@ SetTrayEmoji(emoji, size:=64, fontSize:=42)
 
 
 
+; Use a monospace font off Windows to keep the pattern preview aligned.
+
+AsciiFont()
+{
+#if OSX
+  return "Menlo"
+#elif LINUX
+  return "monospace"
+#else
+  return "Verdana"
+#endif
+}
+
+
 ;==== Optional GUI interface ====
 
 
@@ -2333,7 +2337,8 @@ Gui(cmd, arg1:="", args*)
   static init:=0
   if (!init && init:=1)
   {
-    SavePicDir:=A_Temp "\Ahk_ScreenShot\"
+    ; PORTED: A_Temp is "/tmp" off Windows, so the separator cannot be a literal backslash.
+    SavePicDir:=A_Temp . (sep:=InStr(A_Temp, "\") ? "\" : "/") . "Ahk_ScreenShot" . sep
     G_ := this.Gui.Bind(this)
     G_G := this.Gui.Bind(this, "G")
     G_Run := this.Gui.Bind(this, "Run")
@@ -2353,6 +2358,8 @@ Gui(cmd, arg1:="", args*)
     FindText_Capture:=FindText_Main:=""
     PrevControl:=x:=y:=oldx:=oldy:=""
     Pics:=Map(), hBM_old:=dx:=dy:=0
+    ; Request capture and input permissions together before an interactive capture starts.
+    Try RequestCapabilities("InputMonitoring", "InputInjection", "ScreenCapture")
     cri:=A_IsCritical
     Critical
     Lang:=this.Lang(,1), Tip_Text:=this.Lang(,2)
@@ -2651,7 +2658,8 @@ Gui(cmd, arg1:="", args*)
     G_G.Call()
     _Gui.Add("Button", "x+0 wp vUpdate", Lang["Update"])
     G_G.Call()
-    _Gui.SetFont("s6 bold", "Verdana")
+    ; The pattern preview needs equal character widths off Windows.
+    _Gui.SetFont("s6 bold", this.AsciiFont())
     _Gui.Add("Edit", "xm y+10 w" pW " h260 vMyPic -Wrap HScroll")
     _Gui.SetFont("s12 norm", "Verdana")
     w:=pW//3
@@ -2687,12 +2695,12 @@ Gui(cmd, arg1:="", args*)
     OnExit(G_SaveScr)
     return
   Case "LoadScr":
-    f:=A_Temp "\~scr2.tmp"
+    f:=A_Temp . (InStr(A_Temp, "\") ? "\" : "/") . "~scr2.tmp"
     Try s:="", s:=FileRead(f)
     FindText_Main["scr"].Value:=s
     return
   Case "SaveScr":
-    f:=A_Temp "\~scr2.tmp"
+    f:=A_Temp . (InStr(A_Temp, "\") ? "\" : "/") . "~scr2.tmp"
     s:=FindText_Main["scr"].Value
     Try FileDelete f
     FileAppend s, f
@@ -2725,7 +2733,8 @@ Gui(cmd, arg1:="", args*)
     ; PORTED: hBM is an Image now, so hand LoadPic()/Image.FromBitmap a real handle.
     Names:=[hBM], s:="<New>"
     Loop Files, SavePicDir "*.bmp"
-      Names.Push(v:=A_LoopFileFullPath), s.="|" RegExReplace(v,"i)^.*\\|\.bmp$")
+      ; PORTED: the leading "^.*\\" also has to strip a forward slash to name the file off Windows.
+      Names.Push(v:=A_LoopFileFullPath), s.="|" RegExReplace(v,"i)^.*[\\/]|\.bmp$")
     _Gui["SelectBox"].Delete()
     _Gui["SelectBox"].Add(StrSplit(Trim(s,"|"),"|"))
     ;------------------------
@@ -2942,30 +2951,19 @@ Gui(cmd, arg1:="", args*)
       s:=_Gui["scr"].Value
     else
       s:=_Gui["ClipText"].Value
-    if (cmd="Test") && InStr(s, "MCode(")
-    {
-      s:="`nA_TrayMenu.ClickCount:=1`n" s "`nExitApp`n"
-      Thread1:=FindTextClass.Thread(s)
-      DetectHiddenWindows 1
-      if WinWait("ahk_class AutoHotkey ahk_pid " Thread1.pid,, 3)
-        WinWaitClose(,, 30)
-      ; Thread1:=""  ; kill the Thread
-    }
-    else
-    {
-      t:=A_TickCount, v:=X:=Y:=""
-      if RegExMatch(s, "<[^>\n]*>[^$\n]+\$[^`"'\r\n]+", &r)
-        v:=this.FindText(&X, &Y, 0,0,0,0, 0,0, r[0])
-      r:=StrSplit(Lang["s8"] "||||", "|")
-      MsgBox r[1] ":`t" (IsObject(v)?v.Length:v) "`n`n"
-        . r[2] ":`t" (A_TickCount-t) " " r[3] "`n`n"
-        . r[4] ":`t" X ", " Y "`n`n"
-        . r[5] ":`t<" (IsObject(v)?v[1].id:"") ">", "Tip", "4096 T3"
-      Try For i,j in v
-        if (i<=2)
-          this.MouseTip(j.X, j.Y)
-      v:="", A_Clipboard:=X "," Y
-    }
+    ; The managed matcher can test the pattern in this process.
+    t:=A_TickCount, v:=X:=Y:=""
+    if RegExMatch(s, "<[^>\n]*>[^$\n]+\$[^`"'\r\n]+", &r)
+      v:=this.FindText(&X, &Y, 0,0,0,0, 0,0, r[0])
+    r:=StrSplit(Lang["s8"] "||||", "|")
+    MsgBox r[1] ":`t" (IsObject(v)?v.Length:v) "`n`n"
+      . r[2] ":`t" (A_TickCount-t) " " r[3] "`n`n"
+      . r[4] ":`t" X ", " Y "`n`n"
+      . r[5] ":`t<" (IsObject(v)?v[1].id:"") ">", "Tip", "4096 T3"
+    Try For i,j in v
+      if (i<=2)
+        this.MouseTip(j.X, j.Y)
+    v:="", A_Clipboard:=X "," Y
     ;----------------------
     G_Show.Call()
     return
