@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "name": "LV_Colors",
+  "owner": "Keysharp",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-09-09T07:33:38+00:00",
+  "entry": "src/LV_Colors.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.17"
+  },
+  "platforms": [
+    "win"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "ports",
+    "repository": "keysharp-org/Packages",
+    "path": "packages/Keysharp/LV_Colors",
+    "upstream": {
+      "kind": "git",
+      "repository": "AHK-just-me/AHK2_LV_Colors",
+      "commit": "9b37285f4327e00893c08c0d6a1a7078c3382522",
+      "path": "Sources/Class_LV_Colors.ahk",
+      "url": "https://www.autohotkey.com/boards/viewtopic.php?style=2&t=93922"
+    }
+  },
+  "artifacts": {
+    "win": {
+      "sha256": "e40cae06a83c830e161748a13e6977ade7d157394a6e00a1a2feee539a062dab",
+      "size": 1668,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Keysharp/LV_Colors/0.1.0-r1/LV_Colors-0.1.0-r1-win.kspkg"
+      ]
+    }
+  }
+}

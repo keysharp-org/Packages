@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "name": "FileWatch",
+  "owner": "Keysharp",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-09-09T07:33:37+00:00",
+  "entry": "src/FileWatch.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.17"
+  },
+  "platforms": [
+    "win"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "ports",
+    "repository": "keysharp-org/Packages",
+    "path": "packages/Keysharp/FileWatch"
+  },
+  "artifacts": {
+    "win": {
+      "sha256": "8237ea94a75c1740790f7bec360b45ff33edd8bdc888658cef7b3bbfe899ae0f",
+      "size": 2711,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Keysharp/FileWatch/0.1.0-r1/FileWatch-0.1.0-r1-win.kspkg"
+      ]
+    }
+  }
+}

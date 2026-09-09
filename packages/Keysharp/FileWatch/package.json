@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "FileWatch",
+  "owner": "Keysharp",
+  "displayName": "FileWatch",
+  "description": "Watch a directory for created, changed, renamed and deleted entries through Keysharp's CLR event bridge.",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/keysharp-org/Packages/tree/main/packages/Keysharp/FileWatch",
+  "categories": ["filesystem", "automation"],
+  "versioning": "registry",
+  "yanked": []
+}

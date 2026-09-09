@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "name": "LV_Colors",
+  "owner": "Keysharp",
+  "authors": ["just me", "Keysharp contributors"],
+  "derivedFrom": "just-me/ListViewColors",
+  "displayName": "LV_Colors",
+  "description": "A Keysharp reimplementation of LV_Colors' Row, Cell and Clear interface over Gui.ListView color methods.",
+  "license": "NOASSERTION",
+  "homepage": "https://github.com/AHK-just-me/AHK2_LV_Colors",
+  "categories": ["gui", "extension"],
+  "versioning": "registry",
+  "yanked": []
+}

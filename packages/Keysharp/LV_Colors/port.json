@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "version": "0.1.0",
+  "entry": "src/LV_Colors.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.17"
+  },
+  "platforms": ["win"],
+  "capabilities": [],
+  "dependencies": {},
+  "upstream": {
+    "kind": "git",
+    "repository": "AHK-just-me/AHK2_LV_Colors",
+    "commit": "9b37285f4327e00893c08c0d6a1a7078c3382522",
+    "path": "Sources/Class_LV_Colors.ahk",
+    "url": "https://www.autohotkey.com/boards/viewtopic.php?style=2&t=93922"
+  }
+}
