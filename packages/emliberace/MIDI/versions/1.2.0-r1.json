@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "MIDI",
+  "owner": "emliberace",
+  "version": "1.2.0",
+  "revision": 1,
+  "published": "2026-09-28T00:00:00+00:00",
+  "entry": "src/MIDIv2.ahk",
+  "engines": {
+    "autohotkey": ">=2.0"
+  },
+  "platforms": [
+    "any"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "source": {
+    "kind": "git",
+    "repository": "emliberace/MIDIv2.ahk",
+    "commit": "b86fc7727ab5b8f3755389b2ef829348c6c5ea2b",
+    "path": "v1.2"
+  },
+  "artifacts": {
+    "any": {
+      "sha256": "87fce418e6e6fdb8b59314ec18c3f67d93c6304ee4d8d92b685ce4c4ceccaef7",
+      "size": 8049,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/emliberace/MIDI/1.2.0-r1/MIDI-1.2.0-r1-any.kspkg"
+      ]
+    }
+  }
+}
