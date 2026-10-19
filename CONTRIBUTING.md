@@ -55,6 +55,18 @@ rejects a source change without one.
 No binaries under `src/`. Native payloads belong in `native/` (or `platform/<rid>/native/`) and only
 ever reach release assets.
 
+### Packages that carry a Keysharp plugin
+
+Load .NET plugins with `Clr.Load`; input capture providers register during `#Startup`.
+Commit the built plugin under `native/` or `platform/<rid>/native/`: CI and `kpm` do not build it.
+
+- Keep source and tests in unpacked directories such as `plugin/` and `tests/`; ignore build output.
+- Reference matching Keysharp assemblies without copying them into the package payload.
+- Pin the SDK, build deterministically, and make updating the shipped binary opt-in.
+- After changing the payload, bump the version and regenerate its manifest.
+
+See [Interception's README](packages/Keysharp/Interception/README.md#building-and-testing) for build settings and commands.
+
 ## Shipping different code per platform
 
 There is one rule. A package's content lives in `src/` (scripts) and `native/` (binaries), and

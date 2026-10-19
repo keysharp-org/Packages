@@ -6,5 +6,7 @@
 # different hashes, and verification would fail on whichever platform did not build it.
 * text=auto eol=lf
 
-# Artifacts are bytes and must never be transformed.
+# Artifacts, and the binaries packages ship, are bytes and must never be transformed.
 *.kspkg binary
+*.dll binary
+*.exe binary
