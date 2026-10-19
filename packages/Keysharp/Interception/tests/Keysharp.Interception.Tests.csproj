@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<RootNamespace>Keysharp.Interception.Tests</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!-- NativeExports stands in for interception.dll behind function pointers. -->
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<IsPackable>false</IsPackable>
+		<IsTestProject>true</IsTestProject>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NUnit" Version="5.0.0" />
+		<PackageReference Include="NUnit3TestAdapter" Version="6.3.0" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="../plugin/Keysharp.Interception.csproj" />
+		<!-- Tests use the contracts and never activate the installed driver. -->
+		<Reference Include="Keysharp.Components.Input" HintPath="../plugin/ref/Keysharp.Components.Input.dll" />
+		<Using Include="NUnit.Framework" />
+	</ItemGroup>
+</Project>

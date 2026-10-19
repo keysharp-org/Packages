@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<!-- Release builds update the packaged DLL only with UpdatePackageBinary=true.
+	     ref/ contains the Input contract; KeysharpCorePath points to the matching installed runtime or SDK reference assembly. -->
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<AssemblyName>Keysharp.Interception</AssemblyName>
+		<RootNamespace>Keysharp.Interception</RootNamespace>
+		<Version>0.1.0</Version>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<Deterministic>true</Deterministic>
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+		<GenerateDependencyFile>false</GenerateDependencyFile>
+		<!-- Nothing from the checkout, such as its commit, may reach the assembly, or each commit would build a different file. -->
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+		<EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
+		<EnableSourceLink>false</EnableSourceLink>
+		<IsPackable>false</IsPackable>
+		<IsPublishable>false</IsPublishable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Keysharp.Components.Input" HintPath="ref/Keysharp.Components.Input.dll" Private="false" />
+		<Reference Include="Keysharp.Core" HintPath="$(KeysharpCorePath)" Private="false" />
+		<InternalsVisibleTo Include="Keysharp.Interception.Tests" />
+	</ItemGroup>
+
+	<Target Name="ValidateKeysharpCorePath" BeforeTargets="ResolveAssemblyReferences">
+		<Error Condition="'$(KeysharpCorePath)' == '' Or !Exists('$(KeysharpCorePath)')"
+		       Text="Set KeysharpCorePath to the absolute path of a matching Keysharp.Core.dll runtime or SDK reference assembly, using -p:KeysharpCorePath=..." />
+	</Target>
+
+	<Target Name="CopyToPackage" AfterTargets="Build" Condition="'$(Configuration)' == 'Release' and '$(UpdatePackageBinary)' == 'true'">
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(MSBuildProjectDirectory)/../platform/win-x64/native/" />
+	</Target>
+</Project>

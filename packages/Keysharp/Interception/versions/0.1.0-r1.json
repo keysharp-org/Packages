@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "name": "Interception",
+  "owner": "Keysharp",
+  "version": "0.1.0",
+  "revision": 1,
+  "published": "2026-10-19T18:04:27+00:00",
+  "entry": "src/Interception.ks",
+  "engines": {
+    "keysharp": ">=0.0.0.18"
+  },
+  "platforms": [
+    "win-x64"
+  ],
+  "capabilities": [],
+  "dependencies": {},
+  "setup": {
+    "message": "Installs the Interception keyboard and mouse driver, which this package needs. It is a third-party kernel driver that sits below every keyboard and mouse on this PC until it is uninstalled (native/setup/install-interception.exe /uninstall as administrator, then a restart). Needs administrator rights and a restart. Free for non-commercial use only; commercial use needs a licence from its author.",
+    "url": "https://github.com/oblitum/Interception#driver-installation",
+    "script": "native/setup/install-interception.exe",
+    "arguments": [
+      "/install"
+    ],
+    "elevate": true,
+    "reboot": true,
+    "platforms": [
+      "win-x64"
+    ]
+  },
+  "source": {
+    "kind": "ports",
+    "repository": "keysharp-org/Packages",
+    "path": "packages/Keysharp/Interception"
+  },
+  "artifacts": {
+    "win-x64": {
+      "sha256": "317e5129a14852af058f46083053b0b1603f7313120860938fa200f96cc44ef3",
+      "size": 217784,
+      "sources": [
+        "https://github.com/keysharp-org/Packages/releases/download/pkg/Keysharp/Interception/0.1.0-r1/Interception-0.1.0-r1-win-x64.kspkg"
+      ]
+    }
+  }
+}

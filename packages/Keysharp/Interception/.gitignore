@@ -1,0 +1,4 @@
+plugin/**/bin/
+plugin/**/obj/
+tests/**/bin/
+tests/**/obj/

@@ -1,0 +1,2 @@
+<!-- Empty, so that no Directory.Build.props above this package reaches its builds and a rebuild gives the committed bytes. -->
+<Project />

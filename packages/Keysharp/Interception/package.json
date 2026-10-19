@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "name": "Interception",
+  "owner": "Keysharp",
+  "displayName": "Interception",
+  "description": "Captures keyboard and mouse input through the Interception driver below Windows, with per-device hotkey metadata. Windows x64 only; sending remains native and the driver is free for non-commercial use.",
+  "license": "BSD-2-Clause AND LGPL-3.0-only AND LicenseRef-Interception",
+  "homepage": "https://github.com/keysharp-org/Packages/tree/main/packages/Keysharp/Interception",
+  "categories": [
+    "input",
+    "automation"
+  ],
+  "versioning": "registry",
+  "yanked": []
+}
