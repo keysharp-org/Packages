@@ -43,6 +43,29 @@ public class NativeInterceptionApiTests
 	}
 
 	[Test]
+	public void IdentityCacheReusesTextAndStillObservesChanges()
+	{
+		var exports = new FakeExports { HardwareIdBytes = FakeExports.Utf16("HID\\First\0GENERIC-A\0\0") };
+		using var api = new NativeInterceptionApi(exports);
+		var first = api.HardwareId(1);
+		Assert.That(api.HardwareId(1), Is.SameAs(first));
+		exports.HardwareIdBytes = FakeExports.Utf16("HID\\First\0GENERIC-B\0\0");
+		Assert.That(api.HardwareId(1), Is.SameAs(first), "later generic IDs do not identify the slot");
+		exports.HardwareIdBytes = FakeExports.Utf16("HID\\Second\0\0");
+		Assert.That(api.HardwareId(2), Is.EqualTo("HID\\Second"));
+		exports.HardwareIdBytes = FakeExports.Utf16("HID\\First\0\0");
+		Assert.That(api.HardwareId(1), Is.SameAs(first), "other slots do not replace this slot's cached text");
+		exports.HardwareIdBytes = FakeExports.Utf16("HID\\Changed\0\0");
+		var changed = api.HardwareId(1);
+		Assert.That(changed, Is.EqualTo("HID\\Changed"));
+		exports.HardwareIdBytes = [];
+		Assert.That(api.HardwareId(1), Is.Null);
+		exports.HardwareIdBytes = FakeExports.Utf16("HID\\Changed\0\0");
+		Assert.That(api.HardwareId(1), Is.EqualTo(changed).And.Not.SameAs(changed), "disconnect clears the cached identity");
+		Assert.That(exports.HardwareIdCalls, Is.EqualTo(8), "every lookup still queries the driver");
+	}
+
+	[Test]
 	public void LibraryExchangesStrokesInItsOwnLayout()
 	{
 		NativeExports.Reset();

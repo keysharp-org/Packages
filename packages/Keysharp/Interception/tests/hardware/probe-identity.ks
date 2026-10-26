@@ -1,4 +1,4 @@
-; Observe physical input and replugging without sending input or opening a window.
+; Check mouse positioning, physical input and replugging without opening a window.
 #ErrorStdOut
 #Warn All, StdOut
 #SingleInstance Off
@@ -9,19 +9,71 @@
 
 global ResultFile := A_Temp "\keysharp-interception-probe-identity.txt"
 global KeyboardEvents := 0, MouseEvents := 0, Failures := 0, Finished := false
+global MouseMoves := 0, MouseMovesComplete := false
 global LastKeyboardHardwareId := "", LastMouseHardwareId := ""
 global LastKeyboardId := 0, LastMouseId := 0
 OnError(RecordError)
 try FileDelete(ResultFile)
 Note("started", A_Now)
 ListDevices("initial")
-Note("instructions", "Press F24 on each keyboard and click the middle button on each mouse. Replug and repeat. Press Ctrl+Alt+F12 to finish; Ctrl+Alt+F11 lists devices again. Automatic timeout is 90 seconds.")
+CheckMouseMoves()
+MouseMovesComplete := true
+
+if A_Args.Length == 1 && A_Args[1] == "--mouse-only"
+    Finish("mouse")
+
+Note("instructions", "Press F8 on each keyboard and click the middle button on each mouse. Replug and repeat. Press Ctrl+Alt+F12 to finish; Ctrl+Alt+F11 lists devices again. Automatic timeout is 90 seconds.")
 SetTimer(() => Finish("timeout"), -90000)
 
-~$F24::Observe("Keyboard")
+~$F8::Observe("Keyboard")
 ~$MButton::Observe("Mouse")
 ~$^!F11::ListDevices("refresh")
 ~$^!F12::Finish("done")
+
+CheckMouseMoves()
+{
+    CoordMode("Mouse", "Screen")
+    MouseGetPos(&OriginalX, &OriginalY)
+    CenterX := Floor(A_ScreenWidth / 2)
+    CenterY := Floor(A_ScreenHeight / 2)
+
+    try
+    {
+        for Mode in ["Event", "Input"]
+        {
+            SendMode(Mode)
+
+            for Point in [[0, 0], [A_ScreenWidth - 1, A_ScreenHeight - 1], [CenterX, CenterY], [CenterX, CenterY]]
+            {
+                MouseMove(Point[1], Point[2], 0)
+                CheckPosition(Mode " absolute", Point[1], Point[2])
+            }
+
+            MouseMove(12, -9, 0, "R")
+            CheckPosition(Mode " relative", CenterX + 12, CenterY - 9)
+        }
+    }
+    finally
+    {
+        SendMode("Event")
+        MouseMove(OriginalX, OriginalY, 0)
+        CheckPosition("restore", OriginalX, OriginalY)
+    }
+}
+
+CheckPosition(Label, ExpectedX, ExpectedY)
+{
+    global Failures, MouseMoves
+    Sleep(50)
+    MouseGetPos(&ActualX, &ActualY)
+    Good := Abs(ActualX - ExpectedX) <= 1 && Abs(ActualY - ExpectedY) <= 1
+    MouseMoves++
+
+    if !Good
+        Failures++
+
+    Note("move", (Good ? "ok " : "FAIL ") Label " expected=" ExpectedX "," ExpectedY " actual=" ActualX "," ActualY)
+}
 
 Observe(Kind)
 {
@@ -106,16 +158,17 @@ Finish(Reason)
 {
     global Finished, Failures
 
-    if Finished
+    if Finished || (Reason == "done" && !MouseMovesComplete)
         return
 
     Finished := true
     ListDevices("final")
 
-    if KeyboardEvents == 0 || MouseEvents == 0
+    if Reason != "mouse" && (KeyboardEvents == 0 || MouseEvents == 0)
         Failures++
 
-    Note("observed", "keyboard=" KeyboardEvents " mouse=" MouseEvents " failures=" Failures)
-    Note("finish", Reason == "done" && Failures == 0 ? "PASS" : "FAIL " Reason)
-    ExitApp
+    Note("observed", "keyboard=" KeyboardEvents " mouse=" MouseEvents " moves=" MouseMoves " failures=" Failures)
+    Passed := (Reason == "done" || Reason == "mouse") && Failures == 0
+    Note("finish", Passed ? "PASS " Reason : "FAIL " Reason)
+    ExitApp(Passed ? 0 : 1)
 }

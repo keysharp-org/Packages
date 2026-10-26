@@ -6,8 +6,8 @@ using Keysharp.Runtime;
 
 namespace Keysharp.Interception
 {
-	/// <summary>Captures keyboard and mouse input below Windows through the Interception driver.</summary>
-	public sealed partial class InterceptionBackend : IHookProvider, IInputDeviceProvider
+	/// <summary>Captures keyboard and mouse input and sends Play-mode output through the Interception driver.</summary>
+	public sealed partial class InterceptionBackend : IHookProvider, IInputDeviceProvider, ISenderProvider
 	{
 		private const int FirstMouse = NativeInterceptionApi.FirstMouse, LastDevice = NativeInterceptionApi.LastDevice;
 		// Every key transition, and every mouse event.

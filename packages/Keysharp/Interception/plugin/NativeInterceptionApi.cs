@@ -106,6 +106,8 @@ namespace Keysharp.Interception
 		internal const int FirstMouse = 11, LastDevice = 20;
 		private const int HardwareIdBytes = 1024;
 		private readonly InterceptionExports exports;
+		// The owning backend serializes identity reads with teardown.
+		private readonly string?[] hardwareIds = new string?[LastDevice + 1];
 		private nint context;
 
 		internal NativeInterceptionApi(InterceptionExports exports)
@@ -169,9 +171,17 @@ namespace Keysharp.Interception
 		{
 			Span<byte> buffer = stackalloc byte[HardwareIdBytes];
 			var size = exports.GetHardwareId(Context, device, buffer);
+			ReadOnlySpan<char> id = size < sizeof(char) || size > buffer.Length ? []
+				: WindowsDeviceNames.FirstHardwareIdSpan(MemoryMarshal.Cast<byte, char>(buffer[..(int)(size & ~1u)]));
+			ref var cached = ref hardwareIds[device];
 
-			return size < sizeof(char) || size > buffer.Length ? null
-				: WindowsDeviceNames.FirstHardwareId(MemoryMarshal.Cast<byte, char>(buffer[..(int)(size & ~1u)]));
+			if (id.IsEmpty)
+				return cached = null;
+
+			if (!id.SequenceEqual(cached.AsSpan()))
+				cached = id.ToString();
+
+			return cached;
 		}
 
 		public int Wait(int milliseconds) => exports.Wait(Context, checked((uint)milliseconds));

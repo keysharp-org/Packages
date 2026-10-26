@@ -3,3 +3,4 @@
 #Warn Experimental, Off
 #Import Ks { Clr }
 #Startup Clr.Load(A_ScriptDir "\Lib\KPM\Keysharp\Interception\native\Keysharp.Interception.dll").InterceptionBackend.Install()
+#Startup Clr.Load(A_ScriptDir "\Lib\KPM\Keysharp\Interception\native\Keysharp.Interception.dll").InterceptionBackend.InstallSender()

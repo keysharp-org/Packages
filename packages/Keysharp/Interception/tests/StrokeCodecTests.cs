@@ -124,12 +124,16 @@ public class StrokeCodecTests
 		Assert.That((message, unchecked((short)(data >> 16))), Is.EqualTo(((uint)expected, (short)amount)));
 	}
 
-	[Test]
-	public void AbsoluteMovement()
+	[TestCase(0x1, 0, 0, 0x8000)]
+	[TestCase(0x3, 0, 0, 0xC000)]
+	[TestCase(0x1, 65535, 65535, 0x8000)]
+	[TestCase(0x3, 65535, 65535, 0xC000)]
+	[TestCase(0xB, 65535, 32767, 0xC000)]
+	public void AbsoluteMovement(int flags, int x, int y, int expectedData)
 	{
-		var stroke = Mouse(0, 0xB, x: 65535, y: 32767, information: 19);
+		var stroke = Mouse(0, (ushort)flags, x: x, y: y, information: 19);
 		Assert.That(StrokeCodec.TryDecodeMouse(in stroke, out var message, out var data, out var deltaX, out var deltaY), Is.True);
-		Assert.That((message, data, deltaX, deltaY), Is.EqualTo((0x200u, 0xC000u, 65535, 32767)));
+		Assert.That((message, data, deltaX, deltaY), Is.EqualTo((0x200u, (uint)expectedData, x, y)));
 	}
 
 	[Test]

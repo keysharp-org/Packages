@@ -219,7 +219,7 @@ internal sealed class RecordingApi : IInterceptionApi
 internal sealed class FakeExports : InterceptionExports
 {
 	internal nint Context = 0x1234;
-	internal int Destroyed, Disposed, LastError;
+	internal int Destroyed, Disposed, LastError, HardwareIdCalls;
 	internal bool CallsPredicate = true, FailCreate;
 	internal ushort Filter;
 	internal readonly List<int> Selected = [];
@@ -262,6 +262,7 @@ internal sealed class FakeExports : InterceptionExports
 
 	internal override uint GetHardwareId(nint context, int device, Span<byte> buffer)
 	{
+		HardwareIdCalls++;
 		HardwareIdBytes.CopyTo(buffer);
 		return (uint)HardwareIdBytes.Length;
 	}

@@ -3,10 +3,13 @@
 Captures keyboard and mouse input through the
 [Interception](https://github.com/oblitum/Interception) driver, below Windows' own input handling.
 Hotkeys, hotstrings and InputHook receive captured events through Keysharp's normal processing.
-`Send`, `Click` and `MouseMove` use Keysharp's native sender.
+The package also registers driver output for `SendPlay` and `SendMode("Play")`. `SendInput` and
+`SendEvent` use Keysharp's native sender.
 
 Windows x64 only. There is no Interception driver for ARM64 Windows, and the plugin needs an x64
-Keysharp process, version 0.0.0.18 or later.
+Keysharp process. Package 0.2.0 requires a matching runtime build containing `ISenderProvider`
+and `Script.RegisterSenderProvider`. The current 0.0.0.18 development build contains these APIs;
+earlier builds bearing that version do not.
 
 ```powershell
 kpm add Keysharp/Interception
@@ -18,14 +21,15 @@ Restart Windows afterwards.
 
 ```ahk
 #ErrorStdOut
+#Warn All, StdOut
 #Include <KPM/Keysharp/Interception>
 
-F1::Send("Hello")
+F1::SendPlay("Hello")
 ```
 
-The include registers the plugin with `#Startup`, before hotkey registration. Without the driver,
-startup stops with an error; `#ErrorStdOut` sends it to stderr. The include expects KPM's normal
-project-local `Lib/KPM/Keysharp/Interception` directory beside the main script.
+The include registers capture and sending independently with `#Startup`, before hotkey registration.
+Without the driver, startup stops with an error; `#ErrorStdOut` sends it to stderr. The include
+expects KPM's normal project-local `Lib/KPM/Keysharp/Interception` directory beside the main script.
 
 For a different DLL location, omit the include and register explicitly:
 
@@ -35,15 +39,32 @@ For a different DLL location, omit the include and register explicitly:
 #Warn Experimental, Off
 #Import Ks { Clr }
 #Startup Capture := Clr.Load(A_ScriptDir "\plugins\Keysharp.Interception.dll").InterceptionBackend.Install()
+#Startup Sender := Clr.Load(A_ScriptDir "\plugins\Keysharp.Interception.dll").InterceptionBackend.InstallSender()
 ```
 
-Keep `interception.dll` beside `Keysharp.Interception.dll`. Disposing `Capture` removes the plugin
-and restores native hooks; ignoring the handle keeps capture registered until script shutdown.
+Keep either registration line to select capture or sending alone. `Install()` registers capture;
+`InstallSender()` registers sending. They own separate driver contexts. Disposing `Capture`
+restores native hooks, and disposing `Sender` restores the previous SendPlay behavior. Ignoring
+the handles keeps both registrations until script shutdown.
+Keep `interception.dll` beside `Keysharp.Interception.dll`.
 Compiled scripts need these files deployed alongside them at the path their startup expression
 uses. The compiler does not embed or copy them. Every target machine also needs the driver installed.
 
 ## What changes
 
+- `SendPlay` sends keys and mouse events through the driver at the configured Play delays.
+  `SendMode("Play")` also selects it for `Send`, `Click` and mouse functions. The first connected
+  keyboard or mouse supplies output; its slot stays selected while its hardware ID matches.
+  A disconnected or replaced device is selected again when no keys or buttons are held.
+  Disconnecting that device while input is held stops sending with an error instead of moving
+  releases to a different device. Device IDs in captured events do not select the send target.
+  Numpad keys follow NumLock and Shift as physical keys do.
+- Text the current keyboard layout cannot type, and keys without a scan code such as `{vkE8}`,
+  use native sending. Driver output is emitted without waiting for Windows to update key state
+  or cursor position; a script that reads those immediately may observe the earlier state.
+- Relative `MouseMove`, `Click` and `MouseClickDrag` in Play mode move by pixels; see
+  [Relative mouse movement](#relative-mouse-movement). `MouseGetPos` reports the position
+  Windows has processed when it is called.
 - Hotkeys see input from the driver's keyboards and mice. Windows `SendInput` events do not pass
   through the driver; native hooks continue observing injected input for Keysharp's sending logic.
 - Hotkeys use capture instead of Windows hotkey registration, as `$` hotkeys do, so
@@ -59,8 +80,26 @@ uses. The compiler does not embed or copy them. Every target machine also needs 
 - While another session owns the console or a secure desktop is active, the plugin clears its capture filters and forwards queued input without script callbacks.
   Session changes clear tracked key state before capture resumes, since releases may have been missed.
 
-The simulated tests check packet decoding, suppression, forwarding, device metadata and teardown.
+The simulated tests check packet decoding, suppression, forwarding, sending, device metadata and teardown.
 This integration has not been validated against a physical Interception device.
+
+## Relative mouse movement
+
+In Play mode, a relative move such as `MouseMove(10, 0, 0, "R")` or `Click(10, 0, "Rel")` moves the
+pointer by that many pixels. Keysharp adds the offset to the cursor position and sends the result to
+the driver as an absolute move across the whole virtual desktop, so Windows' pointer speed and
+**Enhance pointer precision** settings do not change the distance. Within one send, such as
+`SendPlay("{Click 10 0 0 Rel}{Click 10 0 0 Rel}")`, each relative move starts where the previous one
+ended. The speed parameter has no effect, as in any Play mode move.
+
+Because the driver delivers an absolute position, programs that read raw mouse input, such as games
+that turn the camera from mouse motion, see an absolute movement rather than relative motion.
+
+Driver output is not waited for, so a relative move in a new send starts from the cursor position
+Windows has processed by then. One sent immediately after an earlier move can start from where the
+cursor was before that move; put the moves in one send, or sleep briefly between them.
+
+`tests/hardware/interception-trial.ks` draws a relative square and checks each corner.
 
 ## Device identity
 
@@ -101,9 +140,10 @@ F1::Send("Hello")
 #HotIf
 ```
 
-The manual check in `tests/hardware/probe-identity.ks` lists the real devices and compares
-physical keyboard and mouse events with that list, including after a replug. It sends no input
-and opens no window. This check has not been run as part of the simulated tests.
+The GUI test in `tests/hardware/interception-trial.ks` shows devices, sends text to its own
+test box and checks relative and absolute mouse squares. `tests/hardware/probe-identity.ks`
+checks mouse positioning and compares physical keyboard and mouse events with the device list,
+including after a replug. See `tests/hardware/README.md` for controls and unattended mode.
 
 ## If input stops
 
