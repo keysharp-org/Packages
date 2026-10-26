@@ -19,9 +19,14 @@ namespace Keysharp.Interception
 		// ID; the later ones are generic, such as HID_DEVICE, and shared by many devices.
 		internal static string? FirstHardwareId(ReadOnlySpan<char> ids)
 		{
-			var end = ids.IndexOf('\0');
-			var id = end < 0 ? ids : ids[..end];
+			var id = FirstHardwareIdSpan(ids);
 			return id.IsEmpty ? null : id.ToString();
+		}
+
+		internal static ReadOnlySpan<char> FirstHardwareIdSpan(ReadOnlySpan<char> ids)
+		{
+			var end = ids.IndexOf('\0');
+			return end < 0 ? ids : ids[..end];
 		}
 
 		internal static Dictionary<string, string> UniqueNames(DeviceName[] devices)

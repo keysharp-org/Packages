@@ -185,6 +185,37 @@ public class InterceptionBackendTests
 			}));
 	}
 
+	[TestCase(0x1, 0, 0, false)]
+	[TestCase(0x1, 0, 0, true)]
+	[TestCase(0x3, 0, 0, false)]
+	[TestCase(0x3, 0, 0, true)]
+	[TestCase(0x1, 65535, 32767, false)]
+	[TestCase(0x1, 65535, 32767, true)]
+	[TestCase(0x3, 65535, 32767, false)]
+	[TestCase(0x3, 65535, 32767, true)]
+	public void AbsoluteMouseFragments(int flags, int x, int y, bool suppressMove)
+	{
+		var api = new RecordingApi();
+		using var backend = new InterceptionBackend(api, new Session());
+		var host = new Host { OnMouse = move => suppressMove && move.Message == WM_MOUSEMOVE };
+		Assert.That(backend.SetHooks(false, true, host, out _), Is.True);
+		api.Enqueue(13, Mouse(StrokeCodec.LeftDown, (ushort)flags, x: x, y: y, information: 0x89ABCDEF));
+		Settled(api, 1);
+		Assert.That(host.Mice, Is.EqualTo(new[]
+		{
+			new MouseEvent(WM_MOUSEMOVE, int.MinValue, int.MinValue, flags == 1 ? 0x8000u : 0xC000u, 0, 0x89ABCDEFul, 13, x, y),
+			new MouseEvent(WM_LBUTTONDOWN, int.MinValue, int.MinValue, 0, 0, 0x89ABCDEFul, 13, 0, 0)
+		}));
+		var movement = ((ushort)0, (ushort)flags, x, y, (short)0, 0x89ABCDEFu);
+		var button = (StrokeCodec.LeftDown, (ushort)0, 0, 0, (short)0, 0x89ABCDEFu);
+		Assert.That(api.Sent.Select(item => item.Device), Is.All.EqualTo(13));
+		Assert.That(api.Sent.Select(item => (item.Stroke.Mouse.State, item.Stroke.Mouse.Flags, item.Stroke.Mouse.X,
+			item.Stroke.Mouse.Y, item.Stroke.Mouse.Rolling, item.Stroke.Mouse.Information)),
+			Is.EqualTo(suppressMove ? new[] { button } : new[] { movement, button }));
+		Assert.That(host.Losses, Is.Empty);
+		Assert.That(api.Violations, Is.Empty);
+	}
+
 	[Test]
 	public void KeysLeaveTheirVkToKeysharp()
 	{
