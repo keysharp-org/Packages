@@ -11,16 +11,11 @@ mkdir -p "$destination"
 
 case "$engine" in
 keysharp)
-	# Each release carries both an installer and, on two of three platforms, a portable archive.
-	# The patterns are exact because a wildcard matches both and picking whichever the API listed
-	# first is how this first tried to unzip an .msi.
+	# Match a portable archive on Linux/Windows and extract the macOS installer without running its scripts.
 	case "$RUNNER_OS" in
 	Linux) asset_pattern='*linux-x64.tar.gz' ;;
 	Windows) asset_pattern='*win-x64.zip' ;;
-	# The .pkg is not used: its postinstall scripts fail on a clean runner ("An error occurred while
-	# running scripts from the package"), and a validation harness should not depend on an installer
-	# succeeding anyway. The disk image just carries the app, so it is mounted and copied.
-	macOS) asset_pattern='*osx-arm64.dmg' ;;
+	macOS) asset_pattern='*osx-arm64.pkg' ;;
 	*) echo "::error::unsupported runner $RUNNER_OS"; exit 1 ;;
 	esac
 
@@ -31,12 +26,13 @@ keysharp)
 	case "$asset" in
 	*.zip) unzip -q -o "$asset" -d "$destination" ;;
 	*.tar.gz | *.tgz) tar -xzf "$asset" -C "$destination" ;;
-	*.dmg)
-		mount=$(mktemp -d)
-		hdiutil attach "$asset" -nobrowse -readonly -mountpoint "$mount" >/dev/null
-		# Copied out before detaching, so nothing later depends on the image staying mounted.
-		cp -R "$mount"/* "$destination"/ 2>/dev/null || true
-		hdiutil detach "$mount" >/dev/null || true
+	*.pkg)
+		expanded="$destination/pkg-expanded"
+		pkgutil --expand-full "$asset" "$expanded"
+		# Distribution packages nest the app inside a component payload, beyond the binary search below.
+		find "$expanded" -type d -name Keysharp.app -prune | while IFS= read -r app; do
+			cp -R "$app" "$destination/"
+		done
 		;;
 	*) echo "::error::unrecognized asset $asset"; exit 1 ;;
 	esac
