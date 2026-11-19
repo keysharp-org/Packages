@@ -2470,7 +2470,7 @@ Gui(cmd, arg1:="", args*)
     ; creating the 1846 cell controls, so reuse was harmless; painting reads them every time, so it
     ; must not. (Symptom when it did: one FillRect the size of the whole canvas -> a flat block.)
     , GridNW:=nW, GridNH:=nH, GridCW:=w, GridCH:=h, GridW:=pW, GridH:=pH
-    id:=_Gui.Add("Pic", "w" pW " h" pH), hGrid:=id.Hwnd, GridCtrl:=id
+    id:=_Gui.Add("Pic", "w" pW " h" pH " Section"), hGrid:=id.Hwnd, GridCtrl:=id
     , GridImg:=Image.Create(pW, pH, WindowColor)
     Loop GridNW*(GridNH+1)
       C_[A_Index]:=A_Index, Cells[A_Index]:=WindowColor

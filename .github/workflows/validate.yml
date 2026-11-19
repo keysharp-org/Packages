@@ -11,7 +11,7 @@ env:
   # Pinned: the registry states which released kpm validated and published it, and an unrelated
   # push to KPM cannot change how submissions are judged.
   KPM_VERSION: v0.1.0
-  KEYSHARP_REPOSITORY: Descolada/Keysharp
+  KEYSHARP_REPOSITORY: keysharp-org/Keysharp
 
 jobs:
   manifests:
